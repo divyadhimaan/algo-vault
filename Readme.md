@@ -22,155 +22,155 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 
 # Topic Wise Problems
-
 ## Linked List
-- [Remove Nth node from End](./linkedList/remove-nth-node-from-end.md)
+- [Remove Nth node from End](./DSA-playgroud/linkedList/remove-nth-node-from-end.md)
+
 
 ## Binary Search
-- [Binary Search](./binary-search/binary-search.md)
-- [Upper Bound](./binary-search/upper-bound.md)
-- [Lower Bound](./binary-search/lower-bound.md)
-- [Insert Position](./binary-search/search-insert-pos.md)
-- [First and Last Occurence of target](./binary-search/first-and-last-occurence.md)
-- [Number of Occurences in sorted array](./binary-search/number-of-occurences.md)
-- [Search in Rotated Sorted Array](./binary-search/search-in-rotated-sorted-array.md)
-- [Search in Rotated Sorted Array II](./binary-search/search-in-rotated-sorted-array-ii.md)
-- [Minimum in Rotated Sorted array](./binary-search/minimum-in-rotated-sorted-array.md)
-- [kth rotation](./binary-search/kth-rotation.md)
-- [Peak Element](./binary-search/peak-element.md)
+- [Binary Search](./DSA-playgroud/binary-search/binary-search.md)
+- [Upper Bound](./DSA-playgroud/binary-search/upper-bound.md)
+- [Lower Bound](./DSA-playgroud/binary-search/lower-bound.md)
+- [Insert Position](./DSA-playgroud/binary-search/search-insert-pos.md)
+- [First and Last Occurence of target](./DSA-playgroud/binary-search/first-and-last-occurence.md)
+- [Number of Occurences in sorted array](./DSA-playgroud/binary-search/number-of-occurences.md)
+- [Search in Rotated Sorted Array](./DSA-playgroud/binary-search/search-in-rotated-sorted-array.md)
+- [Search in Rotated Sorted Array II](./DSA-playgroud/binary-search/search-in-rotated-sorted-array-ii.md)
+- [Minimum in Rotated Sorted array](./DSA-playgroud/binary-search/minimum-in-rotated-sorted-array.md)
+- [kth rotation](./DSA-playgroud/binary-search/kth-rotation.md)
+- [Peak Element](./DSA-playgroud/binary-search/peak-element.md)
 
 ## Binary Trees
 
 #### Hard
-- [Lowest Common Ancestor](./binary-trees/lca-in-binary-tree.md)
-- [All Nodes Distance K in Binary Tree](./binary-trees/all-nodes-distance-k.md)
-- [Burning Tree](./binary-trees/burning-tree.md)
+- [Lowest Common Ancestor](./DSA-playgroud/binary-trees/lca-in-binary-tree.md)
+- [All Nodes Distance K in Binary Tree](./DSA-playgroud/binary-trees/all-nodes-distance-k.md)
+- [Burning Tree](./DSA-playgroud/binary-trees/burning-tree.md)
 
 ## Stacks and Queues
 
 #### Monotonic Stack/Queue [IMP]
-- [Next Greater Element I](./stacks-and-queues/next-greater-element.md)
-- [Next Greater Element II](./stacks-and-queues/next-greater-element-ii.md)
-- [Next Smaller Element](./stacks-and-queues/next-smaller-element.md)
-- [Number of Next Greater Elements](./stacks-and-queues/number-of-next-greater-elements.md)
-- [Trapping Rain Water](./stacks-and-queues/trapping-rain-water.md)
-- [Largest rectangle in a Histogram](./stacks-and-queues/largest-rectangle-in-histogram.md)
+- [Next Greater Element I](./DSA-playgroud/stacks-and-queues/next-greater-element.md)
+- [Next Greater Element II](./DSA-playgroud/stacks-and-queues/next-greater-element-ii.md)
+- [Next Smaller Element](./DSA-playgroud/stacks-and-queues/next-smaller-element.md)
+- [Number of Next Greater Elements](./DSA-playgroud/stacks-and-queues/number-of-next-greater-elements.md)
+- [Trapping Rain Water](./DSA-playgroud/stacks-and-queues/trapping-rain-water.md)
+- [Largest rectangle in a Histogram](./DSA-playgroud/stacks-and-queues/largest-rectangle-in-histogram.md)
 
 
 ## Sliding Window / Two Pointer
 
-- [Binary Array with sum](./sliding-window-two-pointer/binary-array-with-sum.md)
+- [Binary Array with sum](./DSA-playgroud/sliding-window-two-pointer/binary-array-with-sum.md)
 
 ## Graphs
 
 #### Easy
 
-- [Flood Fill](./graphs/flood-fill.md)  
+- [Flood Fill](./DSA-playgroud/graphs/flood-fill.md)
 
 #### Medium
 
-- [Course Schedule - I](./graphs/course_schedule-1.md)  
-- [Course Schedule - II](./graphs/course_schedule-2.md)  
-- [Course Schedule - IV](./graphs/course_schedule-4.md)  
-- [Number of Islands (Matrix version)](./graphs/number-of-islands.md)  
-- [Number of Provinces (Graph version)](./graphs/number-of-provinces.md)  
-- [Surrounded Regions](./graphs/surrounded-regions.md)  
-- [Rotten Oranges](./graphs/rotten-oranges.md)  
-- [Eventual Safe States](./graphs/eventual-safe-states.md)  
-- [Redundant Connections](./graphs/redundant-connections.md)  
-- [Path with Minimum Effort](./graphs/path-with-maximum-effort.md)  
-- [Shortest Path in Binary Matrix](./graphs/shortest-path-in-binary-matrix.md)  
-- [Word Search](./graphs/word-search.md)
-- [Cheapest flights within k stops](./graphs/cheapest-flights-within-k-stops.md)
-- [Network delay time](./graphs/network-delay-time.md)
-- [Number of Ways to arrive at destination](./graphs/number-of-ways-to-destination.md)
-- [Find City with smallest number of neighbors](./graphs/find-city-with-smallest-number-of-neighbours.md)
+- [Course Schedule - I](./DSA-playgroud/graphs/course_schedule-1.md)
+- [Course Schedule - II](./DSA-playgroud/graphs/course_schedule-2.md)
+- [Course Schedule - IV](./DSA-playgroud/graphs/course_schedule-4.md)
+- [Number of Islands (Matrix version)](./DSA-playgroud/graphs/number-of-islands.md)
+- [Number of Provinces (Graph version)](./DSA-playgroud/graphs/number-of-provinces.md)
+- [Surrounded Regions](./DSA-playgroud/graphs/surrounded-regions.md)
+- [Rotten Oranges](./DSA-playgroud/graphs/rotten-oranges.md)
+- [Eventual Safe States](./DSA-playgroud/graphs/eventual-safe-states.md)
+- [Redundant Connections](./DSA-playgroud/graphs/redundant-connections.md)
+- [Path with Minimum Effort](./DSA-playgroud/graphs/path-with-maximum-effort.md)
+- [Shortest Path in Binary Matrix](./DSA-playgroud/graphs/shortest-path-in-binary-matrix.md)
+- [Word Search](./DSA-playgroud/graphs/word-search.md)
+- [Cheapest flights within k stops](./DSA-playgroud/graphs/cheapest-flights-within-k-stops.md)
+- [Network delay time](./DSA-playgroud/graphs/network-delay-time.md)
+- [Number of Ways to arrive at destination](./DSA-playgroud/graphs/number-of-ways-to-destination.md)
+- [Find City with smallest number of neighbors](./DSA-playgroud/graphs/find-city-with-smallest-number-of-neighbours.md)
 
 #### Hard
 
-- [Word Ladder](./graphs/word-ladder-1)  
-- [Alien Dictionary](./graphs/alien-dictionary.md)  
+- [Word Ladder](./DSA-playgroud/graphs/word-ladder-1)
+- [Alien Dictionary](./DSA-playgroud/graphs/alien-dictionary.md)
 
 ## Dynamic Programming
 
 
 #### 1D DP
 
-- [Climbing Stairs](./dynamic-programming/climbing-stairs.md)  
-- [Frog Jump](./dynamic-programming/frog-jump.md)
-- [Frog Jump with k distance](./dynamic-programming/frog-jump-k-distance.md)
-- [House Robber I](./dynamic-programming/house-robber-i.md)
-- [House Robber II](./dynamic-programming/house-robber-ii.md)
-- [House Robber III](./dynamic-programming/house-robber-iii.md)
+- [Climbing Stairs](./DSA-playgroud/dynamic-programming/climbing-stairs.md)
+- [Frog Jump](./DSA-playgroud/dynamic-programming/frog-jump.md)
+- [Frog Jump with k distance](./DSA-playgroud/dynamic-programming/frog-jump-k-distance.md)
+- [House Robber I](./DSA-playgroud/dynamic-programming/house-robber-i.md)
+- [House Robber II](./DSA-playgroud/dynamic-programming/house-robber-ii.md)
+- [House Robber III](./DSA-playgroud/dynamic-programming/house-robber-iii.md)
 
 #### 2D/3D DP - DP on Grids
 
-- [Ninja Training](./dynamic-programming/ninja-training.md)
-- [Unique Paths](./dynamic-programming/unique-paths.md)
-- [Unique Paths II](./dynamic-programming/unique-paths-ii.md)
-- [Unique Paths III](./dynamic-programming/unique-paths-iii.md)
-- [Minimum Falling Path Sum](./dynamic-programming/minimum-falling-path-sum.md)
-- [Minimum Path Sum](./dynamic-programming/minimum-path-sum.md)
-- [Cherry Pickup I](./dynamic-programming/cherry-pickup-i.md)
-- [Cherry Pickup II](./dynamic-programming/cherry-pickup-ii.md)
+- [Ninja Training](./DSA-playgroud/dynamic-programming/ninja-training.md)
+- [Unique Paths](./DSA-playgroud/dynamic-programming/unique-paths.md)
+- [Unique Paths II](./DSA-playgroud/dynamic-programming/unique-paths-ii.md)
+- [Unique Paths III](./DSA-playgroud/dynamic-programming/unique-paths-iii.md)
+- [Minimum Falling Path Sum](./DSA-playgroud/dynamic-programming/minimum-falling-path-sum.md)
+- [Minimum Path Sum](./DSA-playgroud/dynamic-programming/minimum-path-sum.md)
+- [Cherry Pickup I](./DSA-playgroud/dynamic-programming/cherry-pickup-i.md)
+- [Cherry Pickup II](./DSA-playgroud/dynamic-programming/cherry-pickup-ii.md)
 
 #### DP on Subsequences
 
-- [Subset Sum equal to target](./dynamic-programming/subset-sum-equal-target.md)
-- [Partition Equal Subset Sum](./dynamic-programming/partition-equal-subset-sum.md)
-- [Count Subsets with Sum k](./dynamic-programming/count-subsets-with-sum-k.md)
-- [Coin change I](./dynamic-programming/coin-change.md)
-- [Coin Change II](./dynamic-programming/coin-change-2.md)
-- [Unbound Knapsack](./dynamic-programming/unbound-knapsack.md)
-- [ Rod Cutting](./dynamic-programming/rod-cutting.md)
+- [Subset Sum equal to target](./DSA-playgroud/dynamic-programming/subset-sum-equal-target.md)
+- [Partition Equal Subset Sum](./DSA-playgroud/dynamic-programming/partition-equal-subset-sum.md)
+- [Count Subsets with Sum k](./DSA-playgroud/dynamic-programming/count-subsets-with-sum-k.md)
+- [Coin change I](./DSA-playgroud/dynamic-programming/coin-change.md)
+- [Coin Change II](./DSA-playgroud/dynamic-programming/coin-change-2.md)
+- [Unbound Knapsack](./DSA-playgroud/dynamic-programming/unbound-knapsack.md)
+- [ Rod Cutting](./DSA-playgroud/dynamic-programming/rod-cutting.md)
 
 #### DP on Strings
 
-- [Longest Common Subsequences](./dynamic-programming/longest-common-subsequence.md)
-- [Print all longest common subsequence](./dynamic-programming/print-all-lcs.md)
-- [Edit Distance](./dynamic-programming/edit-distance.md)
-- [Longest Palindromic Subsequence](./dynamic-programming/longest-palindromic-subsequence.md)
-- [Minimum Insertion Steps to make string palindrome](./dynamic-programming/minimum-insertion-for-palindrome.md)
+- [Longest Common Subsequences](./DSA-playgroud/dynamic-programming/longest-common-subsequence.md)
+- [Print all longest common subsequence](./DSA-playgroud/dynamic-programming/print-all-lcs.md)
+- [Edit Distance](./DSA-playgroud/dynamic-programming/edit-distance.md)
+- [Longest Palindromic Subsequence](./DSA-playgroud/dynamic-programming/longest-palindromic-subsequence.md)
+- [Minimum Insertion Steps to make string palindrome](./DSA-playgroud/dynamic-programming/minimum-insertion-for-palindrome.md)
 - [Delete Operation for Two Strings](./dynamic-programming//delete-operations-on-two-strings.md)
-- [Restore IP Addresses](./dynamic-programming/valid-ip-address.md)
+- [Restore IP Addresses](./DSA-playgroud/dynamic-programming/valid-ip-address.md)
 
 #### DP on Stocks
-- [ Best Time to Buy and Sell Stocks - I](./dynamic-programming/buy-sell-stocks-i.md)
-- [ Best Time to Buy and Sell Stocks - II](./dynamic-programming/buy-sell-stocks-ii.md)
-- [ Best Time to Buy and Sell Stocks - III](./dynamic-programming/buy-sell-stocks-iii.md)
-- [ Best Time to Buy and Sell Stocks - IV](./dynamic-programming/buy-sell-stocks-iv.md)
-- [ Best Time to Buy and Sell Stocks - V](./dynamic-programming/buy-sell-stocks-v.md)
-- [ Best Time to Buy and Sell Stocks - VI](./dynamic-programming/buy-sell-stocks-vi.md)
+- [ Best Time to Buy and Sell Stocks - I](./DSA-playgroud/dynamic-programming/buy-sell-stocks-i.md)
+- [ Best Time to Buy and Sell Stocks - II](./DSA-playgroud/dynamic-programming/buy-sell-stocks-ii.md)
+- [ Best Time to Buy and Sell Stocks - III](./DSA-playgroud/dynamic-programming/buy-sell-stocks-iii.md)
+- [ Best Time to Buy and Sell Stocks - IV](./DSA-playgroud/dynamic-programming/buy-sell-stocks-iv.md)
+- [ Best Time to Buy and Sell Stocks - V](./DSA-playgroud/dynamic-programming/buy-sell-stocks-v.md)
+- [ Best Time to Buy and Sell Stocks - VI](./DSA-playgroud/dynamic-programming/buy-sell-stocks-vi.md)
 
 #### DP on LIS
 - [Longest Increasing Subsequence](./dynamic-programming/longest-increasing-sequence.md)
-- [Print Longest Increasing Subsequence](./dynamic-programming/print-longest-increasing-subsequence.md)
-- [Maximum Sum Increasing Subsequence](./dynamic-programming/maximum-sum-increasing-subsequence.md)
-- [Maximum Length of Bitonic Subsequence](./dynamic-programming/max-length-of-bitonic-subsequence.md)
+- [Print Longest Increasing Subsequence](./DSA-playgroud/dynamic-programming/print-longest-increasing-subsequence.md)
+- [Maximum Sum Increasing Subsequence](./DSA-playgroud/dynamic-programming/maximum-sum-increasing-subsequence.md)
+- [Maximum Length of Bitonic Subsequence](./DSA-playgroud/dynamic-programming/max-length-of-bitonic-subsequence.md)
 - [Number of Longest Increasing Subsequence](./dynamic-programming//number-of-longest-increasing-subsequence.md)
 
 #### Partition DP
-- [Matrix Chain Multiplication](./dynamic-programming/matrix-chain-multiplication.md)
-- [Minimum Cost of cut the stick](./dynamic-programming/minimum-cost-to-cut-the-stick.md)
-- [Burst Balloons](./dynamic-programming/burst-balloons.md)
+- [Matrix Chain Multiplication](./DSA-playgroud/dynamic-programming/matrix-chain-multiplication.md)
+- [Minimum Cost of cut the stick](./DSA-playgroud/dynamic-programming/minimum-cost-to-cut-the-stick.md)
+- [Burst Balloons](./DSA-playgroud/dynamic-programming/burst-balloons.md)
 
 #### DP on Squares
-- [Maximum Rectangle Area with all 1s](./dynamic-programming/maximal-rectangle.md)
-- [Count square submatrices with all ones](./dynamic-programming/count-squares-with-1s.md)
+- [Maximum Rectangle Area with all 1s](./DSA-playgroud/dynamic-programming/maximal-rectangle.md)
+- [Count square submatrices with all ones](./DSA-playgroud/dynamic-programming/count-squares-with-1s.md)
 
 #### Misc
 
-- [0-1 Knapsack](./dynamic-programming/0-1-knapsack.md)
-- [Egg Dropping](./dynamic-programming/egg-drop.md)
+- [0-1 Knapsack](./DSA-playgroud/dynamic-programming/0-1-knapsack.md)
+- [Egg Dropping](./DSA-playgroud/dynamic-programming/egg-drop.md)
 
 
 
 ## Strings
 
-- [Minimum Add to Make Parentheses Valid](./strings/minimum-add-to-make-valid-paranthesis.md)
+- [Minimum Add to Make Parentheses Valid](./DSA-playgroud/strings/minimum-add-to-make-valid-paranthesis.md)
 
-## Design 
-- [LRU Cache](./design/lru-cache.md)
+## Design
+- [LRU Cache](./DSA-playgroud/design/lru-cache.md)
 
 
 ---
@@ -180,117 +180,117 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 # Crack the Code: 200 Essential DSA Questions
 
 - Arrays
-  - [2 Sum](./Arrays/19-2-sum.md)
-  - [4 Sum](./Arrays/20-4-sum.md)
-  - [Longest Consecutive Sequence](./Arrays/21-longest-consecutive-sequence.md)
-  - [Largest subarray with 0 sum](./Arrays/22-largest-subarray-with-sum-zero.md)
-  - [Count Subarray with Given XOR](./Arrays/23-number-of-subarrays-with-given-xor.md)
+  - [2 Sum](./SDE-200/Arrays/19-2-sum.md)
+  - [4 Sum](./SDE-200/Arrays/20-4-sum.md)
+  - [Longest Consecutive Sequence](./SDE-200/Arrays/21-longest-consecutive-sequence.md)
+  - [Largest subarray with 0 sum](./SDE-200/Arrays/22-largest-subarray-with-sum-zero.md)
+  - [Count Subarray with Given XOR](./SDE-200/Arrays/23-number-of-subarrays-with-given-xor.md)
 
 - Linked List
-  - [Remove Nth node from end](./linkedList/04-remove-nth-node-from-end.md)
+  - [Remove Nth node from end](./SDE-200/linkedList/04-remove-nth-node-from-end.md)
 
 - Linked List and Arrays
-  - [3 Sum](./LinkedListAndArrays/03-3-sum.md)
-  - [Trapping Rain Water](./LinkedListAndArrays/04-trapping-rain-water.md)
+  - [3 Sum](./SDE-200/LinkedListAndArrays/03-3-sum.md)
+  - [Trapping Rain Water](./SDE-200/LinkedListAndArrays/04-trapping-rain-water.md)
 
 - Greedy
-  - [Job Sequencing](./greedy/03-job-sequencing.md)
+  - [Job Sequencing](./SDE-200/greedy/03-job-sequencing.md)
   
 - Binary Search
 - 
-  - [Single Element](./binarySearch/03-element-appearing-once.md)
-  - [Search in Rotated Sorted Array](./binarySearch/04-search-in-rotated-sorted-array.md)
-  - [Median of Two sorted Arrays](./binarySearch/05-median-of-two-sorted-arrays.md)
-  - [Kth elemeny in Two sorted Arrays](./binarySearch/06-kth-element-in-two-sorted-arrays.md)
-  - [Allocate books](./binarySearch/07-allocates-books.md)
+  - [Single Element](./SDE-200/binarySearch/03-element-appearing-once.md)
+  - [Search in Rotated Sorted Array](./SDE-200/binarySearch/04-search-in-rotated-sorted-array.md)
+  - [Median of Two sorted Arrays](./SDE-200/binarySearch/05-median-of-two-sorted-arrays.md)
+  - [Kth elemeny in Two sorted Arrays](./SDE-200/binarySearch/06-kth-element-in-two-sorted-arrays.md)
+  - [Allocate books](./SDE-200/binarySearch/07-allocates-books.md)
   
 - Heaps
-  - [Binary Heap Implementation](./heaps/01-binary-heap.md)
-  - [Kth Largest](./heaps/02-kth-largest.md)
-  - [Maximum Sum Combination](./heaps/03-maximum-sum-combinations.md)
-  - [Find Median in Data Stream](./heaps/04-median-from-stream.md)
-  - [Merge K sorted Arrays](./heaps/05-merge-k-sorted-arrays.md)
-  - [Top k frequent elements](./heaps/06-top-k-frequent.md)
+  - [Binary Heap Implementation](./SDE-200/heaps/01-binary-heap.md)
+  - [Kth Largest](./SDE-200/heaps/02-kth-largest.md)
+  - [Maximum Sum Combination](./SDE-200/heaps/03-maximum-sum-combinations.md)
+  - [Find Median in Data Stream](./SDE-200/heaps/04-median-from-stream.md)
+  - [Merge K sorted Arrays](./SDE-200/heaps/05-merge-k-sorted-arrays.md)
+  - [Top k frequent elements](./SDE-200/heaps/06-top-k-frequent.md)
 
 - Stacks and Queues
-  - [Stack using Array](./stacksAndQueues/01-stack-using-array.md)
-  - [Queue using Array](./stacksAndQueues/02-queue-using-array.md)
-  - [Stack using Queues](./stacksAndQueues/03-stack-using-queues.md)
-  - [Queue using Stacks](./stacksAndQueues/04-queue-using-stacks.md)
-  - [Balanced Parentheses](./stacksAndQueues/05-balanced-parenthesis.md)
-  - [Next Greater Element](./stacksAndQueues/06-next-greater-element.md)
-  - [Next Smaller Element](./stacksAndQueues/08-next-smaller-element.md)
-  - [LRU cache](./stacksAndQueues/09-lru-cache.md)
-  - [LFU Cache](./stacksAndQueues/10-lfu-cache.md)
-  - [Maximum Rectangle in a histogram](./stacksAndQueues/11-maximum-rectangle-in-histogram.md)
-  - [Sliding Window maximum](./stacksAndQueues/12-sliding-window-max.md)
-  - [Implement Min Stack](./stacksAndQueues/13-min-stack.md)
-  - [Rotten Oranges](./stacksAndQueues/14-rotten-oranges.md)
-  - [Stock Span](./stacksAndQueues/15-stock-span.md)
+  - [Stack using Array](./SDE-200/stacksAndQueues/01-stack-using-array.md)
+  - [Queue using Array](./SDE-200/stacksAndQueues/02-queue-using-array.md)
+  - [Stack using Queues](./SDE-200/stacksAndQueues/03-stack-using-queues.md)
+  - [Queue using Stacks](./SDE-200/stacksAndQueues/04-queue-using-stacks.md)
+  - [Balanced Parentheses](./SDE-200/stacksAndQueues/05-balanced-parenthesis.md)
+  - [Next Greater Element](./SDE-200/stacksAndQueues/06-next-greater-element.md)
+  - [Next Smaller Element](./SDE-200/stacksAndQueues/08-next-smaller-element.md)
+  - [LRU cache](./SDE-200/stacksAndQueues/09-lru-cache.md)
+  - [LFU Cache](./SDE-200/stacksAndQueues/10-lfu-cache.md)
+  - [Maximum Rectangle in a histogram](./SDE-200/stacksAndQueues/11-maximum-rectangle-in-histogram.md)
+  - [Sliding Window maximum](./SDE-200/stacksAndQueues/12-sliding-window-max.md)
+  - [Implement Min Stack](./SDE-200/stacksAndQueues/13-min-stack.md)
+  - [Rotten Oranges](./SDE-200/stacksAndQueues/14-rotten-oranges.md)
+  - [Stock Span](./SDE-200/stacksAndQueues/15-stock-span.md)
   
 - Strings
-  - [Reverse Words in a String](./Strings/01-reverse-words-in-string.md)
-  - [Longest Plaindromic Substring](./Strings/02-longest-palindrome-substring.md)
-  - [Roman to Int and vice-versa](./Strings/03-roman-to-int.md)
-  - [Longest Common Prefix](./Strings/05-longest-common-prefix.md)
-  - [String to integer](./Strings/04-implement-atoi.md)
-  - [Check Anagrams](./Strings/10-check-anagrams.md)
-  - [Count and Say](./Strings/11-count-and-say.md)
-  - [Compare Versions](./Strings/12-compare-versions.md)
+  - [Reverse Words in a String](./SDE-200/Strings/01-reverse-words-in-string.md)
+  - [Longest Plaindromic Substring](./SDE-200/Strings/02-longest-palindrome-substring.md)
+  - [Roman to Int and vice-versa](./SDE-200/Strings/03-roman-to-int.md)
+  - [Longest Common Prefix](./SDE-200/Strings/05-longest-common-prefix.md)
+  - [String to integer](./SDE-200/Strings/04-implement-atoi.md)
+  - [Check Anagrams](./SDE-200/Strings/10-check-anagrams.md)
+  - [Count and Say](./SDE-200/Strings/11-count-and-say.md)
+  - [Compare Versions](./SDE-200/Strings/12-compare-versions.md)
 
 - Binary Trees Miscelleneous
-  - [Flatten Binary Tree to LL](./binaryTreesMisc/01-binary-tree-to-linkedlist.md)
-  - [Find Median from a Data Stream](./binaryTreesMisc/02-find-median-in-stream.md)
-  - [Kth Largest in a Stream](./binaryTreesMisc/03-kth-largest-in-stream.md)
-  - [Distinct Numbers in a Window](./binaryTreesMisc/04-distinct-numbers-in-window.md)
-  - [Kth Largest in Unsorted Array](./binaryTreesMisc/05-kth-largest-in-unsorted-array.md)
-  - [Flood Fill](./binaryTreesMisc/06-flood-fill.md)
+  - [Flatten Binary Tree to LL](./SDE-200/binaryTreesMisc/01-binary-tree-to-linkedlist.md)
+  - [Find Median from a Data Stream](./SDE-200/binaryTreesMisc/02-find-median-in-stream.md)
+  - [Kth Largest in a Stream](./SDE-200/binaryTreesMisc/03-kth-largest-in-stream.md)
+  - [Distinct Numbers in a Window](./SDE-200/binaryTreesMisc/04-distinct-numbers-in-window.md)
+  - [Kth Largest in Unsorted Array](./SDE-200/binaryTreesMisc/05-kth-largest-in-unsorted-array.md)
+  - [Flood Fill](./SDE-200/binaryTreesMisc/06-flood-fill.md)
 
 - Binary Search Tree
-  - [Floor in BST](./binarySearchTree/08-floor-in-BST.md)
-  - [Ceil in BST](./binarySearchTree/09-ceil-in-bst.md)
+  - [Floor in BST](./SDE-200/binarySearchTree/08-floor-in-BST.md)
+  - [Ceil in BST](./SDE-200/binarySearchTree/09-ceil-in-bst.md)
 
 - Graphs
-  - [DFS Traversal](./Graphs/01-dfs-traversal.md)  
-  - [BFS Traversal](./Graphs/02-bfs-traversal.md)
+  - [DFS Traversal](./SDE-200/Graphs/01-dfs-traversal.md)  
+  - [BFS Traversal](./SDE-200/Graphs/02-bfs-traversal.md)
   - Detect Cycle in Undirected Graph
-  [BFS](./Graphs/03-detect-cycle-in-undirection-graph-bfs.md), [DFS](./Graphs/04-detect-cycle-in-undirection-graph-dfs.md)
+  [BFS](./SDE-200/Graphs/03-detect-cycle-in-undirection-graph-bfs.md), [DFS](./SDE-200/Graphs/04-detect-cycle-in-undirection-graph-dfs.md)
   - Detect Cycle in Directed Graph
-  [BFS](./Graphs/06-detect-cycle-in-directed-graph-bfs.md), [DFS](./Graphs/05-detect-cycle-in-directed-graph-dfs.md)
-  - Topological Sort [BFS](./Graphs/07-topological-sort-bfs.md), [DFS](./Graphs/08-topological-sort-dfs.md)
-  - [Number of islands](./Graphs/09-number-of-islands.md)
-  - Bipartite Graph [BFS](./Graphs/10-bipartite-graph), [DFS](./Graphs/11-bipartite-graph)
-  - [Strongly Connected Components](./Graphs/12-strongly-connected-components.md)
+  [BFS](./SDE-200/Graphs/06-detect-cycle-in-directed-graph-bfs.md), [DFS](./SDE-200/Graphs/05-detect-cycle-in-directed-graph-dfs.md)
+  - Topological Sort [BFS](./SDE-200/Graphs/07-topological-sort-bfs.md), [DFS](./SDE-200/Graphs/08-topological-sort-dfs.md)
+  - [Number of islands](./SDE-200/Graphs/09-number-of-islands.md)
+  - Bipartite Graph [BFS](./SDE-200/Graphs/10-bipartite-graph), [DFS](./SDE-200/Graphs/11-bipartite-graph)
+  - [Strongly Connected Components](./SDE-200/Graphs/12-strongly-connected-components.md)
   - Shortest Path
-    - [Dijkstra Algorithm](./Graphs/13-dijkstra-algo.md)
-    - [Bellman-Ford Algorithm](./Graphs/14-bellman-ford.md)
-    - [Floyd Warshall Algorithm](./Graphs/15-floyd-warshall.md)
+    - [Dijkstra Algorithm](./SDE-200/Graphs/13-dijkstra-algo.md)
+    - [Bellman-Ford Algorithm](./SDE-200/Graphs/14-bellman-ford.md)
+    - [Floyd Warshall Algorithm](./SDE-200/Graphs/15-floyd-warshall.md)
   - Minimum Spanning Tree
-    - [Kruskal's Algorithm](./Graphs/16-kruskal-mst.md)
-    - [Prim's Algorithm](./Graphs/17-prim-mst.md)
+    - [Kruskal's Algorithm](./SDE-200/Graphs/16-kruskal-mst.md)
+    - [Prim's Algorithm](./SDE-200/Graphs/17-prim-mst.md)
   
 
 - Dynamic Programming
-  - [Maximum Product Subarray](./dynamic-programming/01-maximum-product-subarray.md)
-  - [Longest Increasing Subsequence](./dynamic-programming/02-longest-increasing-subsequence.md)
-  - [Longest Common Subsequence](./dynamic-programming/03-longest-common-subsequence.md)
-  - [0-1 Knapsack](./dynamic-programming/04-0-1-knapsack.md)
-  - [Edit Distance](./dynamic-programming/05-edit-distance.md)
-  - [Maximum Sum Increasing Subsequence](./dynamic-programming/06-maximum-sum-increasing-subsequence.md)
-  - [Matrix Chain multiplications](./dynamic-programming/07-matrix-chain-multiplication.md)
-  - [Minimum Path Sum](./dynamic-programming/08-minimum-path-sum.md)
-  - [Coin Change](./dynamic-programming/09-coin-change.md)
-  - [Partition Equal Subset Sum](./dynamic-programming/10-partition-equal-subset-sum.md)
-  - [Rod Cutting Problem](./dynamic-programming/11-minimum-cost-to-cut-the-stick.md)
-  - [Egg Dropping](./dynamic-programming/12-egg-dropping.md)
-  - [Job Sequencing](./dynamic-programming/15-job-sequencing.md)
+  - [Maximum Product Subarray](./SDE-200/dynamic-programming/01-maximum-product-subarray.md)
+  - [Longest Increasing Subsequence](./SDE-200/dynamic-programming/02-longest-increasing-subsequence.md)
+  - [Longest Common Subsequence](./SDE-200/dynamic-programming/03-longest-common-subsequence.md)
+  - [0-1 Knapsack](./SDE-200/dynamic-programming/04-0-1-knapsack.md)
+  - [Edit Distance](./SDE-200/dynamic-programming/05-edit-distance.md)
+  - [Maximum Sum Increasing Subsequence](./SDE-200/dynamic-programming/06-maximum-sum-increasing-subsequence.md)
+  - [Matrix Chain multiplications](./SDE-200/dynamic-programming/07-matrix-chain-multiplication.md)
+  - [Minimum Path Sum](./SDE-200/dynamic-programming/08-minimum-path-sum.md)
+  - [Coin Change](./SDE-200/dynamic-programming/09-coin-change.md)
+  - [Partition Equal Subset Sum](./SDE-200/dynamic-programming/10-partition-equal-subset-sum.md)
+  - [Rod Cutting Problem](./SDE-200/dynamic-programming/11-minimum-cost-to-cut-the-stick.md)
+  - [Egg Dropping](./SDE-200/dynamic-programming/12-egg-dropping.md)
+  - [Job Sequencing](./SDE-200/dynamic-programming/15-job-sequencing.md)
 
 - Trie
-  - [Implement Trie](./trie/01-implement-trie.md)
-  - [Implement Trie 2](./trie/02-implement-trie-ii.md)
-  - [Complete String](./trie/03-complete-string.md)
-  - [Count Distinct Substrings](./trie/04-distinct-substrings-in-string.md)
-  - [Power Set](./trie/05-power-set.md)
+  - [Implement Trie](./SDE-200/trie/01-implement-trie.md)
+  - [Implement Trie 2](./SDE-200/trie/02-implement-trie-ii.md)
+  - [Complete String](./SDE-200/trie/03-complete-string.md)
+  - [Count Distinct Substrings](./SDE-200/trie/04-distinct-substrings-in-string.md)
+  - [Power Set](./SDE-200/trie/05-power-set.md)
 
 
 --- 
@@ -299,7 +299,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 | Day | Focus Topic                                    | Problems                      |
 |------- | ---------------------------------------- | ----------------------------- |
-| 1     | Arrays & Prefix Sum | [Subarray Sum Equals K](./DSA-playgroud/arrays/subarray-sum-k.md) 
+| 1     | Arrays & Prefix Sum | [Subarray Sum Equals K](./DSA-playgroud/arrays/subarray-sum-k.md), [Maximum Product Subarray](./SDE-200/dynamic-programming/01-maximum-product-subarray.md)
 
 
 
