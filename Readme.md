@@ -299,7 +299,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 | Day | Focus Topic                                    | Problems                      |
 |------- | ---------------------------------------- | ----------------------------- |
-| 1     | Arrays & Prefix Sum | 
+| 1     | Arrays & Prefix Sum | [Subarray Sum Equals K](./DSA-playgroud/arrays/subarray-sum-k.md) 
 
 
 
