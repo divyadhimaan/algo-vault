@@ -22,6 +22,11 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 
 # Topic Wise Problems
+
+## Arrays
+
+- 
+
 ## Linked List
 - [Remove Nth node from End](./DSA-playgroud/linkedList/remove-nth-node-from-end.md)
 
@@ -60,6 +65,12 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 ## Sliding Window / Two Pointer
 
 - [Binary Array with sum](./DSA-playgroud/sliding-window-two-pointer/binary-array-with-sum.md)
+- [Count Nice Subarray](./DSA-playgroud/sliding-window-two-pointer/count-nice-subarrays.md)
+- [Minimum size subarray with sum](./DSA-playgroud/sliding-window-two-pointer/minimum-size-subarray-sum.mds)
+
+## Hashing / Sorting
+
+- [Group Anagrams](./DSA-playgroud/hashing-sorting/group-anagram.md)
 
 ## Graphs
 
@@ -299,8 +310,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 | Day | Focus Topic                                    | Problems                      |
 |------- | ---------------------------------------- | ----------------------------- |
-| 1     | Arrays & Prefix Sum | [Subarray Sum Equals K](./DSA-playgroud/arrays/subarray-sum-k.md), [Maximum Product Subarray](./SDE-200/dynamic-programming/01-maximum-product-subarray.md), [Minimum Size Subarray Sum](./DSA-playgroud/arrays/minimum-size-subarray-sum.md) |
-| 2     | Hashing + Sorting   | [Group Anagrams](./DSA-playgroud/arrays/group-anagram.md),  |
+| 1     | Arrays & Prefix Sum | [Subarray Sum Equals K](./DSA-playgroud/arrays/subarray-sum-k.md), [Maximum Product Subarray](./SDE-200/dynamic-programming/01-maximum-product-subarray.md), [Minimum Size Subarray Sum](./DSA-playgroud/sliding-window-two-pointer/minimum-size-subarray-sum.md) |
+| 2     | Hashing + Sorting   | [Group Anagrams](./DSA-playgroud/hashing-sorting/group-anagram.md),  |
 
 
 
