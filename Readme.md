@@ -67,10 +67,14 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [Binary Array with sum](./DSA-playgroud/sliding-window-two-pointer/binary-array-with-sum.md)
 - [Count Nice Subarray](./DSA-playgroud/sliding-window-two-pointer/count-nice-subarrays.md)
 - [Minimum size subarray with sum](./DSA-playgroud/sliding-window-two-pointer/minimum-size-subarray-sum.mds)
+- [Longest Repeating Character Replacement](./DSA-playgroud/sliding-window-two-pointer/longest-repeating-character-replacement.md)
+- [Longest Substring Without Repeating Characters](./DSA-playgroud/sliding-window-two-pointer/longest-substr-without-repeat.md)
 
 ## Hashing / Sorting
 
 - [Group Anagrams](./DSA-playgroud/hashing-sorting/group-anagram.md)
+- [Top K Frequent Elements](./DSA-playgroud/hashing-sorting/top-k-frequent-elements.md)
+- [Valid Soduko](./DSA-playgroud/hashing-sorting/valid-sudoku.md)
 
 ## Graphs
 
@@ -207,6 +211,13 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - Greedy
   - [Job Sequencing](./SDE-200/greedy/03-job-sequencing.md)
   
+- Recursion
+  - [Combination Sum - I](./SDE-200/recursion-backtracking/03-combination-sum-I.md)
+  - [Combination Sum - II](./SDE-200/recursion-backtracking/04-combination-sum-II.md)
+  
+- Recursion and Backtracking
+  - [N Queen](./SDE-200/recursion-backtracking/08-n-queens.md)
+
 - Binary Search
 - 
   - [Single Element](./SDE-200/binarySearch/03-element-appearing-once.md)
