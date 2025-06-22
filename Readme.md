@@ -312,7 +312,9 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 |------- | ---------------------------------------- | ----------------------------- |
 | 1     | Arrays & Prefix Sum | [Subarray Sum Equals K](./DSA-playgroud/arrays/subarray-sum-k.md), [Maximum Product Subarray](./SDE-200/dynamic-programming/01-maximum-product-subarray.md), [Minimum Size Subarray Sum](./DSA-playgroud/arrays/minimum-size-subarray-sum.md) |
 | 2     | Hashing + Sorting   | [Group Anagrams](./DSA-playgroud/hashing-sorting/group-anagram.md), [Top K frequent Elements](./DSA-playgroud/hashing-sorting/top-k-frequent-elements.md), [Valid Soduko](./DSA-playgroud/hashing-sorting/valid-sudoku.md) |
-| 3     | Two Pointers & Sliding Window | [3 Sum](./SDE-200/LinkedListAndArrays/03-3-sum.md), [Longest Substring Without Repeating Characters](./DSA-playgroud/sliding-window-two-pointer/longest-substr-without-repeat.md) [Longest Repeating Character Replacement](./DSA-playgroud/sliding-window-two-pointer/longest-repeating-character-replacement.md) |
+| 3     | Two Pointers & Sliding Window | [3 Sum](./SDE-200/LinkedListAndArrays/03-3-sum.md), [Longest Substring Without Repeating Characters](./DSA-playgroud/sliding-window-two-pointer/longest-substr-without-repeat.md), [Longest Repeating Character Replacement](./DSA-playgroud/sliding-window-two-pointer/longest-repeating-character-replacement.md) |
+| 4      | |
+| 5      | Recursion + Backtracking  | [Word Search](./DSA-playgroud/graphs/word-search.md), [N-Queens](./SDE-200/recursion-backtracking/08-n-queens.md), [Combination Sum II](./SDE-200/recursion-backtracking/03-combination-sum-II.md)
 
 
 
