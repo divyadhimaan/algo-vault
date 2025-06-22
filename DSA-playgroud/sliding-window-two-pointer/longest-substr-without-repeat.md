@@ -39,7 +39,7 @@ public:
 };
 ```
 
-> Time Complexity: O(n^3)
+> Time Complexity: O(n<sup>3</sup>)
 >
 > Space Complexity: O(n)
 
