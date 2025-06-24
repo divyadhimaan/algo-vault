@@ -60,3 +60,11 @@ public:
 > Time Complexity: O(mn * 4^L), L -> length of word
 >
 > Space Complexity: O(1)
+
+
+| Approach           | Best For                             | Complexity             | Notes                            |
+| ------------------ | ------------------------------------ | ---------------------- | -------------------------------- |
+| DFS + Backtracking | Single word                          | `O(m*n*4^L)`           | ✔ Your current                   |
+| Trie + DFS         | Multiple word search                 | `O(M*N + total chars)` | 🔥 Efficient pruning             |
+| BFS                | Level-order or shortest-path variant | Similar                | ❌ Usually slower                 |
+| DFS + Memoization  | Repeating board patterns             | Higher space           | 🧠 Rarely worth for this problem |
