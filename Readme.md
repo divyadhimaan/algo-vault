@@ -29,7 +29,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 ## Linked List
 - [Remove Nth node from End](./DSA-playgroud/linkedList/remove-nth-node-from-end.md)
-
+- [Reverse in K groups](./SDE-200/linkedList/09-reverse-in-k-groups.md)
+- [Merge K sorted Lists](./DSA-playgroud/linkedList/merge-k-sorted-lists.md)
 
 ## Binary Search
 - [Binary Search](./DSA-playgroud/binary-search/binary-search.md)
@@ -203,6 +204,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Linked List
   - [Remove Nth node from end](./SDE-200/linkedList/04-remove-nth-node-from-end.md)
+  - [Reverse in K groups](./SDE-200/linkedList/09-reverse-in-k-groups.md)
 
 - Linked List and Arrays
   - [3 Sum](./SDE-200/LinkedListAndArrays/03-3-sum.md)
@@ -326,6 +328,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 | 3     | Two Pointers & Sliding Window | [3 Sum](./SDE-200/LinkedListAndArrays/03-3-sum.md), [Longest Substring Without Repeating Characters](./DSA-playgroud/sliding-window-two-pointer/longest-substr-without-repeat.md), [Longest Repeating Character Replacement](./DSA-playgroud/sliding-window-two-pointer/longest-repeating-character-replacement.md) |
 | 4      | |
 | 5      | Recursion + Backtracking  | [Word Search](./DSA-playgroud/graphs/word-search.md), [N-Queens](./SDE-200/recursion-backtracking/08-n-queens.md), [Combination Sum II](./SDE-200/recursion-backtracking/03-combination-sum-II.md)
+| 6      | Linked Lists    | [LRU Cache](./DSA-playgroud/design/lru-cache.md), [Reverse nodes in K groups](./SDE-200/linkedList/09-reverse-in-k-groups.md), [Merge K sorted List](./DSA-playgroud/linkedList/merge-k-sorted-lists.md) |
 
 
 
