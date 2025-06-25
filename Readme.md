@@ -262,6 +262,9 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Count and Say](./SDE-200/Strings/11-count-and-say.md)
   - [Compare Versions](./SDE-200/Strings/12-compare-versions.md)
 
+- Binary Trees - III
+  - [ Binary Tree Maximum Path Sum](./SDE-200/binaryTree-III/01-max-path-sum.md)
+  
 - Binary Trees Miscelleneous
   - [Flatten Binary Tree to LL](./SDE-200/binaryTreesMisc/01-binary-tree-to-linkedlist.md)
   - [Find Median from a Data Stream](./SDE-200/binaryTreesMisc/02-find-median-in-stream.md)

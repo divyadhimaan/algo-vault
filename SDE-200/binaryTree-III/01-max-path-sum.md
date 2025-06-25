@@ -8,3 +8,28 @@ The path sum of a path is the sum of the node's values in the path.
 
 Given the `root` of a binary tree, return the maximum path sum of any non-empty path.
 
+```cpp
+class Solution {
+public:
+    int maxPathSumUtil(TreeNode* root, int &maxi) {
+        if(!root)
+            return 0;
+        
+        int leftSum = max(0, maxPathSumUtil(root->left, maxi));
+        int rightSum = max(0, maxPathSumUtil(root->right, maxi));
+
+        maxi = max(maxi, root->val + leftSum + rightSum);
+
+        return root->val + max(leftSum, rightSum);
+    }
+    int maxPathSum(TreeNode* root) {
+        int maxi = INT_MIN;
+        maxPathSumUtil(root, maxi);
+        return maxi;
+    }
+};
+```
+
+> Time Complexity: O(N)
+>
+> Space Complexity: O(H) where H is the height of the binary tree (worst-case O(N))
