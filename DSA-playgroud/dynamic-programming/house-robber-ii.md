@@ -26,7 +26,7 @@ public:
 };
 ```
 
-> Time Complexity: O(2^n)
+> Time Complexity: O(2^n) --> TLE
 > 
 > Space Complexity: O(n)
 
