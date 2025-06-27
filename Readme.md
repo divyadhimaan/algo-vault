@@ -336,7 +336,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 | 6      | Linked Lists    | [LRU Cache](./DSA-playgroud/design/lru-cache.md), [Reverse nodes in K groups](./SDE-200/linkedList/09-reverse-in-k-groups.md), [Merge K sorted List](./DSA-playgroud/linkedList/merge-k-sorted-lists.md) |
 | 7 | Trees + DFS/BFS | [LCA](./DSA-playgroud/binary-trees/lca-in-binary-tree.md), [Serialize Deserialize a BT](./DSA-playgroud/binary-trees/serialize-deserialize.md), [Maximum Path Sum](./SDE-200/binaryTree-III/01-max-path-sum.md) |
 | 8 | Mixed Interview Set 1 | [kth largest in array](./SDE-200/heaps/02-kth-largest.md), [Insert Delete GetRandom O(1)](./DSA-playgroud/misc/insert-delete-get-random.md), [Letter COmbination on Phone](./DSA-playgroud/misc/letter-combination-on-phone.md) |
-| 9 | 1D DP | [House Robber II](./DSA-playgroud/dynamic-programming/house-robber-ii.md), [Partition Equal Subset Sum](./DSA-playgroud/dynamic-programming/partition-equal-subset-sum.md), [] |
+| 9 | 1D DP | [House Robber II](./DSA-playgroud/dynamic-programming/house-robber-ii.md), [Partition Equal Subset Sum](./DSA-playgroud/dynamic-programming/partition-equal-subset-sum.md), [Longest Palindromic Substring](./SDE-200/Strings/02-longest-palindrome-substring.md) |
 
 
 ## Contributions
