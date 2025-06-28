@@ -8,6 +8,17 @@ Given an array of integers heights representing the histogram's bar height where
 
 ## Brute Force
 
+You’re treating each bar at index i as the shortest bar in a rectangle and:
+
+- Looking Left:
+  - Move left from i, and count how far you can extend the rectangle until a smaller bar breaks the streak.
+- Looking Right:
+  - Move right from i, and do the same.
+- Area:
+  - The width of the rectangle is (left + right + 1) (including the current bar).
+  - So, area = height[i] * (left + right + 1).
+
+
 ```cpp
 class Solution {
 public:
