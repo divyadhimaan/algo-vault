@@ -132,3 +132,10 @@ public:
 > Time Complexity: `O(n*A)`, where A -> amount
 >
 > Space Complexity: `O(A)`
+
+| Problem Type                               | Use 1D or 2D?              |
+| ------------------------------------------ | -------------------------- |
+| **Unlimited coins (unbounded knapsack)**   | ✅ 1D is enough             |
+| **Limited supply (0/1 knapsack)**          | ❌ Use 2D DP                |
+| **Track combinations/subsets with states** | ❌ Use 2D DP                |
+| **Need to reconstruct choices**            | ❌ Use 2D (or parent array) |
