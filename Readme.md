@@ -337,7 +337,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 | 7 | Trees + DFS/BFS | [LCA](./DSA-playgroud/binary-trees/lca-in-binary-tree.md), [Serialize Deserialize a BT](./DSA-playgroud/binary-trees/serialize-deserialize.md), [Maximum Path Sum](./SDE-200/binaryTree-III/01-max-path-sum.md) |
 | 8 | Mixed Interview Set 1 | [kth largest in array](./SDE-200/heaps/02-kth-largest.md), [Insert Delete GetRandom O(1)](./DSA-playgroud/misc/insert-delete-get-random.md), [Letter COmbination on Phone](./DSA-playgroud/misc/letter-combination-on-phone.md) |
 | 9 | 1D DP | [House Robber II](./DSA-playgroud/dynamic-programming/house-robber-ii.md), [Partition Equal Subset Sum](./DSA-playgroud/dynamic-programming/partition-equal-subset-sum.md), [Longest Palindromic Substring](./SDE-200/Strings/02-longest-palindrome-substring.md) |
-
+| 10 | 2D DP | [Edit Distance](./DSA-playgroud/dynamic-programming/edit-distance.md), |
 
 ## Contributions
 Pull requests are welcome! Feel free to raise issues or add more problems/solutions with clarity and proper structure.
