@@ -13,7 +13,7 @@ Given an `m x n` binary matrix filled with `0's` and `1's`, find the largest squ
 ## Better Approach
 
 The problem can be broken down into subproblems.
-![Alt text](image.png)
+![Alt text](./../images/dp-d.png)
 
 - At each cell (i, j) in the matrix, we want to know:
 
