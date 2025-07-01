@@ -340,6 +340,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 | 9 | 1D DP | [House Robber II](./DSA-playgroud/dynamic-programming/house-robber-ii.md), [Partition Equal Subset Sum](./DSA-playgroud/dynamic-programming/partition-equal-subset-sum.md), [Longest Palindromic Substring](./SDE-200/Strings/02-longest-palindrome-substring.md) |
 | 10 | 2D DP | [Edit Distance](./DSA-playgroud/dynamic-programming/edit-distance.md), [Coin Change](./DSA-playgroud/dynamic-programming/coin-change.md),[Maximal Squares](./DSA-playgroud/dynamic-programming/maximal-square.md) |
 | 11 | Graphs - BFS/DFS | [Number of Islands](./SDE-200/Graphs/09-number-of-islands.md), [Course Schedule](./DSA-playgroud/graphs/course_schedule-1.md), [Clone a Graph](./DSA-playgroud/graphs/clone-graph.md) |
+| 12 | Tries & Strings | [Implement Trie](./SDE-200/trie/01-implement-trie.md), |
 
 ## Contributions
 Pull requests are welcome! Feel free to raise issues or add more problems/solutions with clarity and proper structure.
