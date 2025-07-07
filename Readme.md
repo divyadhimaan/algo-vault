@@ -25,7 +25,6 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 ## Arrays
 
-- 
 
 ## Linked List
 - [Remove Nth node from End](./DSA-playgroud/linkedList/remove-nth-node-from-end.md)
@@ -188,7 +187,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 ## Design
 - [LRU Cache](./DSA-playgroud/design/lru-cache.md)
-
+- [Design Twitter](./DSA-playgroud/design/design-twitter.md)
+  
 ## Trie
 - [Longest Word in Dictionary](./DSA-playgroud/trie/longest-word-in-dict.md)
 
@@ -345,7 +345,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 | 11 | Graphs - BFS/DFS | [Number of Islands](./SDE-200/Graphs/09-number-of-islands.md), [Course Schedule](./DSA-playgroud/graphs/course_schedule-1.md), [Clone a Graph](./DSA-playgroud/graphs/clone-graph.md) |
 | 12 | Tries & Strings | [Implement Trie](./SDE-200/trie/01-implement-trie.md),[Longest Word in Dictionary](./DSA-playgroud/trie/longest-word-in-dict.md),  |
 | 13 | Stack/Monotonic Stack | [Largest Rectangle in Histogram](./DSA-playgroud/stacks-and-queues/largest-rectangle-in-histogram.md), [Daily Temperatures](./DSA-playgroud/stacks-and-queues/daily-temperature.md), |
-| 
+| 14 | Mixed Interview Set 2 | [Design Twitter](./DSA-playgroud/design/design-twitter.md), [All Paths source to target](./DSA-playgroud/graphs/all-paths-src-dest.md)|
 
 ## Contributions
 Pull requests are welcome! Feel free to raise issues or add more problems/solutions with clarity and proper structure.
