@@ -328,7 +328,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 --- 
 
-# 20 Days DSA Revision Plan
+<!-- # 20 Days DSA Revision Plan
 
 | Day | Focus Topic                                    | Problems                      |
 |------- | ---------------------------------------- | ----------------------------- |
@@ -345,7 +345,14 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 | 11 | Graphs - BFS/DFS | [Number of Islands](./SDE-200/Graphs/09-number-of-islands.md), [Course Schedule](./DSA-playgroud/graphs/course_schedule-1.md), [Clone a Graph](./DSA-playgroud/graphs/clone-graph.md) |
 | 12 | Tries & Strings | [Implement Trie](./SDE-200/trie/01-implement-trie.md),[Longest Word in Dictionary](./DSA-playgroud/trie/longest-word-in-dict.md),  |
 | 13 | Stack/Monotonic Stack | [Largest Rectangle in Histogram](./DSA-playgroud/stacks-and-queues/largest-rectangle-in-histogram.md), [Daily Temperatures](./DSA-playgroud/stacks-and-queues/daily-temperature.md), |
-| 14 | Mixed Interview Set 2 | [Design Twitter](./DSA-playgroud/design/design-twitter.md), [All Paths source to target](./DSA-playgroud/graphs/all-paths-src-dest.md)|
+| 14 | Mixed Interview Set 2 | [Design Twitter](./DSA-playgroud/design/design-twitter.md), [All Paths source to target](./DSA-playgroud/graphs/all-paths-src-dest.md)| -->
+
+# Blind 75  
+
+- Day 1: Array
+  - [Product of Array except itself](./DSA-playgroud/arrays/product-of-array-except-itself.md)
+  - 
+
 
 ## Contributions
 Pull requests are welcome! Feel free to raise issues or add more problems/solutions with clarity and proper structure.
