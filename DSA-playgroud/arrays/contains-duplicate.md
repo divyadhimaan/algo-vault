@@ -57,5 +57,5 @@ public:
 
 > Time Complexity: O(n) (Refer [Time complexity](./../../time-compelxities-of-common-ds.md#unordered_set-stl) for unordered_set)
 >
-> Space Complexity: O(1)
+> Space Complexity: O(n)
 
