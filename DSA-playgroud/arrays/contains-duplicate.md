@@ -59,3 +59,11 @@ public:
 >
 > Space Complexity: O(n)
 
+
+# Summary
+
+| **Approach**    | **Description**                              | **Time Complexity** | **Space Complexity** | **Code Insight**                                               |
+| --------------- | -------------------------------------------- | ------------------- | -------------------- | -------------------------------------------------------------- |
+| **Brute Force** | Compare each element with all others         | O(n²)               | O(1)                 | Two nested loops; inefficient for large inputs                 |
+| **Sorting**     | Sort the array, check consecutive duplicates | O(n log n)          | O(1)                 | Efficient if modifying input is allowed; no extra space needed |
+| **HashSet**     | Use `unordered_set` to track seen elements   | O(n)                | O(n)                 | Most optimal in time; extra space used for the set             |
