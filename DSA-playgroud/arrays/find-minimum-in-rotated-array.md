@@ -1,5 +1,7 @@
 # Find Minimum in Rotated Sorted Array
 
+Pratice [here](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
+
 Suppose an array of length n sorted in ascending order is rotated between 1 and n times. 
 
 Notice that rotating an array [a[0], a[1], a[2], ..., a[n-1]] 1 time results in the array [a[n-1], a[0], a[1], a[2], ..., a[n-2]].
@@ -69,3 +71,13 @@ public:
 > Time Complexity: O(log n)
 >
 > Space Complexity: O(1)
+
+
+
+# Summary 
+
+
+| **Approach**      | **Description**                                                        | **Time Complexity** | **Space Complexity** | **Code Insight**                                                          |
+| ----------------- | ---------------------------------------------------------------------- | ------------------- | -------------------- | ------------------------------------------------------------------------- |
+| **Brute Force**   | Traverse the entire array and track the minimum                        | O(n)                | O(1)                 | Simple linear scan using a loop                                           |
+| **Binary Search** | Use binary search to find pivot/min by checking sorted/unsorted halves | O(log n)            | O(1)                 | If left half is sorted, discard it; else, move to left and update minimum |
