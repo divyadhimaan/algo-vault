@@ -353,7 +353,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [2 Sum](./SDE-200/Arrays/19-2-sum.md)
   - [Contains Duplicate](./DSA-playgroud/arrays/contains-duplicate.md)
   - [Product of Array except itself](./DSA-playgroud/arrays/product-of-array-except-itself.md)
-  - 
+  - [Find Minimum in rotated array](./DSA-playgroud/arrays/find-minimum-in-rotated-array.md)
 
 
 
