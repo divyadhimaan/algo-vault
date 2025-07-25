@@ -361,6 +361,9 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [3 Sum](./SDE-200/LinkedListAndArrays/03-3-sum.md)
   - [Container with most water](./DSA-playgroud/arrays/container-with-most-water.md)
 
+- Day 2: Binary
+  - [Sum of Two Integers](./DSA-playgroud/binary/sum-of-two-integers.md)
+  - [Number of Set Bits](./DSA-playgroud/binary/count-set-bits.md)
 
 
 ## Contributions
