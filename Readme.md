@@ -356,6 +356,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Maximum Subarray Sum](./DSA-playgroud/arrays/maximum-sum-subarray.md)
   - [Find Minimum in rotated array](./DSA-playgroud/arrays/find-minimum-in-rotated-array.md)
   - [Search in Rotated Sorted Array](./DSA-playgroud/arrays/search-in-rotated-sorted-array.md)
+  - [3 Sum](./SDE-200/LinkedListAndArrays/03-3-sum.md)
 
 
 
