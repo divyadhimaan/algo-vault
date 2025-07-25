@@ -60,3 +60,11 @@ public:
 > Time Complexity: O(t) [FASTER] (t ->  number of set bits)
 >
 > Space Complexity: O(1)
+
+# Summary
+
+| Method                          | Time  | Best for        |
+| ------------------------------- | ----- | --------------- |
+| Bit-by-bit (n >> 1)             | O(32) | Simple approach |
+| Kernighan’s Algorithm           | O(k)  | Optimal, fast   |
+| Built-in (`__builtin_popcount`) | O(1)  | When allowed    |
