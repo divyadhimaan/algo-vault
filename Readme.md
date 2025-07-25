@@ -351,9 +351,11 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Day 1: Array
   - [2 Sum](./SDE-200/Arrays/19-2-sum.md)
+  - [Best Time to Buy and Sell Stock](./DSA-playgroud/dynamic-programming/buy-sell-stocks-i.md)
   - [Contains Duplicate](./DSA-playgroud/arrays/contains-duplicate.md)
   - [Product of Array except itself](./DSA-playgroud/arrays/product-of-array-except-itself.md)
   - [Maximum Subarray Sum](./DSA-playgroud/arrays/maximum-sum-subarray.md)
+  - [Maximum Product Subarray](./SDE-200/dynamic-programming/01-maximum-product-subarray.md)
   - [Find Minimum in rotated array](./DSA-playgroud/arrays/find-minimum-in-rotated-array.md)
   - [Search in Rotated Sorted Array](./DSA-playgroud/arrays/search-in-rotated-sorted-array.md)
   - [3 Sum](./SDE-200/LinkedListAndArrays/03-3-sum.md)
