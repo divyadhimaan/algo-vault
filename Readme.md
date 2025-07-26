@@ -365,6 +365,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Sum of Two Integers](./DSA-playgroud/binary/sum-of-two-integers.md)
   - [Number of Set Bits](./DSA-playgroud/binary/count-set-bits.md)
   - [Counting Bits](./DSA-playgroud/binary/count-set-bits.md)
+  - [Missing Number](./DSA-playgroud/binary/missing-number.md)
 
 
 ## Contributions
