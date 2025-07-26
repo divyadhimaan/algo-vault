@@ -366,6 +366,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Number of Set Bits](./DSA-playgroud/binary/count-set-bits.md)
   - [Counting Bits](./DSA-playgroud/binary/count-set-bits.md)
   - [Missing Number](./DSA-playgroud/binary/missing-number.md)
+  - [Reverse Bits](./DSA-playgroud/binary/reverse-bits.md)
 
 
 ## Contributions
