@@ -114,3 +114,9 @@ public:
 };
 ```
 
+# Summary
+
+| Approach                 | Strategy       | Time   | Space  | Handles Cycles? | Suitable for                        |
+| ------------------------ | -------------- | ------ | ------ | --------------- | ----------------------------------- |
+| BFS Topo Sort (Kahn’s)   | Indegree-based | O(V+E) | O(V+E) | ✅ Yes           | Course ordering, No cycle detection |
+| DFS with Recursion Stack | DFS            | O(V+E) | O(V)   | ✅ Yes           | Cycle detection                     |

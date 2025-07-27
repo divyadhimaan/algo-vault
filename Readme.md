@@ -368,6 +368,9 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Missing Number](./DSA-playgroud/binary/missing-number.md)
   - [Reverse Bits](./DSA-playgroud/binary/reverse-bits.md)
 
+- Day 4: Graph
+  - 
+
 
 ## Contributions
 Pull requests are welcome! Feel free to raise issues or add more problems/solutions with clarity and proper structure.
