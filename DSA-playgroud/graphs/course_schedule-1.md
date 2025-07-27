@@ -13,6 +13,10 @@ Time Complexity - ```O(N+E)```, where V is the total number of courses, E is the
 
 Space Complexity - ```O(N) + O(N)```
 
+- The `coursesToDo[]` array simulates the recursion stack
+- Re-visiting a node on the same recursion path means a back edge → cycle
+- `coursesDone[]` helps skip already checked safe nodes to optimize performance
+
 ```cpp
 class Solution {
 public:
@@ -57,11 +61,14 @@ public:
     }
 };
 ```
+
+> Time Complexity: ```O(N+E)```, where V is the total number of courses, E is the edges (dependencies)
+>
+> Space Complexity: ```O(N) + O(N)```
+
+
 ## BFS - TOPOLOGICAL APPROACH
 
-Time Complexity - ```O(N+E)```, where V is the total number of courses, E is the edges (dependencies)
-
-Space Complexity - ```O(N) + O(N)```
 
 ```cpp
 class Solution {
@@ -113,6 +120,11 @@ public:
     }
 };
 ```
+
+> Time Complexity: ```O(N+E)```, where V is the total number of courses, E is the edges (dependencies)
+> 
+> Space Complexity: ```O(N) + O(N)```
+
 
 # Summary
 
