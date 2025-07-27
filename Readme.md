@@ -353,10 +353,10 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [2 Sum](./SDE-200/Arrays/19-2-sum.md)
   - [Best Time to Buy and Sell Stock](./DSA-playgroud/dynamic-programming/buy-sell-stocks-i.md)
   - [Contains Duplicate](./DSA-playgroud/arrays/contains-duplicate.md)
-  - [Product of Array except itself](./DSA-playgroud/arrays/product-of-array-except-itself.md)
+  - [Product of Array except itself](./DSA-playgroud/arrays/product-of-array-except-itself.md) *
   - [Maximum Subarray Sum](./DSA-playgroud/arrays/maximum-sum-subarray.md)
   - [Maximum Product Subarray](./SDE-200/dynamic-programming/01-maximum-product-subarray.md)
-  - [Find Minimum in rotated array](./DSA-playgroud/arrays/find-minimum-in-rotated-array.md)
+  - [Find Minimum in rotated array](./DSA-playgroud/arrays/find-minimum-in-rotated-array.md) *
   - [Search in Rotated Sorted Array](./DSA-playgroud/arrays/search-in-rotated-sorted-array.md)
   - [3 Sum](./SDE-200/LinkedListAndArrays/03-3-sum.md)
   - [Container with most water](./DSA-playgroud/arrays/container-with-most-water.md)
@@ -370,7 +370,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Day 4: Graph
   - [Course Schedule](./DSA-playgroud/graphs/course_schedule-1.md)
-  - [Pacific Atlantic Water flow](./DSA-playgroud/graphs/pacific-atlantic-water-flow.md)
+  - [Pacific Atlantic Water flow](./DSA-playgroud/graphs/pacific-atlantic-water-flow.md) *
+  - [Number of Islands](./DSA-playgroud/graphs/number-of-islands.md)
 
 
 ## Contributions
