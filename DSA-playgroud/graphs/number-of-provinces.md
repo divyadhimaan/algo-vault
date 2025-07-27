@@ -12,12 +12,12 @@ Return the total number of `provinces`.
 Practice [Link](https://leetcode.com/problems/number-of-provinces/description/)
 
 ## Sample
-![Alt text](/images/graph-d.png)
+![Alt text](../images/graph-d.png)
 > OUTPUT: 2
 
 
 
-## Implementation
+## DFS Implementation
 ```cpp
 class Solution {
 public:
@@ -51,6 +51,62 @@ public:
 ```
 
 ## Complexities
-Time Complexity - ```O(V^2)```
+> Time Complexity - ```O(V^2)```
+> 
+> Space Complexity - `O(n)` recursion stack + visited
 
-Space Complexity - Auxilary Space
+
+## BFS Implementation
+
+```cpp
+class Solution {
+public:
+
+    int findCircleNum(vector<vector<int>>& isConnected) {
+        int n = isConnected.size();
+        vector<bool> visited(n, false);
+        int provinces = 0;
+
+        queue<int> q;
+
+        auto bfs = [&](queue<int> &q){
+            while(!q.empty())
+            {
+                int currCity = q.front();
+                q.pop();
+
+                visited[currCity]= true;
+
+                for(int destCity=0;destCity<n;destCity++)
+                {
+                    if(!visited[destCity] && isConnected[currCity][destCity]==1)
+                        q.push(destCity);
+                }
+            }
+        };
+
+        for(int i=0;i<n;i++)
+        {
+            if(!visited[i])
+            {
+                q.push(i);
+                bfs(q);
+                provinces++;
+            }
+        }
+        return provinces;
+    }
+};
+```
+## Complexities
+> Time Complexity - ```O(V^2)```
+> 
+> Space Complexity - `O(n)` queue + visited
+
+## DFS vs BFS
+
+| Case                                | Prefer                            |
+| ----------------------------------- | --------------------------------- |
+| **This specific problem** (n ≤ 200) | ✅ DFS (simpler to write, no risk) |
+| If `n` becomes large (e.g., >10⁴)   | ✅ BFS (safe from stack overflow)  |
+| Want level-order traversal logic    | ✅ BFS                             |

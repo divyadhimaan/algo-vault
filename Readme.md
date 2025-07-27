@@ -372,6 +372,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Course Schedule](./DSA-playgroud/graphs/course_schedule-1.md)
   - [Pacific Atlantic Water flow](./DSA-playgroud/graphs/pacific-atlantic-water-flow.md) *
   - [Number of Islands](./DSA-playgroud/graphs/number-of-islands.md)
+  - [Number of Provinces](./DSA-playgroud/graphs/number-of-provinces.md)
 
 
 ## Contributions
