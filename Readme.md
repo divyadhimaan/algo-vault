@@ -369,6 +369,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Reverse Bits](./DSA-playgroud/binary/reverse-bits.md)
 
 - Day 4: Graph
+  - [Graph clone](./DSA-playgroud/graphs/clone-graph.md)
   - [Course Schedule](./DSA-playgroud/graphs/course_schedule-1.md)
   - [Pacific Atlantic Water flow](./DSA-playgroud/graphs/pacific-atlantic-water-flow.md) *
   - [Number of Islands](./DSA-playgroud/graphs/number-of-islands.md)
