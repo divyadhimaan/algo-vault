@@ -24,6 +24,14 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 # Topic Wise Problems
 
 ## Arrays
+- [Contains Duplicate](./DSA-playgroud/arrays/contains-duplicate.md)
+- [Product of Array except itself](./DSA-playgroud/arrays/product-of-array-except-itself.md) *
+- [Maximum Subarray Sum](./DSA-playgroud/arrays/maximum-sum-subarray.md)
+- [Maximum Product Subarray](./SDE-200/dynamic-programming/01-maximum-product-subarray.md)
+- [Find Minimum in rotated array](./DSA-playgroud/arrays/find-minimum-in-rotated-array.md) *
+- [Search in Rotated Sorted Array](./DSA-playgroud/arrays/search-in-rotated-sorted-array.md)
+- [3 Sum](./SDE-200/LinkedListAndArrays/03-3-sum.md)
+- [Container with most water](./DSA-playgroud/arrays/container-with-most-water.md)
 
 
 ## Linked List
@@ -100,6 +108,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [Network delay time](./DSA-playgroud/graphs/network-delay-time.md)
 - [Number of Ways to arrive at destination](./DSA-playgroud/graphs/number-of-ways-to-destination.md)
 - [Find City with smallest number of neighbors](./DSA-playgroud/graphs/find-city-with-smallest-number-of-neighbours.md)
+- [Number of Connected Components](./DSA-playgroud/graphs/number-of-connected-components.md)
 
 #### Hard
 
@@ -179,6 +188,12 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [0-1 Knapsack](./DSA-playgroud/dynamic-programming/0-1-knapsack.md)
 - [Egg Dropping](./DSA-playgroud/dynamic-programming/egg-drop.md)
 
+## Binary
+- [Sum of Two Integers](./DSA-playgroud/binary/sum-of-two-integers.md)
+- [Number of Set Bits](./DSA-playgroud/binary/count-set-bits.md)
+- [Counting Bits](./DSA-playgroud/binary/count-set-bits.md)
+- [Missing Number](./DSA-playgroud/binary/missing-number.md)
+- [Reverse Bits](./DSA-playgroud/binary/reverse-bits.md)
 
 
 ## Strings
@@ -375,6 +390,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Number of Islands](./DSA-playgroud/graphs/number-of-islands.md)
   - [Number of Provinces](./DSA-playgroud/graphs/number-of-provinces.md)
   - [Alien Dictionary](./DSA-playgroud/graphs/alien-dictionary.md)
+  - [Connected Component](./DSA-playgroud/graphs/number-of-connected-components.md)
 
 ## Contributions
 Pull requests are welcome! Feel free to raise issues or add more problems/solutions with clarity and proper structure.
