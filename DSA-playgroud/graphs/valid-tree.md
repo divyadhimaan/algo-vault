@@ -6,7 +6,7 @@ Given `n` nodes labeled from 0 to n - 1 and a list of undirected edges (each edg
 
 A graph is a valid tree if
 - It is connected
-- It has no cycles
+- It has no cycles (covers n-1 edges)
 
 ```cpp
 bool validTree(int n, vector<vector<int>>& edges) {
