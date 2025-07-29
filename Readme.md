@@ -374,7 +374,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Pacific Atlantic Water flow](./DSA-playgroud/graphs/pacific-atlantic-water-flow.md) *
   - [Number of Islands](./DSA-playgroud/graphs/number-of-islands.md)
   - [Number of Provinces](./DSA-playgroud/graphs/number-of-provinces.md)
-
+  - [Alien Dictionary](./DSA-playgroud/graphs/alien-dictionary.md)
 
 ## Contributions
 Pull requests are welcome! Feel free to raise issues or add more problems/solutions with clarity and proper structure.
