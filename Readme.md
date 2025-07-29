@@ -391,6 +391,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Number of Provinces](./DSA-playgroud/graphs/number-of-provinces.md)
   - [Alien Dictionary](./DSA-playgroud/graphs/alien-dictionary.md)
   - [Connected Component](./DSA-playgroud/graphs/number-of-connected-components.md)
+  - [Longest Consecutive Sequence](./SDE-200/Arrays/21-longest-consecutive-sequence.md)
 
 ## Contributions
 Pull requests are welcome! Feel free to raise issues or add more problems/solutions with clarity and proper structure.

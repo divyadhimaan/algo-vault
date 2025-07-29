@@ -52,27 +52,30 @@ Approach:
 - We iterate through the set. For each number, we check if it is the start of a sequence (i.e., num - 1 is not in the set).
 - If it is the start, we incrementally check for the next elements in the sequence using a while loop (num + 1, num + 2, etc.).
 - We track the length of each sequence and update the maximum length found so far.
-- 
+
 ```cpp
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
-        unordered_set<int> st;
-        int nextEle, maxSeq=0;
-        for(int num: nums)
-            st.insert(num);
+        unordered_set<int> s(nums.begin(), nums.end());
 
-        for(auto it: st)
+        int longest=0;
+        for(int num: s)
         {
-            if(st.find(it-1) != st.end())
-                continue;
-            nextEle = it+1;
-            while(st.find(nextEle) != st.end())
-                nextEle++;
+            if(!s.count(num-1))
+            {
+                int curr = num;
+                int streak = 1;
 
-            maxSeq = max(nextEle-it, maxSeq);
+                while(s.count(curr+1))
+                {
+                    curr++;
+                    streak++;
+                }
+                longest = max(longest, streak);
+            }
         }
-        return maxSeq;
+        return longest;
     }
 };
 ```
