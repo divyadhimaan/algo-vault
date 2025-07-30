@@ -393,6 +393,9 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Connected Component](./DSA-playgroud/graphs/number-of-connected-components.md)
   - [Longest Consecutive Sequence](./SDE-200/Arrays/21-longest-consecutive-sequence.md)
 
+- Day 5: Intervals
+  - [Insert Interval](./DSA-playgroud/intervals/insert-intervals.md)
+
 ## Contributions
 Pull requests are welcome! Feel free to raise issues or add more problems/solutions with clarity and proper structure.
 
