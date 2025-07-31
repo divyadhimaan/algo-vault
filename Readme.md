@@ -395,6 +395,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Day 5: Intervals
   - [Insert Interval](./DSA-playgroud/intervals/insert-intervals.md)
+  - [Merge Intervals](./DSA-playgroud/intervals/merge-intervals.md)
 
 ## Contributions
 Pull requests are welcome! Feel free to raise issues or add more problems/solutions with clarity and proper structure.
