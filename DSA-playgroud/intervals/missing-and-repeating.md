@@ -118,6 +118,82 @@ public:
 ```
 > Time Complexity: O(n)
 >
-> Space Complexity: O(n)
+> Space Complexity: O(1)
 
 ## XOR approach
+
+1. XOR cancel duplicates because
+```
+x ^ x = 0
+x ^ 0 = x
+```
+2. If we XOR all elements of the array and all numbers from 1 to n, all pairs will cancel out, leaving:
+```xr = Missing ^ Repeating```
+3. Since the two numbers are different, there will be at least one bit where they differ.
+   - Use that rightmost set bit to separate the numbers into two groups.
+   - Each group contains numbers contributing to either missing or repeating.
+4. After XORing separately, we get two candidates → determine which one is repeating by checking array.
+
+
+```cpp
+class Solution {
+public:
+    vector<int> findMissingRepeatingNumbers(vector<int> nums) {
+
+        //find XOR(all ele of nums and all numbers 1 to n)
+        int xr = 0;
+        for(int i=0;i<nums.size();i++)
+        {
+            xr ^= nums[i];
+            xr ^= i+1;
+        }
+
+        // find rightmost differentiating bit
+        int bitNo = 0;
+        while(1){
+            if((xr & (1<< bitNo)) != 0)
+                break;
+            bitNo++;
+        }
+
+        //seperate all ele and numbers 1 to n into group of zero and one based on the bitNo
+        int one =0;
+        int zero=0;
+        for(int i=0;i<nums.size();i++)
+        {
+            if(nums[i] & (1<<bitNo))
+                one ^= nums[i];
+            else
+                zero ^= nums[i];
+
+            if(i+1 & (1<<bitNo))
+                one ^= i+1;
+            else    
+                zero ^= i+1;
+        }
+
+        int isOneRepeating = false;
+        for(int i=0;i<nums.size();i++){
+            if(nums[i]==one)
+                isOneRepeating = true;
+        }
+
+        if(isOneRepeating)
+            return {one, zero};
+        return {zero, one};
+    }
+};
+```
+
+> Time Complexity: O(n)
+>
+> Space Complexity: O(1)
+
+## Summary
+
+| Approach        | Time       | Space | Overflow Risk       | Modifies Array   | Simplicity  |
+| --------------- | ---------- | ----- | ------------------- | ---------------- | ----------- |
+| **Brute Force** | O(n log n) | O(1)  | No                  | Yes (if sorting) | Easy        |
+| **Hashing**     | O(n)       | O(n)  | No                  | No               | Easy        |
+| **Math**        | O(n)       | O(1)  | Yes (use long long) | No               | Medium      |
+| **XOR**         | O(n)       | O(1)  | No                  | No               | Medium-Hard |
