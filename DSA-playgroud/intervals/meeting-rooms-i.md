@@ -1,3 +1,9 @@
+# Meeting Rooms
+
+Given an array of meeting time intervals consisting of start and end times [(s1,e1),(s2,e2),...] (si < ei), determine if a person could attend all meetings.
+
+
+```cpp
 #include<iostream>
 using namespace std;
 
@@ -35,3 +41,8 @@ int main()
     cout<<"Test case 2: "<<intToBoolean[canAttendMeetings(intervals2)]<<endl;
     return 0;
 }
+```
+
+> Time Complexity: `O(N * logN)`
+>
+> Space Complexity: `O(N)`
