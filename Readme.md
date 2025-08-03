@@ -399,6 +399,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Non Overlapping Intervals](./DSA-playgroud/intervals/non-overlapping-intervals.md)
   - [Missing and Repeating](./DSA-playgroud/intervals/missing-and-repeating.md)
   - [Maximum Meetings](./DSA-playgroud/intervals/maximum-meetings.md)
+  - [Meeting rooms I](./DSA-playgroud/intervals/meeting-rooms-i.md)
 
 ## Contributions
 Pull requests are welcome! Feel free to raise issues or add more problems/solutions with clarity and proper structure.
