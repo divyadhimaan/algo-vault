@@ -400,6 +400,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Missing and Repeating](./DSA-playgroud/intervals/missing-and-repeating.md)
   - [Maximum Meetings](./DSA-playgroud/intervals/maximum-meetings.md)
   - [Meeting rooms I](./DSA-playgroud/intervals/meeting-rooms-i.md)
+  - [Meeting rooms II](./DSA-playgroud/intervals/meeting-rooms-ii.md)
 
 ## Contributions
 Pull requests are welcome! Feel free to raise issues or add more problems/solutions with clarity and proper structure.
