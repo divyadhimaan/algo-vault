@@ -226,6 +226,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - Linked List
   - [Reverse a Linked List](./SDE-200/linkedList/01-reverse-linkedList.md)
   - [Remove Nth node from end](./SDE-200/linkedList/04-remove-nth-node-from-end.md)
+  - [Detect Cycle in Linked List](./SDE-200/linkedList/08-detect-cycle-in-linked-list.md)
   - [Reverse in K groups](./SDE-200/linkedList/09-reverse-in-k-groups.md)
 
 - Linked List and Arrays
@@ -405,7 +406,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   
 - Day 6: Linked List
   - [Reverse a Linked List](./SDE-200/linkedList/01-reverse-linkedList.md)
-  - 
+  - [Detect Cycle for Linked List](./SDE-200/linkedList/08-detect-cycle-in-linked-list.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
