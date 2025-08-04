@@ -5,7 +5,7 @@ Practice [here](https://leetcode.com/problems/reverse-linked-list/)
 Given the `head` of a singly linked list, reverse the list, and return the reversed list.
 
 ## Iterative Solution
-Like flipping a chain link by link as you walk along it.
+`Analogy`: Like flipping a chain link by link as you walk along it.
 
 ```cpp
 class Solution {
@@ -33,7 +33,7 @@ public:
 
 ## Recursive Solution
 
-Like walking to the end of the chain, then flipping the links backward on your way back.
+`Analogy`: Like walking to the end of the chain, then flipping the links backward on your way back.
 ```cpp
 class Solution {
 public:
