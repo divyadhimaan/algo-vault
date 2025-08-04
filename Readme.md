@@ -224,6 +224,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Count Subarray with Given XOR](./SDE-200/Arrays/23-number-of-subarrays-with-given-xor.md)
 
 - Linked List
+  - [Reverse a Linked List](./SDE-200/linkedList/01-reverse-linkedList.md)
   - [Remove Nth node from end](./SDE-200/linkedList/04-remove-nth-node-from-end.md)
   - [Reverse in K groups](./SDE-200/linkedList/09-reverse-in-k-groups.md)
 
@@ -401,6 +402,16 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Maximum Meetings](./DSA-playgroud/intervals/maximum-meetings.md)
   - [Meeting rooms I](./DSA-playgroud/intervals/meeting-rooms-i.md)
   - [Meeting rooms II](./DSA-playgroud/intervals/meeting-rooms-ii.md)
+  
+- Day 6: Linked List
+  - [Reverse a Linked List](./SDE-200/linkedList/01-reverse-linkedList.md)
+  - 
+
+## Rule of Thumb
+- Simple problems (LL, arrays) → Know iterative first, recursive optional.
+- Tree/Graph DFS, backtracking → Recursive first, iterative optional.
+- Dynamic programming → Usually iterative (tabulation) preferred, recursive (memoization) to explain intuition.
+
 
 ## Contributions
 Pull requests are welcome! Feel free to raise issues or add more problems/solutions with clarity and proper structure.
