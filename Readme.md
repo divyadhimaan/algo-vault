@@ -408,6 +408,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Reverse a Linked List](./SDE-200/linkedList/01-reverse-linkedList.md)
   - [Detect Cycle for Linked List](./SDE-200/linkedList/08-detect-cycle-in-linked-list.md)
   - [Merge two sorted List](./SDE-200/linkedList/03-merge-two-sorted-lists.md)
+  - [Merge K sorted List](./DSA-playgroud/linkedList/merge-k-sorted-lists.md)
+  - 
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.

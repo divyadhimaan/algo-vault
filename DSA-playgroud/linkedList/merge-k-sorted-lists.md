@@ -7,6 +7,9 @@ Merge all the linked-lists into one sorted linked-list and return it.
 
 
 ## Brute Force
+
+`Analogy`: Like stacking books one at a time: merge the first two piles into one, then merge the next pile onto it, and so on. Each merge grows heavier and slower as the pile grows.
+
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -60,6 +63,8 @@ public:
 
 ## Optimal Approach
 
+`Analogy`: Like having K checkout lines: you always take the smallest item from the front of all lines using a priority queue.
+
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -105,3 +110,11 @@ public:
     }
 };
 ```
+
+
+## Comparison
+
+| Approach                 | Time Complexity | Space Complexity            | Analogy                                      |
+| ------------------------ | --------------- | --------------------------- | -------------------------------------------- |
+| Sequential Merge (Brute) | O(N·K)          | O(1) extra + O(N) recursion | Stack books one pile at a time               |
+| Min-Heap (Optimal)       | O(N log K)      | O(K)                        | Take the smallest front item from all queues |
