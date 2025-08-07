@@ -28,6 +28,36 @@ public:
 > 
 > Space Complexity - O(n)
 
+### B. Memoized Solution
+
+```cpp
+class Solution {
+public:
+    int climbStairsUtil(int idx, vector<int> &memo)
+    {
+        if(idx<0)
+            return 0;
+        if(idx==0)
+            return 1;
+
+        if(memo[idx] != -1)
+            return memo[idx];
+
+        return memo[idx] = climbStairsUtil(idx-1, memo) + climbStairsUtil(idx-2, memo);
+    }
+
+    int climbStairs(int n) {
+        vector<int> memo(n+1, -1);
+
+        return climbStairsUtil(n, memo);
+    }
+};
+```
+
+> Time Complexity - O(2^n) -> overlapping cases handled
+> 
+> Space Complexity - O(n)
+
 ### B. Tabulation Solution
 
 ```cpp

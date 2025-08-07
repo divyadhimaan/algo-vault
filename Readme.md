@@ -385,6 +385,9 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Missing Number](./DSA-playgroud/binary/missing-number.md)
   - [Reverse Bits](./DSA-playgroud/binary/reverse-bits.md)
 
+- Day 3: Dynamic Programming
+  - [Climbing Stairs](./DSA-playgroud/dynamic-programming/climbing-stairs.md)
+
 - Day 4: Graph
   - [Graph clone](./DSA-playgroud/graphs/clone-graph.md)
   - [Course Schedule](./DSA-playgroud/graphs/course_schedule-1.md)
