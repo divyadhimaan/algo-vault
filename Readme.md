@@ -410,6 +410,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Merge two sorted List](./SDE-200/linkedList/03-merge-two-sorted-lists.md)
   - [Merge K sorted List](./DSA-playgroud/linkedList/merge-k-sorted-lists.md)
   - [Remove nth node from end](./SDE-200/linkedList/04-remove-nth-node-from-end.md)
+  - [Reorder Linked List](./DSA-playgroud/linkedList/reorder-list.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
