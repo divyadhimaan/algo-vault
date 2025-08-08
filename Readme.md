@@ -406,6 +406,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Maximum Meetings](./DSA-playgroud/intervals/maximum-meetings.md)
   - [Meeting rooms I](./DSA-playgroud/intervals/meeting-rooms-i.md)
   - [Meeting rooms II](./DSA-playgroud/intervals/meeting-rooms-ii.md)
+  - [Meeting room III](./DSA-playgroud/intervals/meeting-rooms-iii.md)
   
 - Day 6: Linked List
   - [Reverse a Linked List](./SDE-200/linkedList/01-reverse-linkedList.md)
