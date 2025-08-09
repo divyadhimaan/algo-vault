@@ -100,7 +100,13 @@ public:
 >
 > Space Complexity: `O(n*A)`
 
-## DP Approach 1-D
+## DP Approach 1D
+
+like climbing stairs with different step sizes:
+- You want to reach the top step at height amount.
+- Each coin is like a step size you can take (e.g., 1-step, 3-step, 5-step).
+- dp[i] means: "What’s the least number of steps needed to exactly reach step i?"
+- You start with dp[0] = 0 because you’re already at the ground floor.
 
 ```cpp
 class Solution {
