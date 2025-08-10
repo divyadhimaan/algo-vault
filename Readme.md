@@ -167,7 +167,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [ Best Time to Buy and Sell Stocks - VI](./DSA-playgroud/dynamic-programming/buy-sell-stocks-vi.md)
 
 #### DP on LIS
-- [Longest Increasing Subsequence](./dynamic-programming/longest-increasing-sequence.md)
+- [Longest Increasing Subsequence](./DSA-playgroud/dynamic-programming/longest-increasing-subsequence.md)
 - [Print Longest Increasing Subsequence](./DSA-playgroud/dynamic-programming/print-longest-increasing-subsequence.md)
 - [Maximum Sum Increasing Subsequence](./DSA-playgroud/dynamic-programming/maximum-sum-increasing-subsequence.md)
 - [Maximum Length of Bitonic Subsequence](./DSA-playgroud/dynamic-programming/max-length-of-bitonic-subsequence.md)
