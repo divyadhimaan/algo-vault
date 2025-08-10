@@ -45,7 +45,7 @@ public:
     }
 };
 ```
-> Time Complexity: O(n*n)
+> Time Complexity: O(n<sup>2</sup>)
 > 
 > Space Compelexity: O(n)
 
