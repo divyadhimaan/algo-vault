@@ -389,6 +389,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Climbing Stairs](./DSA-playgroud/dynamic-programming/climbing-stairs.md)
   - [Coin Change](./DSA-playgroud/dynamic-programming/coin-change.md)
   - [Longest Increasing Subsequence](./DSA-playgroud/dynamic-programming/longest-increasing-subsequence.md)
+  - [Longest Common Subsequence](./DSA-playgroud/dynamic-programming/longest-common-subsequence.md)
 
 - Day 4: Graph
   - [Graph clone](./DSA-playgroud/graphs/clone-graph.md)
