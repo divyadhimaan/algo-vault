@@ -434,6 +434,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Set Matrix Zeros](./DSA-playgroud/misc/set-matrix-zeros.md)
   - [Spiral Matrix](./DSA-playgroud/misc/spiral-matrix.md)
   - [Rotate Image](./DSA-playgroud/misc/rotate-matrix.md)
+  - [Word Search](./DSA-playgroud/graphs/word-search.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
