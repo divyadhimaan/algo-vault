@@ -70,6 +70,10 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [Largest rectangle in a Histogram](./DSA-playgroud/stacks-and-queues/largest-rectangle-in-histogram.md)
 
 
+## Greedy
+- [Jump Game I](./DSA-playgroud/greedy/jump-game.md)
+- [Jump Game II](./DSA-playgroud/greedy/jump-game-ii.md)
+
 ## Sliding Window / Two Pointer
 
 - [Binary Array with sum](./DSA-playgroud/sliding-window-two-pointer/binary-array-with-sum.md)
@@ -235,7 +239,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Greedy
   - [Job Sequencing](./SDE-200/greedy/03-job-sequencing.md)
-  - [Jump Game I](./DSA-playgroud/greedy/jump-game.md)
+  
   
 - Recursion
   - [Combination Sum - I](./SDE-200/recursion-backtracking/03-combination-sum-I.md)
