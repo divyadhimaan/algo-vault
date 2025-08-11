@@ -400,6 +400,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [House Robber II](./DSA-playgroud/dynamic-programming/house-robber-ii.md)
   - [Unique Paths](./DSA-playgroud/dynamic-programming/unique-paths.md)
   - [Jump Game](./DSA-playgroud/greedy/jump-game.md)
+  - [Decode Ways]
+  - [Word Break]
 
 - Day 4: Graph
   - [Graph clone](./DSA-playgroud/graphs/clone-graph.md)
