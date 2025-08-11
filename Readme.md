@@ -432,6 +432,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Reorder Linked List](./DSA-playgroud/linkedList/reorder-list.md)
 - Day 7: Matrix
   - [Set Matrix Zeros](./DSA-playgroud/misc/set-matrix-zeros.md)
+  - [Spiral Matrix](./DSA-playgroud/misc/spiral-matrix.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
