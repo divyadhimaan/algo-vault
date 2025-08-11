@@ -44,3 +44,7 @@ public:
 > Space Complexity: O(T)
 
 
+
+## When to Use Tabulation
+- If the problem is about counting the number of ways rather than listing them.
+- If the interviewer specifically asks for iterative DP.
