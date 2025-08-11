@@ -391,6 +391,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Longest Increasing Subsequence](./DSA-playgroud/dynamic-programming/longest-increasing-subsequence.md)
   - [Longest Common Subsequence](./DSA-playgroud/dynamic-programming/longest-common-subsequence.md)
   - [Combination Sum](./SDE-200/recursion-backtracking/03-combination-sum-I.md)
+  - [House Robber I](./DSA-playgroud/dynamic-programming/house-robber-i.md)
+  - 
 
 - Day 4: Graph
   - [Graph clone](./DSA-playgroud/graphs/clone-graph.md)
