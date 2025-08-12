@@ -52,6 +52,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [kth rotation](./DSA-playgroud/binary-search/kth-rotation.md)
 - [Peak Element](./DSA-playgroud/binary-search/peak-element.md)
 
+
 ## Binary Trees
 
 #### Hard
