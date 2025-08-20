@@ -435,6 +435,20 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Spiral Matrix](./DSA-playgroud/misc/spiral-matrix.md)
   - [Rotate Image](./DSA-playgroud/misc/rotate-matrix.md)
   - [Word Search](./DSA-playgroud/graphs/word-search.md)
+- Day 9: Tree
+  - [Height of a Binary Tree]
+  - [Check if two trees are identical]
+  - [Invert/Flip Binary Tree]
+  - [Maximum Path sum]
+  - [Level Order traversal]
+  - [Serialize Deserialzie a Tree]
+  - [Subtree of Another Tree]
+  - [COnstruct Binary tree from postorder ans inorder]
+  - [Check if tree is a BST or BT]
+  - [Find kth Smallest element in BST]
+  - [Find LCA of two nodes in BST]
+  - [Implement Trie]
+  - [Implement Trie II]
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
