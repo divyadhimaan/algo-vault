@@ -56,6 +56,9 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 ## Binary Trees
 
+### Easy
+- [Height of Binary Tree](./DSA-playgroud/binary-trees/height-of-bt.md)
+
 #### Hard
 - [Lowest Common Ancestor](./DSA-playgroud/binary-trees/lca-in-binary-tree.md)
 - [All Nodes Distance K in Binary Tree](./DSA-playgroud/binary-trees/all-nodes-distance-k.md)
@@ -438,7 +441,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Rotate Image](./DSA-playgroud/misc/rotate-matrix.md)
   - [Word Search](./DSA-playgroud/graphs/word-search.md)
 - Day 9: Tree
-  - [Height of a Binary Tree]
+  - [Height of a Binary Tree](./DSA-playgroud/binary-trees/height-of-bt.md)
   - [Check if two trees are identical]
   - [Invert/Flip Binary Tree]
   - [Maximum Path sum]
