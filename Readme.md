@@ -59,6 +59,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 ### Easy
 - [Height of Binary Tree](./DSA-playgroud/binary-trees/height-of-bt.md)
 - [Same Tree](./DSA-playgroud/binary-trees/same-tree.md)
+- [Invert/Flip Binary tree](./DSA-playgroud/binary-trees/invert-tree.md)
 
 #### Hard
 - [Lowest Common Ancestor](./DSA-playgroud/binary-trees/lca-in-binary-tree.md)
@@ -444,7 +445,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - Day 9: Tree
   - [Height of a Binary Tree](./DSA-playgroud/binary-trees/height-of-bt.md)
   - [Check if two trees are identical](./DSA-playgroud/binary-trees/same-tree.md)
-  - [Invert/Flip Binary Tree]
+  - [Invert/Flip Binary Tree](./DSA-playgroud/binary-trees/invert-tree.md)
   - [Maximum Path sum]
   - [Level Order traversal]
   - [Serialize Deserialzie a Tree]
