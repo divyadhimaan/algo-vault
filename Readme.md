@@ -64,6 +64,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [Zigzag Level Order Traversal](./DSA-playgroud/binary-trees/level-order-in-spiral.md)
 
 #### Hard
+- [Maximum Path Sum](./DSA-playgroud/binary-trees/maximum-path-sum.md)
 - [Lowest Common Ancestor](./DSA-playgroud/binary-trees/lca-in-binary-tree.md)
 - [All Nodes Distance K in Binary Tree](./DSA-playgroud/binary-trees/all-nodes-distance-k.md)
 - [Burning Tree](./DSA-playgroud/binary-trees/burning-tree.md)
@@ -448,7 +449,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Height of a Binary Tree](./DSA-playgroud/binary-trees/height-of-bt.md)
   - [Check if two trees are identical](./DSA-playgroud/binary-trees/same-tree.md)
   - [Invert/Flip Binary Tree](./DSA-playgroud/binary-trees/invert-tree.md)
-  - [Maximum Path sum]
+  - [Maximum Path sum](./DSA-playgroud/binary-trees/maximum-path-sum.md)
   - [Level Order traversal](./DSA-playgroud/binary-trees/level-order-tranversal.md)
   - [Level Order traversal in Spiral Order](./DSA-playgroud/binary-trees/level-order-in-spiral.md)
   - [Serialize Deserialzie a Tree]
