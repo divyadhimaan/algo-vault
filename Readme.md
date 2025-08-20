@@ -455,7 +455,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Serialize Deserialize a Tree](./DSA-playgroud/binary-trees/serialize-deserialize.md)
   - [Subtree of Another Tree](./DSA-playgroud/binary-trees/check-subtree.md)
   - [Construct Binary tree from postorder ans inorder]
-  - [Check if tree is a BST or BT]
+  - [Check if tree is a BST or BT](./DSA-playgroud/binary-search-tree/validate-bst.md)
   - [Find kth Smallest element in BST]
   - [Find LCA of two nodes in BST]
   - [Implement Trie]

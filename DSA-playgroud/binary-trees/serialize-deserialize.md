@@ -105,3 +105,10 @@ public:
 // Codec ser, deser;
 // TreeNode* ans = deser.deserialize(ser.serialize(root));
 ```
+
+# Complexities
+
+| Function      | Time Complexity | Space Complexity |
+| ------------- | --------------- | ---------------- |
+| `serialize`   | O(n)            | O(n)             |
+| `deserialize` | O(n)            | O(n)             |
