@@ -453,7 +453,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Level Order traversal](./DSA-playgroud/binary-trees/level-order-tranversal.md)
   - [Level Order traversal in Spiral Order](./DSA-playgroud/binary-trees/level-order-in-spiral.md)
   - [Serialize Deserialzie a Tree]
-  - [Subtree of Another Tree]
+  - [Subtree of Another Tree](./DSA-playgroud/binary-trees/check-subtree.md)
   - [COnstruct Binary tree from postorder ans inorder]
   - [Check if tree is a BST or BT]
   - [Find kth Smallest element in BST]
