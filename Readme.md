@@ -60,6 +60,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [Height of Binary Tree](./DSA-playgroud/binary-trees/height-of-bt.md)
 - [Same Tree](./DSA-playgroud/binary-trees/same-tree.md)
 - [Invert/Flip Binary tree](./DSA-playgroud/binary-trees/invert-tree.md)
+- [Level Order Traversal](./DSA-playgroud/binary-trees/level-order-tranversal.md)
 
 #### Hard
 - [Lowest Common Ancestor](./DSA-playgroud/binary-trees/lca-in-binary-tree.md)
@@ -447,7 +448,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Check if two trees are identical](./DSA-playgroud/binary-trees/same-tree.md)
   - [Invert/Flip Binary Tree](./DSA-playgroud/binary-trees/invert-tree.md)
   - [Maximum Path sum]
-  - [Level Order traversal]
+  - [Level Order traversal](./DSA-playgroud/binary-trees/level-order-tranversal.md)
+  - [Level Order traversal in Spiral Order]
   - [Serialize Deserialzie a Tree]
   - [Subtree of Another Tree]
   - [COnstruct Binary tree from postorder ans inorder]
