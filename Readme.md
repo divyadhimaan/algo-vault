@@ -61,6 +61,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [Same Tree](./DSA-playgroud/binary-trees/same-tree.md)
 - [Invert/Flip Binary tree](./DSA-playgroud/binary-trees/invert-tree.md)
 - [Level Order Traversal](./DSA-playgroud/binary-trees/level-order-tranversal.md)
+- [Zigzag Level Order Traversal](./DSA-playgroud/binary-trees/level-order-in-spiral.md)
 
 #### Hard
 - [Lowest Common Ancestor](./DSA-playgroud/binary-trees/lca-in-binary-tree.md)
@@ -449,7 +450,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Invert/Flip Binary Tree](./DSA-playgroud/binary-trees/invert-tree.md)
   - [Maximum Path sum]
   - [Level Order traversal](./DSA-playgroud/binary-trees/level-order-tranversal.md)
-  - [Level Order traversal in Spiral Order]
+  - [Level Order traversal in Spiral Order](./DSA-playgroud/binary-trees/level-order-in-spiral.md)
   - [Serialize Deserialzie a Tree]
   - [Subtree of Another Tree]
   - [COnstruct Binary tree from postorder ans inorder]

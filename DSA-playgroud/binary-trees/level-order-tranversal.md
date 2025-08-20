@@ -4,6 +4,11 @@ Practice [here](https://leetcode.com/problems/binary-tree-level-order-traversal/
 
 Given the `root` of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).
 
+
+## Implementation
+
+Visit all nodes at level 0 → then level 1 → then level 2 → …
+> Use a queue to process nodes level-by-level, pushing children as you go, so that all nodes at the same depth are visited together.
 ```cpp
 /**
  * Definition for a binary tree node.
