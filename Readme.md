@@ -458,7 +458,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Check if tree is a BST or BT](./DSA-playgroud/binary-search-tree/validate-bst.md)
   - [Find kth Smallest element in BST](./DSA-playgroud/binary-search-tree/kth-smallest-in-bst.md)
   - [Find LCA of two nodes in BST](./DSA-playgroud/binary-search-tree/lowest-common-ansector-in-bst.md)
-  - [Implement Trie]
+  - [Implement Trie](./SDE-200/trie/01-implement-trie.md)
   - [Implement Trie II]
 
 ## Rule of Thumb
