@@ -457,7 +457,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Construct Binary tree from postorder ans inorder]
   - [Check if tree is a BST or BT](./DSA-playgroud/binary-search-tree/validate-bst.md)
   - [Find kth Smallest element in BST](./DSA-playgroud/binary-search-tree/kth-smallest-in-bst.md)
-  - [Find LCA of two nodes in BST]
+  - [Find LCA of two nodes in BST](./DSA-playgroud/binary-search-tree/lowest-common-ansector-in-bst.md)
   - [Implement Trie]
   - [Implement Trie II]
 
