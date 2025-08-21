@@ -459,7 +459,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Find kth Smallest element in BST](./DSA-playgroud/binary-search-tree/kth-smallest-in-bst.md)
   - [Find LCA of two nodes in BST](./DSA-playgroud/binary-search-tree/lowest-common-ansector-in-bst.md)
   - [Implement Trie](./SDE-200/trie/01-implement-trie.md)
-  - [Implement Trie II]
+  - [Implement Trie II](./SDE-200/trie/02-implement-trie-ii.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
