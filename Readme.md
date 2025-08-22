@@ -83,6 +83,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 ## Greedy
 - [Jump Game I](./DSA-playgroud/greedy/jump-game.md)
 - [Jump Game II](./DSA-playgroud/greedy/jump-game-ii.md)
+- [Jump Game III](./DSA-playgroud/greedy/jump-game-iii.md)
 
 ## Sliding Window / Two Pointer
 
