@@ -15,6 +15,8 @@ The idea is to split the numbers into two halves:
 - Median is:
   - Top of leftHeap if total count is odd.
   - Average of tops of both heaps if total count is even.
+  
+  > Maintain two heaps (max-heap for left half, min-heap for right half) so numbers are balanced around the median, and median is always at the top(s).
 
 ```cpp
 class MedianFinder {
