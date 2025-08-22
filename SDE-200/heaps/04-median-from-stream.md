@@ -18,6 +18,8 @@ The idea is to split the numbers into two halves:
   
   > Maintain two heaps (max-heap for left half, min-heap for right half) so numbers are balanced around the median, and median is always at the top(s).
 
+## Implementation
+
 ```cpp
 class MedianFinder {
 public:
