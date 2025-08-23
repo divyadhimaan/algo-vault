@@ -448,6 +448,15 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Word Search](./DSA-playgroud/graphs/word-search.md)
 - Day 8: Strings
   - [Longest Substring Without Repeating Characters](./DSA-playgroud/sliding-window-two-pointer/longest-substr-without-repeat.md)
+  - [Longest Repeating Character Replacement]
+  - [Minimum Window Substring]
+  - [Valid Anagrams](./DSA-playgroud/strings/valid-anagrams.md)
+  - [Group Anagrams]
+  - [Check for Balanced Paranthesis]
+  - [Check Palindrome]
+  - [Longest Palindromic Substring]
+  - [Palindromic Substring]
+  - [Encode and Decode]
 - Day 9: Tree
   - [Height of a Binary Tree](./DSA-playgroud/binary-trees/height-of-bt.md)
   - [Check if two trees are identical](./DSA-playgroud/binary-trees/same-tree.md)
