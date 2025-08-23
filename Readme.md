@@ -451,7 +451,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Longest Repeating Character Replacement]
   - [Minimum Window Substring]
   - [Valid Anagrams](./DSA-playgroud/strings/valid-anagrams.md)
-  - [Group Anagrams]
+  - [Group Anagrams](./DSA-playgroud/hashing-sorting/group-anagram.md)
   - [Check for Balanced Paranthesis]
   - [Check Palindrome]
   - [Longest Palindromic Substring]

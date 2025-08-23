@@ -48,7 +48,7 @@ public:
                 count[c - 'a']++;
 
             // Create a unique key from character counts
-            string key;
+            string key="";
             for (int i = 0; i < 26; ++i) {
                 key += "#" + to_string(count[i]); // '#' to separate digits properly
             }
