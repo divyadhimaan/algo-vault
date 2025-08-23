@@ -441,11 +441,13 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Merge K sorted List](./DSA-playgroud/linkedList/merge-k-sorted-lists.md)
   - [Remove nth node from end](./SDE-200/linkedList/04-remove-nth-node-from-end.md)
   - [Reorder Linked List](./DSA-playgroud/linkedList/reorder-list.md)
+
 - Day 7: Matrix
   - [Set Matrix Zeros](./DSA-playgroud/misc/set-matrix-zeros.md)
   - [Spiral Matrix](./DSA-playgroud/misc/spiral-matrix.md)
   - [Rotate Image](./DSA-playgroud/misc/rotate-matrix.md)
   - [Word Search](./DSA-playgroud/graphs/word-search.md)
+
 - Day 8: Strings
   - [Longest Substring Without Repeating Characters](./DSA-playgroud/sliding-window-two-pointer/longest-substr-without-repeat.md)
   - [Longest Repeating Character Replacement]
@@ -453,10 +455,11 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Valid Anagrams](./DSA-playgroud/strings/valid-anagrams.md)
   - [Group Anagrams](./DSA-playgroud/hashing-sorting/group-anagram.md)
   - [Check for Balanced Paranthesis](./SDE-200/stacksAndQueues/05-balanced-parenthesis.md)
-  - [Check Palindrome]
+  - [Check Palindrome](./DSA-playgroud/strings/check-palindrome.md)
   - [Longest Palindromic Substring]
   - [Palindromic Substring]
   - [Encode and Decode]
+
 - Day 9: Tree
   - [Height of a Binary Tree](./DSA-playgroud/binary-trees/height-of-bt.md)
   - [Check if two trees are identical](./DSA-playgroud/binary-trees/same-tree.md)
