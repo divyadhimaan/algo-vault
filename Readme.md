@@ -458,7 +458,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Check Palindrome](./DSA-playgroud/strings/check-palindrome.md)
   - [Longest Palindromic Substring]
   - [Palindromic Substring]
-  - [Encode and Decode]
+  - [Encode and Decode](./DSA-playgroud/strings/encode-and-decode-string.md)
 
 - Day 9: Tree
   - [Height of a Binary Tree](./DSA-playgroud/binary-trees/height-of-bt.md)
