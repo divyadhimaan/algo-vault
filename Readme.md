@@ -452,7 +452,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Minimum Window Substring]
   - [Valid Anagrams](./DSA-playgroud/strings/valid-anagrams.md)
   - [Group Anagrams](./DSA-playgroud/hashing-sorting/group-anagram.md)
-  - [Check for Balanced Paranthesis]
+  - [Check for Balanced Paranthesis](./SDE-200/stacksAndQueues/05-balanced-parenthesis.md)
   - [Check Palindrome]
   - [Longest Palindromic Substring]
   - [Palindromic Substring]
