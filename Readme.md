@@ -451,7 +451,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - Day 8: Strings
   - [Longest Substring Without Repeating Characters](./DSA-playgroud/sliding-window-two-pointer/longest-substr-without-repeat.md)
   - [Longest Repeating Character Replacement]
-  - [Minimum Window Substring]
+  - [Minimum Window Substring](./DSA-playgroud/strings/minimum-window-substrings.md)
   - [Valid Anagrams](./DSA-playgroud/strings/valid-anagrams.md)
   - [Group Anagrams](./DSA-playgroud/hashing-sorting/group-anagram.md)
   - [Check for Balanced Paranthesis](./SDE-200/stacksAndQueues/05-balanced-parenthesis.md)
