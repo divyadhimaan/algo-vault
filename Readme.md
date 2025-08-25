@@ -456,7 +456,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Group Anagrams](./DSA-playgroud/hashing-sorting/group-anagram.md)
   - [Check for Balanced Paranthesis](./SDE-200/stacksAndQueues/05-balanced-parenthesis.md)
   - [Check Palindrome](./DSA-playgroud/strings/check-palindrome.md)
-  - [Longest Palindromic Substring]
+  - [Longest Palindromic Substring](./DSA-playgroud/sliding-window-two-pointer/longest-palindromic-substring.md)*
   - [Palindromic Substring](./DSA-playgroud/strings/palindromic-substrings.md)*
   - [Encode and Decode](./DSA-playgroud/strings/encode-and-decode-string.md)
 
