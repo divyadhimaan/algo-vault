@@ -49,28 +49,22 @@ public:
 ```cpp
 class Solution {
 public:
-
-    string longestPalindrome(string s) {
+    int countSubstrings(string s) {
         int n = s.size();
-        
-        int startIdx=0, longestLen  = 1;
+        int palindromicCount=0;
 
         auto expand = [&](int low, int high){
-            while(low >= 0 && high < n && s[low] == s[high]){
-                int windowSize = high-low+1;
-                if(windowSize > longestLen){
-                    startIdx = low, longestLen = windowSize;
-                }
-                low--, high++;
+            while(low>=0 && high<n && s[low]==s[high]){
+                palindromicCount++;
+                low--,high++;
             }
         };
-        
-        for(int i=0;i<n;i++)
-        {
+
+        for(int i=0;i<n;i++){
             expand(i,i);
             expand(i,i+1);
         }
-        return s.substr(startIdx, longestLen);
+        return palindromicCount;
     }
 };
 ```
