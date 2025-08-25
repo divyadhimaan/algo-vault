@@ -412,7 +412,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Unique Paths](./DSA-playgroud/dynamic-programming/unique-paths.md)
   - [Jump Game](./DSA-playgroud/greedy/jump-game.md)
   - [Decode Ways](./DSA-playgroud/dynamic-programming/decode-ways.md)*
-  - [Word Break]
+  - [Word Break](./DSA-playgroud/dynamic-programming/word-break.md)*
 
 - Day 4: Graph
   - [Graph clone](./DSA-playgroud/graphs/clone-graph.md)
