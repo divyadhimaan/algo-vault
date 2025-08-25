@@ -1,4 +1,4 @@
-# Plaindromic Substring
+# Palindromic Substring
 
 Practice [here](https://leetcode.com/problems/palindromic-substrings/description/)
 
