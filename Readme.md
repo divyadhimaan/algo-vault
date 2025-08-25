@@ -450,7 +450,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Day 8: Strings
   - [Longest Substring Without Repeating Characters](./DSA-playgroud/sliding-window-two-pointer/longest-substr-without-repeat.md)
-  - [Longest Repeating Character Replacement](./DSA-playgroud/sliding-window-two-pointer/longest-repeating-character-replacement.md)
+  - [Longest Repeating Character Replacement](./DSA-playgroud/sliding-window-two-pointer/longest-repeating-character-replacement.md)*
   - [Minimum Window Substring](./DSA-playgroud/strings/minimum-window-substrings.md)
   - [Valid Anagrams](./DSA-playgroud/strings/valid-anagrams.md)
   - [Group Anagrams](./DSA-playgroud/hashing-sorting/group-anagram.md)
