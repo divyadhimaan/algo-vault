@@ -475,7 +475,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Find LCA of two nodes in BST](./DSA-playgroud/binary-search-tree/lowest-common-ansector-in-bst.md)
   - [Implement Trie](./SDE-200/trie/01-implement-trie.md)
   - [Implement Trie II](./SDE-200/trie/02-implement-trie-ii.md)
-- Day 10: Head
+- Day 10: Heap
   - [K most frequent elements](./SDE-200/heaps/06-top-k-frequent.md)
   - [Find Median from Data Stream](./SDE-200/heaps/04-median-from-stream.md)
   
