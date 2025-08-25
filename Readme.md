@@ -457,7 +457,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Check for Balanced Paranthesis](./SDE-200/stacksAndQueues/05-balanced-parenthesis.md)
   - [Check Palindrome](./DSA-playgroud/strings/check-palindrome.md)
   - [Longest Palindromic Substring]
-  - [Palindromic Substring](./DSA-playgroud/strings/palindrome-substrings.md)*
+  - [Palindromic Substring](./DSA-playgroud/strings/palindromic-substrings.md)*
   - [Encode and Decode](./DSA-playgroud/strings/encode-and-decode-string.md)
 
 - Day 9: Tree
