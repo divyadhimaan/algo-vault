@@ -15,7 +15,42 @@ A brute-force approach would count frequencies and sort, but that takes O(n log 
   - Use a min-heap (priority queue) of size k to track the top K elements by frequency.
   - At the end, the heap contains the K most frequent elements.
 
+## Implementation using map-heap
 
+```cpp
+typedef pair<int,int> pii;
+
+class Solution {
+public:
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+        priority_queue<pii> pq;
+
+        unordered_map<int,int> mp;
+
+        // O(n)
+        for(int num: nums)
+            mp[num]++;
+
+        //O(nlogn)
+        for(auto x: mp)
+            pq.push({x.second, x.first});
+
+        //O(k)
+        vector<int> ans;
+        for(int i=0;i<k;i++){
+            ans.push_back(pq.top().second);
+            pq.pop();
+        }
+        return ans;
+    }
+};
+```
+
+> Time Complexity: O(n log n)
+>
+> Space Complexity: O(n)
+
+## Implementation using Min-heap
 ```cpp
 typedef pair<int,int> pii;
 class Solution {
@@ -49,4 +84,8 @@ public:
 >
 > Space Complexity: O(n)
 
- 
+## Summmary
+
+> Approach 1 (Max Heap) is simpler but less efficient for large n.
+> 
+> Approach 2 (Min Heap) is more optimized, especially when k << n, since it avoids unnecessary heap storage.
