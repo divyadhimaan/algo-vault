@@ -8,7 +8,37 @@ Given an integer array nums and an integer `k`, return the `k` most frequent ele
 
 We need to find the top K frequent elements in the array.
 
-A brute-force approach would count frequencies and sort, but that takes O(n log n) time.
+A brute-force approach would count frequencies and sort, but that takes O(m log m) time, where m-> unique elements.
+
+```cpp
+class Solution {
+public:
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+        unordered_map<int,int> mp;
+        for (int num : nums)
+            mp[num]++;
+
+        // store into vector
+        vector<pair<int,int>> freqList;
+        for (auto &x : mp)
+            freqList.push_back({x.first, x.second});
+
+        // sort by frequency (descending)
+        sort(freqList.begin(), freqList.end(), 
+             [](pair<int,int> &a, pair<int,int> &b) {
+                 return a.second > b.second;
+             });
+
+        // pick top k
+        vector<int> ans;
+        for (int i = 0; i < k; i++)
+            ans.push_back(freqList[i].first);
+
+        return ans;
+    }
+};
+
+```
 
 - Instead, we:
   - Count frequencies using a hash map.
