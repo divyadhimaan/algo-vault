@@ -112,7 +112,7 @@ We can instead use counting / frequency array.
 > - findMedian: O(R) where R=101 (fixed, constant).
 > Overall: O(1) amortized.
 
-
+---
 > Q: If 99% of all integer numbers from the stream are in the range [0, 100], how would you optimize your solution?
 
 A: So most numbers are small (bounded range), but occasionally you may get outliers (very large or negative).
