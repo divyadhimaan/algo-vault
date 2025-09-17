@@ -42,8 +42,7 @@ public:
 
 - Instead, we:
   - Count frequencies using a hash map.
-  - Use a min-heap (priority queue) of size k to track the top K elements by frequency.
-  - At the end, the heap contains the K most frequent elements.
+  - Use a heap (priority queue) to track the top K elements by frequency.
 
 ## Implementation using map-heap
 
