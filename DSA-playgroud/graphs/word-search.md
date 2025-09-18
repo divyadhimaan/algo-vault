@@ -68,3 +68,51 @@ public:
 | Trie + DFS         | Multiple word search                 | `O(M*N + total chars)` | 🔥 Efficient pruning             |
 | BFS                | Level-order or shortest-path variant | Similar                | ❌ Usually slower                 |
 | DFS + Memoization  | Repeating board patterns             | Higher space           | 🧠 Rarely worth for this problem |
+
+
+## Follow Up
+
+Could you use search pruning to make your solution faster with a larger board?
+
+1. Early frequency pruning (pre-check):
+   - Count the frequency of each character in the board.
+   - If the word contains a character more times than the board, return false immediately.
+   - Example:
+     - Word = "zzz", board has only 1 z. → no need to DFS at all.
+2. Reverse search optimization:
+   - When the word has characters with different frequencies, start DFS from the rarest character in the board.
+   - This reduces branching because you start from a location with fewer possible matches.
+   - Example:
+     - Word = "ABAABZ", board has only one Z. → start search from Z.
+
+```cpp
+bool exist(vector<vector<char>>& board, string word) {
+    unordered_map<char,int> freqBoard, freqWord;
+
+    for(auto &row: board)
+        for(char c: row)
+            freqBoard[c]++;
+
+    for(char c: word)
+        freqWord[c]++;
+
+    // Early frequency pruning (pre-check)
+    for(auto &p: freqWord) {
+        if(freqBoard[p.first] < p.second) 
+            return false; // word impossible
+    }
+
+    // Optionally: if last char is rarer than first char in board, reverse word
+    if(freqBoard[word[0]] > freqBoard[word.back()])
+        reverse(word.begin(), word.end());
+
+    // Now do your DFS
+    for(int i=0;i<board.size();i++) {
+        for(int j=0;j<board[0].size();j++) {
+            if(find(board, word, 0, i, j))
+                return true;
+        }
+    }
+    return false;
+}
+```
