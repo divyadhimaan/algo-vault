@@ -66,3 +66,76 @@ class Solution {
 > - Adjacency List: O(V + E)
 > - Visited Array: O(V)
 > - Call Stack (DFS): O(V) in worst case (if graph is a long chain)
+
+## Union Find
+
+Better for dynamic connectivity problems, Edges added on the go.
+
+```cpp
+class UnionFind{
+public:
+  vector<int> parent, rank;
+  int components;
+
+  UnionFind(int n)
+  {
+    parent.resize(n);
+    rank.resize(n);
+    components=n;
+    for(int i=0;i<n;i++)
+      parent[i]=i;
+  }
+
+  int find(int x)
+  {
+    if(x==parent[x])
+      return x;
+
+    return parent[x] = find(parent[x]);
+  }
+
+  void Unite(int x, int y)
+  {
+    int xRep = find(x);
+    int yRep = find(y);
+
+    if(xRep == yRep)
+      return;
+
+    if(rank[xRep]> rank[yRep])
+      parent[yRep] = xRep;
+    else if(rank[xRep] < rank[yRep])
+      parent[xRep] = yRep;
+    else  {
+      parent[yRep] = xRep;
+      rank[xRep]++;
+    }
+
+    components--;
+  }
+};
+
+class Solution {
+  public:
+
+    int findNumberOfComponent(int V, vector<vector<int>> &edges) {
+      UnionFind uf(V);
+        for(auto edge: edges)
+        {
+          int u = edge[0];
+          int v = edge[1];
+
+          uf.Unite(u,v);
+        }
+
+        return uf.components;
+    }
+};
+```
+
+> Time Complexity: Union-Find with path compression + union by rank:
+> - find ~ O(α(N)) (inverse Ackermann, almost constant)
+> - union ~ O(α(N))
+> - For E edges, V nodes → O(V + E) time, 
+> 
+> O(V) space.
