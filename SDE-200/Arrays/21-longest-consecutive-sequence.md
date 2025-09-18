@@ -83,3 +83,100 @@ public:
 > Time Complexity: O(n)
 >
 > Space Complexity: O(1)
+
+## Union Find 
+
+- The problem asks for the longest consecutive sequence.
+- Normally, we solve this with a HashSet in O(n). But Union-Find also works:
+  - Treat each number as a node.
+  - Union two numbers if they are consecutive (x and x+1).
+- At the end, the largest connected component size = longest consecutive sequence.
+
+
+### approach
+
+1. Remove duplicates from nums (since multiple same numbers don’t add length).
+2. Map each number → index (map<int,int>).
+3. Initialize Union-Find with n nodes.
+4. For each number x, if x+1 exists, union their indices.
+5. Keep track of component sizes.
+6. Return maximum size across all components.
+
+```cpp
+class UnionFind{
+public:
+    vector<int> par;
+    vector<int> size;
+
+    UnionFind(int n)
+    {
+        par.resize(n);
+        size.resize(n,1);
+        for(int i=0;i<n;i++)
+            par[i]=i;
+    }
+
+    int find(int x)
+    {
+        if(par[x]==x)
+            return x;
+        
+        return par[x] = find(par[x]);
+    }
+
+    void Union(int x, int y)
+    {
+        int xRep = find(x);
+        int yRep = find(y);
+
+        if(xRep == yRep)
+            return;
+
+        if(size[xRep] < size[yRep])
+            swap(xRep, yRep);
+
+        par[yRep] = xRep;
+        size[xRep] += size[yRep];
+    }
+
+    int getSize(int x)
+    {
+        return size[find(x)];
+    }
+};
+
+class Solution {
+public:
+    int longestConsecutive(vector<int>& nums) {
+        unordered_map<int,int> map;
+
+        int idx=0;
+        for(int num: nums)
+        {
+            if(map.count(num))
+                continue;
+            map[num] = idx++;
+        }
+
+
+        UnionFind uf(idx);
+
+        for(auto &[num, i]: map){
+            if(map.count(num+1))
+                uf.Union(i, map[num+1]);
+        }
+
+        int longest=0;
+        for(int i=0;i<idx;i++){
+            longest = max(longest, uf.getSize(i));
+        }
+        return longest;
+    }
+};
+```
+
+> Time Complexity: O(n)
+> - Insert into hashmap: O(n)
+> - Union-Find ops (amortized): O(α(n)) ≈ O(1).
+> 
+> Space: O(n)
