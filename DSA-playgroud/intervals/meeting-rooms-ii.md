@@ -4,6 +4,17 @@ Given an array of meeting time intervals consisting of start and end times `[[s1
 
 > (0,8),(8,10) is not conflict at 8
 
+> Test Case 1
+> - Input: intervals = [(0,40),(5,10),(15,20)]
+> 
+> - Output: 2
+
+> Test Case 2
+> - Input: intervals = [(4,9)]
+> 
+> - Output: 1
+
+
 
 ## Intiution
 - Think of each meeting as an event on a timeline:
