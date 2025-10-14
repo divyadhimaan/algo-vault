@@ -256,6 +256,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Subset II](./SDE-200/recursion-backtracking/02-subset-ii.md)
   - [Combination Sum - I](./SDE-200/recursion-backtracking/03-combination-sum-I.md)
   - [Combination Sum - II](./SDE-200/recursion-backtracking/04-combination-sum-II.md)
+  - [Palindrome Partitioning](./SDE-200/recursion-backtracking/05-palindrome-partitioning.md)
   
 - Recursion and Backtracking
   - [N Queen](./SDE-200/recursion-backtracking/08-n-queens.md)
@@ -294,7 +295,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   
 - Strings
   - [Reverse Words in a String](./SDE-200/Strings/01-reverse-words-in-string.md)
-  - [Longest Plaindromic Substring](./SDE-200/Strings/02-longest-palindrome-substring.md)
+  - [Longest Palindromic Substring](./SDE-200/Strings/02-longest-palindrome-substring.md)
   - [Roman to Int and vice-versa](./SDE-200/Strings/03-roman-to-int.md)
   - [Longest Common Prefix](./SDE-200/Strings/05-longest-common-prefix.md)
   - [String to integer](./SDE-200/Strings/04-implement-atoi.md)

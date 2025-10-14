@@ -21,3 +21,4 @@
 - Recursion questions
   1. [Combination Sum - I](../SDE-200/recursion-backtracking/03-combination-sum-I.md)
   2. [Combination Sum - II](../SDE-200/recursion-backtracking/04-combination-sum-II.md)
+  3. [Palindrome Partitioning](../SDE-200/recursion-backtracking/05-palindrome-partitioning.md)
