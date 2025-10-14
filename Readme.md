@@ -250,9 +250,10 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Greedy
   - [Job Sequencing](./SDE-200/greedy/03-job-sequencing.md)
-  
-  
+
 - Recursion
+  - [Subset Sum](./DSA-playgroud/dynamic-programming/subset-sum-equal-target.md)
+  - [Subset II](./SDE-200/recursion-backtracking/02-subset-ii.md)
   - [Combination Sum - I](./SDE-200/recursion-backtracking/03-combination-sum-I.md)
   - [Combination Sum - II](./SDE-200/recursion-backtracking/04-combination-sum-II.md)
   
