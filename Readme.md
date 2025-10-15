@@ -264,6 +264,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Sudoku Solver](./SDE-200/recursion-backtracking/09-sudoku-solver.md)
   - [M coloring problem](./SDE-200/recursion-backtracking/10-m-coloring-problem.md)
   - [Rat in a maze](./SDE-200/recursion-backtracking/11-rat-in-a-maze.md)
+  - [Word Break](./DSA-playgroud/dynamic-programming/word-break.md)
 
 - Binary Search
 - 
