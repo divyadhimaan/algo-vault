@@ -22,3 +22,24 @@
   1. [Combination Sum - I](../SDE-200/recursion-backtracking/03-combination-sum-I.md)
   2. [Combination Sum - II](../SDE-200/recursion-backtracking/04-combination-sum-II.md)
   3. [Palindrome Partitioning](../SDE-200/recursion-backtracking/05-palindrome-partitioning.md)
+- Revised Design patterns
+  - Factory
+    - interface for creating objects
+    - allows subclasses to alter type of object creation
+    - encapsulation of object creation layer.
+  - Singleton
+    - Only one Instance of a class
+    - Controlled access to the instance
+    - avoid multiple instantiation
+    - definition
+      ```java
+        public static synchronized Classname getInstance(){
+          if(instance == null)
+            instance = new Classname();
+          return instance;
+        }
+- Revised SOLID principles
+
+### Day 3: 
+- Recursion questions
+  1. [Permutations of a String](../SDE-200/recursion-backtracking/07-get-all-permutations.md)
