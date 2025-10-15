@@ -262,6 +262,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Permutation of String](./SDE-200/recursion-backtracking/07-get-all-permutations.md)
   - [N Queen](./SDE-200/recursion-backtracking/08-n-queens.md)
   - [Sudoku Solver](./SDE-200/recursion-backtracking/09-sudoku-solver.md)
+  - [Rat in a maze](./SDE-200/recursion-backtracking/11-rat-in-a-maze.md)
 
 - Binary Search
 - 
