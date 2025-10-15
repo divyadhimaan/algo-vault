@@ -259,6 +259,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Palindrome Partitioning](./SDE-200/recursion-backtracking/05-palindrome-partitioning.md)
   
 - Recursion and Backtracking
+  - [Permutation of String](./SDE-200/recursion-backtracking/07-get-all-permutations.md)
   - [N Queen](./SDE-200/recursion-backtracking/08-n-queens.md)
 
 - Binary Search
