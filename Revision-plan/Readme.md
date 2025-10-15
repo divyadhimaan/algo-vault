@@ -44,3 +44,4 @@
 - Recursion questions
   1. [Permutations of a String](../SDE-200/recursion-backtracking/07-get-all-permutations.md)
   2. [N Queens](../SDE-200/recursion-backtracking/08-n-queens.md)
+  3. [Sudoku Solver](../SDE-200/recursion-backtracking/09-sudoku-solver.md)
