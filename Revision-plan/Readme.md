@@ -48,3 +48,8 @@
   4. [Rat in a maze](../SDE-200/recursion-backtracking/11-rat-in-a-maze.md)
   5. [M coloring problem](../SDE-200/recursion-backtracking/10-m-coloring-problem.md)
   6. [Word Break](../DSA-playgroud/dynamic-programming/word-break.md)
+- Strategy
+
+### Day 4:
+- Observer pattern
+
