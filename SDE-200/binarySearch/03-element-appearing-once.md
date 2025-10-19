@@ -26,9 +26,9 @@ public:
 
 ## Better - Binary Search
 
-Since every element in the sorted array appears exactly twice except for the single element, we know that if we take any element at an even index (0-indexed), the next element should be the same. 
-
-Similarly, if we take any element at an odd index, the previous element should be the same. 
+Since every element in the sorted array appears exactly twice except for the single element, we know that:
+- if we take any element at an even index (0-indexed), the next element should be the same.  
+- if we take any element at an odd index, the previous element should be the same. 
 
 Therefore, we can use binary search to compare the middle element with its adjacent elements to determine which side of the array the single element is on.
 
