@@ -231,7 +231,10 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 # Crack the Code: 200 Essential DSA Questions
 
-- Arrays
+- Arrays III
+  - [Search in 2D matrix](./SDE-200/Arrays/13-search-in-matrix.md)
+
+- Arrays IV
   - [2 Sum](./SDE-200/Arrays/19-2-sum.md)
   - [4 Sum](./SDE-200/Arrays/20-4-sum.md)
   - [Longest Consecutive Sequence](./SDE-200/Arrays/21-longest-consecutive-sequence.md)
