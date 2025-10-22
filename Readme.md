@@ -233,6 +233,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Arrays III
   - [Search in 2D matrix](./SDE-200/Arrays/13-search-in-matrix.md)
+  - [Grid Unique Paths](./DSA-playgroud/dynamic-programming/unique-paths.md)
 
 - Arrays IV
   - [2 Sum](./SDE-200/Arrays/19-2-sum.md)
