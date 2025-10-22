@@ -227,8 +227,6 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 ---
 
-
-
 # Crack the Code: 200 Essential DSA Questions
 
 - Arrays III
