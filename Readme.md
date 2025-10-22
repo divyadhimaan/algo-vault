@@ -243,6 +243,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Linked List
   - [Reverse a Linked List](./SDE-200/linkedList/01-reverse-linkedList.md)
+  - [Find middle of linked list](./SDE-200/linkedList/02-middle-of-linked-list.md)
   - [Remove Nth node from end](./SDE-200/linkedList/04-remove-nth-node-from-end.md)
   - [Detect Cycle in Linked List](./SDE-200/linkedList/08-detect-cycle-in-linked-list.md)
   - [Reverse in K groups](./SDE-200/linkedList/09-reverse-in-k-groups.md)
