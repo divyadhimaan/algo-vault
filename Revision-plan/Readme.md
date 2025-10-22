@@ -53,3 +53,9 @@
 ### Day 4:
 - Observer pattern
 
+
+## Week 2
+#### Day 3:
+- Arrays
+  - 
+
