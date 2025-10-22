@@ -15,12 +15,12 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 ## 🎯 Where to Start?
 
-| 👩‍💻 You are...                                  | 👉 Start Here                                           |
-|--------------------------------------------------|---------------------------------------------------------|
-| 🧱 A beginner starting DSA                        | [Topic-wise Problems](#topic-wise-problems)             |
+| 👩‍💻 You are...                                | 👉 Start Here                                                              |
+|-------------------------------------------------|----------------------------------------------------------------------------|
+| 🧱 A beginner starting DSA                      | [Topic-wise Problems](#topic-wise-problems)                                |
 | ⏳ Want to cover all concepts in fewer questions | [200 Essential DSA Questions](#crack-the-code-200-essential-dsa-questions) |
-| 🕒 Have limited time to revise                   | [20-Day Revision Plan](#20-days-dsa-revision-plan)     |
-| 🕒 Last Minute Interview revision                   | [Blind 75 Problems](#blind-75)     |
+| 🕒 Have limited time to revise                  | [20-Day Revision Plan](#20-days-dsa-revision-plan)                         |
+| 🕒 Last Minute Interview revision               | [Blind 75 Problems](#blind-75)                                             |
 
 # Topic Wise Problems
 
