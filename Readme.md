@@ -247,6 +247,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Merge two sorted List](./SDE-200/linkedList/03-merge-two-sorted-lists.md)
   - [Remove Nth node from end](./SDE-200/linkedList/04-remove-nth-node-from-end.md)
   - [Add two numbers as Linked List](./SDE-200/linkedList/05-add-two-number-as-ll.md)
+  - [Delete node O(1)](./SDE-200/linkedList/06-delete-node-in-ll-O(1).md)
   - [Detect Cycle in Linked List](./SDE-200/linkedList/08-detect-cycle-in-linked-list.md)
   - [Reverse in K groups](./SDE-200/linkedList/09-reverse-in-k-groups.md)
 
