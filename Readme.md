@@ -251,6 +251,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Find interjection of Y linked list](./SDE-200/linkedList/07-find-interjection-of-y-ll.md)
   - [Detect Cycle in Linked List](./SDE-200/linkedList/08-detect-cycle-in-linked-list.md)
   - [Reverse in K groups](./SDE-200/linkedList/09-reverse-in-k-groups.md)
+  - [Check Palindrome in LL](./SDE-200/linkedList/10-check-palindrome-ll.md)
 
 - Linked List and Arrays
   - [3 Sum](./SDE-200/LinkedListAndArrays/03-3-sum.md)
