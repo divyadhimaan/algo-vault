@@ -12,37 +12,48 @@ Implement a Queue using an Array. Queries in the Queue are of the following type
 ## Solution
 
 ```cpp
-/*
-
-The structure of the class is
-class MyQueue {
-private:
-    int arr[100005];
-    int front;
-    int rear;
-
-public :
-    MyQueue(){front=0;rear=0;}
-    void push(int);
-    int pop();
-};
- */
-
-// Function to push an element x in a queue.
-void MyQueue ::push(int x) {
-    arr[rear++] = x;
+class ArrayQueue {
+public:
+    int* arrayQueue;
+    int firstIdx;
+    int lastIdx;
+    int capacity;
+    ArrayQueue() {
+        capacity = 1000;
+        arrayQueue = new int[capacity];
+        firstIdx=0;
+        lastIdx=-1;
+    }
     
-}
+    void push(int x) {
+        if(lastIdx == capacity-1)
+            return;
+        arrayQueue[++lastIdx] = x;
+    }
+    
+    int pop() {
+        if(isEmpty()){
+            return -1;
+        }
+        int ele = arrayQueue[firstIdx++];
 
-// Function to pop an element from queue and return that element.
-int MyQueue ::pop() {
-    if(front==rear)
-        return -1;
-        
-    int val = arr[front];
-    front=(front+1)%100005;
-    return val;
-}
+        if(firstIdx > lastIdx){
+            firstIdx=0;
+            lastIdx=-1;
+        }
+        return ele;
+    }
+    
+    int peek() {
+        if(isEmpty())
+            return -1;
+        return arrayQueue[firstIdx];
+    }
+    
+    bool isEmpty() {
+        return lastIdx==-1;
+    }
+};
 ```
 
 > Time Complexity: 
