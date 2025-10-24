@@ -12,33 +12,43 @@ The `push()` method takes one argument, an integer 'x' to be pushed into the sta
 ## Solution
 
 ```cpp
-/*
-class MyStack
-{
-private:
-    int arr[1000];
-    int top;
+class ArrayStack {
 public:
-    MyStack(){top=-1;}
-    int pop();
-    void push(int);
-};
-*/
-
-void MyStack ::push(int x) {
-    arr[++top] = x;
-}
-
-// Function to remove an item from top of the stack.
-int MyStack ::pop() {
-    if(top != -1)
-    {
-        int num = arr[top];
-        top--;
-        return num;
+    int* stackArray;
+    int topIdx;
+    int capacity;
+    ArrayStack() {
+        capacity = 10000;
+        stackArray = new int[capacity];
+        topIdx = -1;
     }
-    return -1;
-}
+    
+    void push(int x) {
+        if(topIdx >= capacity){
+            cout<<"Overflow"<<endl;
+            return;
+        }
+        stackArray[++topIdx] = x;
+    }
+    
+    int pop() {
+        if(isEmpty()){
+            return -1;
+        }
+        return stackArray[topIdx--];
+    }
+    
+    int top() {
+        if(isEmpty()){
+            return -1;
+        }
+        return stackArray[topIdx];
+    }
+    
+    bool isEmpty() {
+        return topIdx==-1;
+    }
+};
 ```
 
 > Time Complexity: 
