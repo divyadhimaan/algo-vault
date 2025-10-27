@@ -80,6 +80,54 @@ vector<int> bellmanFord(int V, vector<vector<int>>& edges, int src) {
 
 ```
 
+
 > Time Complexity: `O(V*E)`, where V = no. of vertices and E = no. of Edges.
 >
 >Space Complexity: `O(V)` for the distance array which stores the minimized distances.
+
+## If Path is needed
+
+```cpp
+vector<int> bellman_ford(int V, vector<vector<int>>& edges, int S, vector<int> &parent) {
+        vector<int> dist(V, 1e9);
+        dist[S]=0;
+
+        for(int i=0; i <= V-1; i++){
+            for(auto edge: edges){
+                int u = edge[0];
+                int v = edge[1];
+                int wt = edge[2];
+        
+                if(dist[u]!= 1e9 && dist[v] > wt + dist[u]){
+                    dist[v] = wt + dist[u];
+                    parent[v] = u;
+                }
+            }
+        }
+
+        for(auto edge: edges){
+                int u = edge[0];
+                int v = edge[1];
+                int wt = edge[2];
+        
+                if(dist[u]!= 1e9 && dist[v] > wt + dist[u]){
+                    return {-1};
+                }
+            }
+
+        return dist;
+	}
+
+vector<int> print_bellman_ford(vector<int> parent, int S, int D){
+    vector<int> path;
+    if(parent[D]==-1 && S!=D)
+        return path;
+
+    for(int curr=D;curr!=-1;curr=parent[curr]){
+        path.push_back(curr);
+    }
+
+    reverse(path.begin(),path.end());
+    return path;
+}
+```

@@ -79,6 +79,49 @@ vector<int> dijkstra(vector<vector<pair<int, int>>> &adj, int src) {
 >
 > Space Complexity: `O( |E| + |V| )` { for priority queue and dist array } + O( |V| ) { for storing the final path } Where E = Number of edges and V = Number of Nodes.
 
+## If path is needed
+
+```cpp
+vector<int> dijkstra(int V, vector<vector<int>> adj[], int S, vector<int> &parent) {
+    priority_queue<pii,vector<pii>, greater<pii>> pq;
+    vector<int> dist(V, 1e9);
+
+    pq.push({0,S});
+    dist[S]=0;
+    parent[S]=-1;
+
+    while(!pq.empty()){
+        auto [wt, node] = pq.top();
+        pq.pop();
+
+        for(auto it: adj[node]){
+            int adjNode = it[0];
+            int edgeWt = it[1];
+
+            if(dist[adjNode] > wt + edgeWt){
+                dist[adjNode] = wt + edgeWt;
+                parent[adjNode] = node;
+                pq.push({dist[adjNode], adjNode});
+            }
+        }
+    }
+    return dist;
+}
+
+vector<int> getPath(vector<int> parent, int S, int D){
+    vector<int> path;
+    if(parent[D]==-1 && S!=D)
+        return path;
+
+    for(int curr=D;curr!=-1;curr=parent[curr]){
+        path.push_back(curr);
+    }
+
+    reverse(path.begin(),path.end());
+    return path;
+}
+```
+
 
 ## Complexity Justification
 
