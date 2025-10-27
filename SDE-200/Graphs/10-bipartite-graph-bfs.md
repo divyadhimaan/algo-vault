@@ -9,18 +9,18 @@ Practice [Link](https://leetcode.com/problems/number-of-islands/description/)
 
 ## Sample 1
 
-![Alt text](/images/graph-k.png)
+![Alt text](../images/graph-k.png)
 
 > output: BIPARTITE
 > 
-> ![Alt text](/images/graph-l.png)
+> ![Alt text](../images/graph-l.png)
 
 ## Sample 2
 
-![Alt text](/images/graph-m.png)
+![Alt text](../images/graph-m.png)
 > output: NOT BIPARTITE
 > 
-> ![Alt text](/images/graph-n.png)
+> ![Alt text](../images/graph-n.png)
 
 ## Observations
 
