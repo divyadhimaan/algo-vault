@@ -118,7 +118,7 @@ vector<int> bellman_ford(int V, vector<vector<int>>& edges, int S, vector<int> &
         return dist;
 	}
 
-vector<int> print_bellman_ford(vector<int> parent, int S, int D){
+vector<int> getPath(vector<int> parent, int S, int D){
     vector<int> path;
     if(parent[D]==-1 && S!=D)
         return path;
