@@ -75,6 +75,25 @@ vector<int> dijkstra(vector<vector<pair<int, int>>> &adj, int src) {
 
 ```
 
-> Time Complexity: `O( E log(V) )` { for Dijkstra’s Algorithm } + O(V) { for backtracking in order to find the parent for each node } Where E = Number of edges and V = Number of Nodes.
+> Time Complexity: `O( (E+V) log(V) )` { for Dijkstra’s Algorithm } Where E = Number of edges and V = Number of Nodes.
 >
 > Space Complexity: `O( |E| + |V| )` { for priority queue and dist array } + O( |V| ) { for storing the final path } Where E = Number of edges and V = Number of Nodes.
+
+
+## Complexity Justification
+
+1. Each vertex is extracted from heap at most once (the final shortest distance)
+   - V pop operations
+   - Each pop: O(log V) (heap size ≤ V)
+   - Total pop cost = O(V log V)
+
+2. Each edge can lead to at most one relaxation and push 
+   - When we relax an edge (u → v), we push (dist[v], v) into the heap.
+   - E push operations
+   - Each push: O(log V) (heap insertion)
+   - Total push cost = O(E log V)
+
+| Graph Type         | Time Complexity |
+|--------------------|-----------------|
+| **Sparse** (E ≈ V) | `O(V log V)`    |
+| **Dense** (E ≈ V²) | `O(V² log V)`   | 
