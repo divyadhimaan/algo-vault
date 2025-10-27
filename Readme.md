@@ -129,6 +129,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - [Word Ladder](./DSA-playgroud/graphs/word-ladder-1)
 - [Alien Dictionary](./DSA-playgroud/graphs/alien-dictionary.md)
+- [Minimum Operations to make Network Connected](./DSA-playgroud/graphs/number-of-operations-to-make-connected-graph.md)
 
 ## Dynamic Programming
 
