@@ -341,7 +341,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   [BFS](./SDE-200/Graphs/06-detect-cycle-in-directed-graph-bfs.md), [DFS](./SDE-200/Graphs/05-detect-cycle-in-directed-graph-dfs.md)
   - Topological Sort [BFS](./SDE-200/Graphs/07-topological-sort-bfs.md), [DFS](./SDE-200/Graphs/08-topological-sort-dfs.md)
   - [Number of islands](./SDE-200/Graphs/09-number-of-islands.md)
-  - Bipartite Graph [BFS](./SDE-200/Graphs/10-bipartite-graph), [DFS](./SDE-200/Graphs/11-bipartite-graph)
+  - Bipartite Graph [BFS](./SDE-200/Graphs/10-bipartite-graph-bfs.md), [DFS](./SDE-200/Graphs/11-bipartite-graph-dfs.md)
   - [Strongly Connected Components](./SDE-200/Graphs/12-strongly-connected-components.md)
   - Shortest Path
     - [Dijkstra Algorithm](./SDE-200/Graphs/13-dijkstra-algo.md)
