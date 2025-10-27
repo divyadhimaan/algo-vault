@@ -4,11 +4,11 @@ Practice [Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directe
 
 Given an directed graph with V vertices and E edges, check whether it contains any cycle or not. 
 
-![Graph with no cycle](/images/graph-c.png)
+![Graph with no cycle](../images/graph-c.png)
 > No Cycle
 
 
-![graph with cycle](/images/graph-d.png)
+![graph with cycle](../images/graph-d.png)
 > Cycle exists
 
 ## Note
@@ -16,7 +16,7 @@ Graph can also be disconnected -> Check for every node as source/starting node.
 
 Cannot just use visited node as a check for cycle. Following case shows that `2` is visited and not the parent for `3`, but still cycle not there.
 
-![exception case](/images/graph-e.png)
+![exception case](../images/graph-e.png)
 
 ## Intiution
 - Cycle exists only if there is a `back-edge` (node points to one of its ancestors in DFS tree)

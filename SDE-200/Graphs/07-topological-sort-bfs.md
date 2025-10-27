@@ -7,7 +7,7 @@ Topological Sort is a linear ordering of nodes such that if edge `u -> v` exists
 In-degree of a node: Number of incoming edges for a node
 
 
-![Alt text](/images/graph-h.png)
+![Alt text](../images/graph-h.png)
 > In-degree of node 0: 0
 >
 > In-degree of node 1: 1
@@ -18,7 +18,7 @@ In-degree of a node: Number of incoming edges for a node
 
 ## Sample
 
-![Alt text](/images/graph-f.png)
+![Alt text](../images/graph-f.png)
 > [0,1,4,2,3]
 
 
@@ -30,7 +30,7 @@ This can be possible only for `DAG ( Directed acyclic graph)` because in an undi
 
 
 
-![exception-case](/images/graph-g.png)
+![exception-case](../images/graph-g.png)
 
 ## Intiution
 

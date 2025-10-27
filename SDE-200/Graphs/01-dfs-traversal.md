@@ -5,7 +5,7 @@ Practice [Link](https://www.geeksforgeeks.org/problems/depth-first-traversal-for
 Given a graph G, 
 Depth First Search traverses all nodes by going ahead to all the levels, when no more nodes are left in current path, it backtracks.
 
-![Alt text](/images/dfs-traversal.png)
+![Alt text](../images/dfs-traversal.png)
 
 > Output: [1,2,5,6,3,4,8,7]
 

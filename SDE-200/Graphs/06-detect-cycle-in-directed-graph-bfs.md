@@ -4,11 +4,11 @@ Practice [Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directe
 
 Given an directed graph with V vertices and E edges, check whether it contains any cycle or not. 
 
-![Graph with no cycle](/images/graph-c.png)
+![Graph with no cycle](../images/graph-c.png)
 > No Cycle
 
 
-![graph with cycle](/images/graph-d.png)
+![graph with cycle](../images/graph-d.png)
 > Cycle exists
 
 ## Note

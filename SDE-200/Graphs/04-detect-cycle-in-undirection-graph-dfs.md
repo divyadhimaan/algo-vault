@@ -4,11 +4,11 @@ Practice [Link](https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undire
 
 Given an undirected graph with V vertices and E edges, check whether it contains any cycle or not. 
 
-![Graph with no cycle](/images/graph-b.png)
+![Graph with no cycle](../images/graph-b.png)
 > No Cycle
 
 
-![graph with cycle](/images/graph-a.png)
+![graph with cycle](../images/graph-a.png)
 > Cycle exists
 
 ## Note

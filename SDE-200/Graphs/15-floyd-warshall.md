@@ -14,7 +14,7 @@ Practice [Link](https://www.geeksforgeeks.org/problems/implementing-floyd-warsha
 
 For every pair of vertices `i` and `j`, there will be `k` vertex as intermediate in the path.
 
-![Alt text](/images/graph-p.png)
+![Alt text](../images/graph-p.png)
 
 ## Alogrithm
 

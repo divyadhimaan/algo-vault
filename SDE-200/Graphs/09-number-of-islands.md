@@ -10,9 +10,9 @@ An island is surrounded by water and is formed by connecting adjacent lands hori
 Practice [Link](https://leetcode.com/problems/number-of-islands/description/)
 
 ## Sample
-![Alt text](/images/graph-i.png)
+![Alt text](../images/graph-i.png)
 > OUTPUT: 4
-> ![Alt text](/images/graph-j.png)
+> ![Alt text](../images/graph-j.png)
 
 
 

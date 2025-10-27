@@ -12,7 +12,7 @@ Practice [Link](https://www.geeksforgeeks.org/problems/distance-from-the-source-
 
 A negative weight cycle is a cycle in a graph, whose sum of edge weights is negative. If you traverse the cycle, the total weight accumulated would be less than zero.
 
-![Alt text](/images/graph-o.png)
+![Alt text](../images/graph-o.png)
 
 In the presence of negative weight cycle in the graph, the shortest path doesn’t exist because with each traversal of the cycle shortest path keeps decreasing.
 

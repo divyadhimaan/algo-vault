@@ -4,7 +4,7 @@ Practice [Link](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)
 
 Give a graph G, Breadth First Search is a level order traversal of a graph.
 
-![Alt text](/images/bfs-traversal.png)
+![Alt text](../images/bfs-traversal.png)
 
 > Output: [1,2,5,3,4]
 
