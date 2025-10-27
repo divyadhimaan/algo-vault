@@ -1,6 +1,8 @@
 # Strongly Connected Components - Kosaraju's algorithm
 
-A component is called a Strongly Connected Component(SCC) only if for every possible pair of vertices `(u, v)` inside that component, `u` is reachable from `v` and `v` is reachable from `u`.
+> A component is called a Strongly Connected Component(SCC) only if for every possible pair of vertices `(u, v)` inside that component, `u` is reachable from `v` and `v` is reachable from `u`.
+
+Note: Strongly connected components(SCC) are only valid for directed graphs.
 
 Practice [Link](https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card)
 
