@@ -241,6 +241,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Longest Consecutive Sequence](./SDE-200/Arrays/21-longest-consecutive-sequence.md)
   - [Largest subarray with 0 sum](./SDE-200/Arrays/22-largest-subarray-with-sum-zero.md)
   - [Count Subarray with Given XOR](./SDE-200/Arrays/23-number-of-subarrays-with-given-xor.md)
+  - [Largest Substring Without Repeat](./SDE-200/Arrays/24-longest-substring-without-repetition.md)
 
 - Linked List
   - [Reverse a Linked List](./SDE-200/linkedList/01-reverse-linkedList.md)
