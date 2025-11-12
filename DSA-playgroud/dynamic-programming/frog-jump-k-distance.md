@@ -35,7 +35,8 @@ class Solution {
 ```
 
 > Time Complexity: O(k^n)
-
+>
+> Space Complexity: O(n)
 
 ### Memoized Version
 
@@ -103,3 +104,39 @@ int minimizeCost(int k, vector<int>& arr) {
 > Time Complexity: O(k*n)
 >
 > Space Complexity: O(n)
+
+
+### Space Optimized tabulation
+
+- Store in a rolling fashion
+```cpp
+class Solution {
+public:
+
+    int frogJump(vector<int>& heights, int k) {
+        int n = heights.size();
+        vector<int> dp(k, 0);
+
+        for(int idx=1; idx<n; idx++)
+        {
+            int minCost = INT_MAX;
+            for(int jumpSize = 1; jumpSize <= k; jumpSize++){
+                if(idx-jumpSize >=0 ){
+                    int prevIdx = (idx-jumpSize) % k;
+                    int jump = abs(heights[idx]- heights[idx-jumpSize]) + dp[prevIdx];
+                    minCost = min(minCost, jump);
+                }
+            }
+            dp[idx%k] = minCost;
+        }
+
+
+        return dp[(n-1)%k];
+    }
+};
+
+```
+
+> Time Complexity: O(k*n)
+>
+> Space Complexity: O(k)
