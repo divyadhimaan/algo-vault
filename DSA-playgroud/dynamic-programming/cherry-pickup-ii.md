@@ -79,3 +79,7 @@ public:
     }
 };
 ```
+
+> Time Complexity:`O(R*C*C)`, where R is the number of rows and C is the number of columns, due to the memoization and the nested loops in maxChocolatesUtil.
+>
+> Space Complexity:`O(R*C*C)` due to the memoization table and the recursive stack space can be ignored since it is less than R*C*C.
