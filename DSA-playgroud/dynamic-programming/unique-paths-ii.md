@@ -129,3 +129,44 @@ public:
 > 
 > Space Complexity - O(m * n)
  
+
+### C. Space Optimized Tabulation
+
+```cpp
+class Solution {
+public:
+    int uniquePathsWithObstacles(vector<vector<int>>& matrix) {
+        int m = matrix.size();
+        int n = matrix[0].size();
+
+        if(matrix[0][0]==1)
+            return 0;
+
+        vector<int> prev(n, 0), curr(n,0);
+        prev[0] = 1;
+
+        for(int j=1;j<n;j++)
+            if(matrix[0][j] != 1)
+               prev[j] = prev[j-1];
+
+        for(int i=1;i<m;i++){
+            fill(curr.begin(), curr.end(), 0);
+            for(int j=0;j<n;j++){
+                if(matrix[i][j] == 1)
+                    curr[j] = 0;
+                else if(j==0)
+                    curr[j] = prev[j];
+                else
+                    curr[j] = prev[j] + curr[j-1];
+
+            }
+            prev = curr;
+        }
+        return prev[n-1];
+    }
+};
+```
+
+> Time Complexity - O(m * n)
+>
+> Space Complexity - O(n)
