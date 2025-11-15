@@ -143,6 +143,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [House Robber II](./DSA-playgroud/dynamic-programming/house-robber-ii.md)
 - [House Robber III](./DSA-playgroud/dynamic-programming/house-robber-iii.md)
 
+
 #### 2D/3D DP - DP on Grids
 
 - [Ninja Training](./DSA-playgroud/dynamic-programming/ninja-training.md)
