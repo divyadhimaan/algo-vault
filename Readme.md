@@ -171,10 +171,12 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [Print all longest common subsequence](./DSA-playgroud/dynamic-programming/print-all-lcs.md)
 - [Longest Common Substring](./DSA-playgroud/dynamic-programming/longest-common-substring.md)
 - [Longest Palindromic Subsequence](./DSA-playgroud/dynamic-programming/longest-palindromic-subsequence.md)
-- [Edit Distance](./DSA-playgroud/dynamic-programming/edit-distance.md)
+- [Minimum insertions or deletions to convert string A to B](./DSA-playgroud/dynamic-programming/minimum-insertions-deletion-to-make-stringB.md)
 - [Minimum Insertion Steps to make string palindrome](./DSA-playgroud/dynamic-programming/minimum-insertion-for-palindrome.md)
 - [Delete Operation for Two Strings](./dynamic-programming//delete-operations-on-two-strings.md)
 - [Restore IP Addresses](./DSA-playgroud/dynamic-programming/valid-ip-address.md)
+- [Edit Distance](./DSA-playgroud/dynamic-programming/edit-distance.md)
+
 
 #### DP on Stocks
 - [ Best Time to Buy and Sell Stocks - I](./DSA-playgroud/dynamic-programming/buy-sell-stocks-i.md)
