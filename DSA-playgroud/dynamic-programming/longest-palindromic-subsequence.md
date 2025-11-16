@@ -7,7 +7,7 @@ Given a string `s`, find the longest palindromic subsequence's length in s.
 
 A subsequence is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.
 
-## Intiution
+## Intuition
 
 - The Longest Palindromic Subsequence of a string S can be found by computing the Longest Common Subsequence (LCS) between `s` and its reversed version (`s'`).
 - Since a palindrome reads the same forward and backward, the LCS of `s` and `s'` gives the longest subsequence that appears in both and is a palindrome
@@ -127,7 +127,6 @@ public:
     }
 
     int longestPalindromeSubseq(string s) {
-        
         string str = reverse(s);
         return lcs(s, str);
     }
