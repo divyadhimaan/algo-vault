@@ -173,6 +173,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [Longest Palindromic Subsequence](./DSA-playgroud/dynamic-programming/longest-palindromic-subsequence.md)
 - [Minimum insertions or deletions to convert string A to B](./DSA-playgroud/dynamic-programming/minimum-insertions-deletion-to-make-stringB.md)
 - [Minimum Insertion Steps to make string palindrome](./DSA-playgroud/dynamic-programming/minimum-insertion-for-palindrome.md)
+- [Shortest common supersequence](./DSA-playgroud/dynamic-programming/shortest-supersequence.md)
 - [Delete Operation for Two Strings](./dynamic-programming//delete-operations-on-two-strings.md)
 - [Restore IP Addresses](./DSA-playgroud/dynamic-programming/valid-ip-address.md)
 - [Edit Distance](./DSA-playgroud/dynamic-programming/edit-distance.md)
