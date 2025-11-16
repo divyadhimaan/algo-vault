@@ -196,4 +196,4 @@ public:
 
 > Time Complexity: O(n^2)
 > 
-> Space Compelexity: O(n)
+> Space Complexity: O(n)
