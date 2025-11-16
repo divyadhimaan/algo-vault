@@ -169,6 +169,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - [Longest Common Subsequences](./DSA-playgroud/dynamic-programming/longest-common-subsequence.md)
 - [Print all longest common subsequence](./DSA-playgroud/dynamic-programming/print-all-lcs.md)
+- [Longest Common Substring]()
 - [Edit Distance](./DSA-playgroud/dynamic-programming/edit-distance.md)
 - [Longest Palindromic Subsequence](./DSA-playgroud/dynamic-programming/longest-palindromic-subsequence.md)
 - [Minimum Insertion Steps to make string palindrome](./DSA-playgroud/dynamic-programming/minimum-insertion-for-palindrome.md)

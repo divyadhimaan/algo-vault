@@ -9,6 +9,16 @@ A subsequence of a string is a new string generated from the original string wit
 For example, `"ace"` is a subsequence of `"abcde"`.
 A common subsequence of two strings is a subsequence that is common to both strings.
 
+## Intuition
+
+- We try to match characters of both strings while maintaining the relative order.
+- The key idea:
+  - If last characters match, they definitely belong to the LCS → so include them and move both pointers left.
+  - If they don't match, we have two options:
+    - Skip a character from string1
+    - Skip a character from string2
+And choose the option giving the longer answer.
+
 
 ## Brute Force
 
@@ -76,6 +86,8 @@ public:
 
 
 ## DP Approach
+
+> dp[i][j] = LCS of first i characters of text1 and first j characters of text2
 
 
 ```cpp
