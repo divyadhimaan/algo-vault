@@ -17,52 +17,49 @@ Graph can also be disconnected -> Check for every node as source/starting node.
 Intiution:
 - Start from one node(unvisited) and explore all nodes.
 - Use visited array to keep track of explored nodes.
+- Also use parent, as we are dealing with undirected graph, to avoid false positive cycle detection.
 - If during traversal we find a node that is already explored/visited, it means that we came from two different paths and explored same node and thus the cycle exists. 
 - Continue traversal, until all nodes are visited or we find a cycle.
 
 
 
 ```
-bool checkCycleBFS(vector<vector<int>>& adj, vector<bool> &visited, int source)
-{
-    queue<int> q;
-    q.push(source);
-    
-    while(!q.empty())
-    {
-        int curr = q.front();
-        q.pop();
-        
-        if(visited[curr])
-            return true;
-            
-        visited[curr] = true;
+class Solution{
+public:
 
-        
-        for(auto dest: adj[curr])
-        {
-            if(!visited[dest])
-            {
-                q.push(dest);
+    bool isCycleBFS(vector<int> adj[], int src, vector<bool> &visited){
+        queue<pair<int,int>> q;
+        q.push({src, -1});
+        visited[src] = true;
+
+        while(!q.empty()){
+            auto [currNode, parentNode] = q.front();
+            q.pop();
+
+            for(auto nextNode: adj[currNode]){
+                if(!visited[nextNode]){
+                    visited[nextNode] = true;
+                    q.push({nextNode, currNode});
+                }
+                else if(nextNode != parentNode){
+                    return true;
+                }
             }
-        }
-    }
-    
-    return false;
-}
 
-// Function to detect cycle in an undirected graph.
-bool isCycle(vector<vector<int>>& adj) {
-    vector<bool> visited(adj.size(), false);
-    
-    // Check every node to avoid  missing disconnected components
-    for(int i=0;i<adj.size();i++)
-    {
-        if(!visited[i] && checkCycleBFS(adj, visited, i))
-            return true;
+        }
+        return false;
     }
-    return false;
-}
+
+    bool isCycle(int V, vector<int> adj[]) {
+        vector<bool> visited(V, false);
+
+        for(int i=0;i<V;i++){
+            if(!visited[i] && isCycleBFS(adj, i, visited))
+                return true;
+        }
+        return false;
+    }
+};
 ```
 
 
