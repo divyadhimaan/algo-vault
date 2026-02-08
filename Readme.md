@@ -510,6 +510,10 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [Remove Duplicates from linked list](./algo-expert/linkedlist/1-remove-duplicates.md)
 - [Middle Node](./algo-expert/linkedlist/2-find-mid-node.md)
 
+
+## Array Marathon
+- [Largest Element](./array-marathon/largest-element.md)
+
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
 - Tree/Graph DFS, backtracking → Recursive first, iterative optional.
