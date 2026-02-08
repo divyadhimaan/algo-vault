@@ -5,7 +5,10 @@ Given an array of integers nums, return the value of the largest element in the 
 ## Sorting
 - Sort the array
 - Return the last element
-- TC: O(nlogn)
+
+> Time Complexity: O(nlogn)
+>
+> Space Complexity: O(1)
 
 ## Linear Scan
 

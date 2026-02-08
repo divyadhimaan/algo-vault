@@ -513,6 +513,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 ## Array Marathon
 - [Largest Element](./array-marathon/largest-element.md)
+- [Second Largest Element](./array-marathon/sec-largest.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
