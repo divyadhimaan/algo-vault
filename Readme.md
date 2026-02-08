@@ -507,7 +507,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 ### LinkedList
 
-- 
+- [Remove Duplicates from linked list](./algo-expert/linkedlist/1-remove-duplicates.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
