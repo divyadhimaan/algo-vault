@@ -9,8 +9,51 @@ Each LinkedList node has an integer value as well as a next node pointing to the
 > Sample Output
 > 1 - 3 - 4 - 5 - 6 
 
+## Solution 1: Hash set
 
-## Solution 1: Two Pointers
+- Use Hash set to store the discovered nodes
+- If a value appears again → remove that node.
+
+```cpp
+#include <unordered_set>
+using namespace std;
+
+LinkedList* removeDuplicatesFromLinkedList(LinkedList* linkedList) {
+    if (!linkedList) return nullptr;
+
+    unordered_set<int> seen;
+
+    LinkedList* curr = linkedList;
+    LinkedList* prev = nullptr;
+
+    while (curr) {
+        // If value already exists, remove node
+        if (seen.count(curr->value)) {
+            prev->next = curr->next;
+        }
+        // If first time seen
+        else {
+            seen.insert(curr->value);
+            prev = curr;
+        }
+
+        curr = curr->next;
+    }
+
+    return linkedList;
+}
+
+```
+
+> Time Complexity: O(n)
+>
+> Space Complexity: O(n)
+
+## Solution 2: Two Pointers
+
+- We use two pointers:
+  - front → moves ahead and checks every node.
+  - node → always stays at the last unique value we have kept.
 
 ```cpp
 using namespace std;
@@ -47,4 +90,45 @@ LinkedList* removeDuplicatesFromLinkedList(LinkedList* linkedList) {
 
 > Time Complexity: O(n)
 > 
+> Space Complexity: O(1)
+
+
+## Solution 3: Single Pointer
+
+- If the current node and the next node have the same value,
+- just skip the next node.
+
+```cpp
+using namespace std;
+
+// This is an input struct. Do not edit.
+class LinkedList {
+ public:
+  int value;
+  LinkedList* next = nullptr;
+
+  LinkedList(int value) { this->value = value; }
+};
+
+LinkedList* removeDuplicatesFromLinkedList(LinkedList* linkedList) {
+  if(!linkedList)
+    return nullptr;
+
+  LinkedList* node = linkedList;
+
+  while(node->next){
+    if(node->value == node->next->value){
+      node->next = node->next->next;
+      continue;
+    }
+    node = node->next;
+  }
+
+  return linkedList;
+}
+
+```
+
+> Time Complexity: O(n)
+>
 > Space Complexity: O(1)
