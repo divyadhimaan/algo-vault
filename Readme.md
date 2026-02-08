@@ -327,7 +327,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - Binary Trees - III
   - [ Binary Tree Maximum Path Sum](./SDE-200/binaryTree-III/01-max-path-sum.md)
   
-- Binary Trees Miscelleneous
+- Binary Trees Miscellaneous
   - [Flatten Binary Tree to LL](./SDE-200/binaryTreesMisc/01-binary-tree-to-linkedlist.md)
   - [Find Median from a Data Stream](./SDE-200/binaryTreesMisc/02-find-median-in-stream.md)
   - [Kth Largest in a Stream](./SDE-200/binaryTreesMisc/03-kth-largest-in-stream.md)
@@ -502,6 +502,13 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [K most frequent elements](./SDE-200/heaps/06-top-k-frequent.md)
   - [Find Median from Data Stream](./SDE-200/heaps/04-median-from-stream.md)
   
+
+## AlgoExpert
+
+### LinkedList
+
+- 
+
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
 - Tree/Graph DFS, backtracking → Recursive first, iterative optional.
