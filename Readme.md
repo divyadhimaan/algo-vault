@@ -519,6 +519,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [Left Rotate by One](./array-marathon/rotate-array-by-one.md)
 - [Left Rotate by K](./array-marathon/rotate-array-by-k.md)
 - [Linear Search](./array-marathon/linear-search.md)
+- [Union of Sorted Arrays](./array-marathon/union-of-sorted-arr.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
