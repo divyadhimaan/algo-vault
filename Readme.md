@@ -518,6 +518,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [Remove Duplicates from sorted array](./array-marathon/remove-duplicates-in-sorted-array.md)
 - [Left Rotate by One](./array-marathon/rotate-array-by-one.md)
 - [Left Rotate by K](./array-marathon/rotate-array-by-k.md)
+- [Linear Search](./array-marathon/linear-search.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
