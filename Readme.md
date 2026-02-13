@@ -512,19 +512,24 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 
 ## Array Marathon
-- [Largest Element](array-marathon/easy-tuf/largest-element.md)
-- [Second Largest Element](array-marathon/easy-tuf/sec-largest.md)
-- [Check array sorted](array-marathon/easy-tuf/check-array-is-sorted.md)
-- [Remove Duplicates from sorted array](array-marathon/easy-tuf/remove-duplicates-in-sorted-array.md)
-- [Left Rotate by One](array-marathon/easy-tuf/rotate-array-by-one.md)
-- [Left Rotate by K](array-marathon/easy-tuf/rotate-array-by-k.md)
-- [Linear Search](array-marathon/easy-tuf/linear-search.md)
-- [Union of Sorted Arrays](array-marathon/easy-tuf/union-of-sorted-arr.md)
-- [Missing Number](array-marathon/easy-tuf/missing-number.md)
-- [Maximum Consecutive Ones](array-marathon/easy-tuf/maximum-consecutive-ones.md)
-- [Single Number](array-marathon/easy-tuf/single-number.md)
-- [Move Zeros to end](array-marathon/easy-tuf/move-zeros-to-end.md)
-- [Longest Subarray with sum k](array-marathon/easy-tuf/longest-subarray-with-sum-k.md)
+
+- Easy
+  - [Largest Element](array-marathon/easy-tuf/largest-element.md)
+  - [Second Largest Element](array-marathon/easy-tuf/sec-largest.md)
+  - [Check array sorted](array-marathon/easy-tuf/check-array-is-sorted.md)
+  - [Remove Duplicates from sorted array](array-marathon/easy-tuf/remove-duplicates-in-sorted-array.md)
+  - [Left Rotate by One](array-marathon/easy-tuf/rotate-array-by-one.md)
+  - [Left Rotate by K](array-marathon/easy-tuf/rotate-array-by-k.md)
+  - [Linear Search](array-marathon/easy-tuf/linear-search.md)
+  - [Union of Sorted Arrays](array-marathon/easy-tuf/union-of-sorted-arr.md)
+  - [Missing Number](array-marathon/easy-tuf/missing-number.md)
+  - [Maximum Consecutive Ones](array-marathon/easy-tuf/maximum-consecutive-ones.md)
+  - [Single Number](array-marathon/easy-tuf/single-number.md)
+  - [Move Zeros to end](array-marathon/easy-tuf/move-zeros-to-end.md)
+  - [Longest Subarray with sum k](array-marathon/easy-tuf/longest-subarray-with-sum-k.md)
+
+- Medium
+  - [Two sum](./array-marathon/medium-tuf/two-sum.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
