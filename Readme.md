@@ -523,6 +523,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [Missing Number](./array-marathon/missing-number.md)
 - [Maximum Consecutive Ones](./array-marathon/maximum-consecutive-ones.md)
 - [Single Number](./array-marathon/single-number.md)
+- [Move Zeros to end](./array-marathon/move-zeros-to-end.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
