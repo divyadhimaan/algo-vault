@@ -524,6 +524,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [Maximum Consecutive Ones](./array-marathon/maximum-consecutive-ones.md)
 - [Single Number](./array-marathon/single-number.md)
 - [Move Zeros to end](./array-marathon/move-zeros-to-end.md)
+- [Longest Subarray with sum k](./array-marathon/longest-subarray-with-sum-k.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.

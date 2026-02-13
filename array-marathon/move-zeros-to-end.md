@@ -6,8 +6,6 @@ This must be done in place, without making a copy of the array.
 
 
 ## Brute Force
-TC - O(2*N) (one for copying and other for copying back to original)
-Sc - O(N)
 
 ```cpp
 class Solution {
