@@ -512,19 +512,19 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 
 ## Array Marathon
-- [Largest Element](./array-marathon/largest-element.md)
-- [Second Largest Element](./array-marathon/sec-largest.md)
-- [Check array sorted](./array-marathon/check-array-is-sorted.md)
-- [Remove Duplicates from sorted array](./array-marathon/remove-duplicates-in-sorted-array.md)
-- [Left Rotate by One](./array-marathon/rotate-array-by-one.md)
-- [Left Rotate by K](./array-marathon/rotate-array-by-k.md)
-- [Linear Search](./array-marathon/linear-search.md)
-- [Union of Sorted Arrays](./array-marathon/union-of-sorted-arr.md)
-- [Missing Number](./array-marathon/missing-number.md)
-- [Maximum Consecutive Ones](./array-marathon/maximum-consecutive-ones.md)
-- [Single Number](./array-marathon/single-number.md)
-- [Move Zeros to end](./array-marathon/move-zeros-to-end.md)
-- [Longest Subarray with sum k](./array-marathon/longest-subarray-with-sum-k.md)
+- [Largest Element](array-marathon/easy-tuf/largest-element.md)
+- [Second Largest Element](array-marathon/easy-tuf/sec-largest.md)
+- [Check array sorted](array-marathon/easy-tuf/check-array-is-sorted.md)
+- [Remove Duplicates from sorted array](array-marathon/easy-tuf/remove-duplicates-in-sorted-array.md)
+- [Left Rotate by One](array-marathon/easy-tuf/rotate-array-by-one.md)
+- [Left Rotate by K](array-marathon/easy-tuf/rotate-array-by-k.md)
+- [Linear Search](array-marathon/easy-tuf/linear-search.md)
+- [Union of Sorted Arrays](array-marathon/easy-tuf/union-of-sorted-arr.md)
+- [Missing Number](array-marathon/easy-tuf/missing-number.md)
+- [Maximum Consecutive Ones](array-marathon/easy-tuf/maximum-consecutive-ones.md)
+- [Single Number](array-marathon/easy-tuf/single-number.md)
+- [Move Zeros to end](array-marathon/easy-tuf/move-zeros-to-end.md)
+- [Longest Subarray with sum k](array-marathon/easy-tuf/longest-subarray-with-sum-k.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
