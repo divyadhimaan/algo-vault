@@ -55,18 +55,30 @@ public:
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        sort(nums.begin(), nums.end());
+        vector<vector<int>> eleIdx;
+        for(int i=0;i<nums.size();i++)
+            eleIdx.push_back({nums[i], i});
+
+        sort(eleIdx.begin(), eleIdx.end(), [](const vector<int> &a, const vector<int> &b){
+            return a[0] < b[0];
+        });
 
         int low = 0, high = nums.size()-1;
-        for(int i=0;i<nums.size();i++){
-            if(valueIdxMap.find(target - nums[i]) != valueIdxMap.end()){
-                return vector<int> {valueIdxMap[target-nums[i]], i};
-            }
 
-            valueIdxMap[nums[i]] = i;
+        while(low < high){
+            int sum = eleIdx[low][0] + eleIdx[high][0];
+            if(sum == target){
+                return vector<int> {eleIdx[low][1], eleIdx[high][1]};
+            }else if(sum < target){
+                low++;
+            }else{
+                high--;
+            }
         }
         return {-1,-1};
     }
 };
 ```
-
+> Time Complexity: O(nlogn)
+>
+> Space Complexity: O(n)
