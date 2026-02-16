@@ -30,3 +30,78 @@ public:
 > Time Complexity: O(n^2) --> TLE
 >
 > Space Complexity: O(1)
+
+## Optimal Solution
+
+- Using kadane's algo
+- Traverse array once
+  - If during traversal the sum becomes negative, start with sum=0 again. (as negatives wont result to max sum)
+
+```cpp
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
+        long long maxSum=LLONG_MIN;
+
+        long long sum = 0;
+        for(int i=0;i<nums.size();i++){
+            sum += nums[i];
+            if(sum > maxSum){
+                maxSum = sum;
+            }
+            if(sum<0)
+                sum=0;
+        }
+
+        return maxSum;
+    }
+};
+```
+> Time Complexity: O(n)
+>
+> Space Complexity: O(1)
+
+
+## Follow up
+
+- Print the subarray with max sum
+
+
+```cpp
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
+        long long maxSum=LLONG_MIN;
+
+        long long sum = 0;
+
+        int start = 0, ansStart=-1, ansEnd=-1;
+        for(int i=0;i<nums.size();i++){
+
+            if(sum==0)
+                start=i;
+
+            sum += nums[i];
+
+            if(sum > maxSum){
+                maxSum = sum;
+                ansStart = start;
+                ansEnd = i;
+            }
+            if(sum<0){
+                sum=0;
+            }
+        }
+
+        for (int i = ansStart; i <= ansEnd; i++) {
+            cout << nums[i] << " ";
+        }
+
+        return maxSum;
+    }
+};
+```
+
+> Time Complexity: O(n)
+>
+> Space Complexity: O(1)
