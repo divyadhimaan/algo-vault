@@ -1,4 +1,4 @@
-# Kadane's Algorithm
+# Max Subarray Sum
 
 Given an integer array nums, find the subarray with the largest sum and return the sum of the elements present in that subarray.
 
@@ -27,6 +27,6 @@ public:
 };
 ```
 
-> Time Complexity: O(n^2)
+> Time Complexity: O(n^2) --> TLE
 >
 > Space Complexity: O(1)
