@@ -533,7 +533,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Two sum](./array-marathon/medium-tuf/two-sum.md)
   - [Sort 0s, 1s and 2s](./array-marathon/medium-tuf/sort-0-1-2.md)
   - [Majority Element](./array-marathon/medium-tuf/majority-element-1.md)
-  - [Max subarray sum](./array-marathon/medium-tuf/kadane-algo.md)
+  - [Maximum subarray sum](./array-marathon/medium-tuf/kadane-algo.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
