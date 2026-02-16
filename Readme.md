@@ -534,6 +534,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Sort 0s, 1s and 2s](./array-marathon/medium-tuf/sort-0-1-2.md)
   - [Majority Element](./array-marathon/medium-tuf/majority-element-1.md)
   - [Maximum subarray sum](./array-marathon/medium-tuf/kadane-algo.md)
+  - [Best Time to Buy and Sell Stock](./array-marathon/medium-tuf/best-time-buy-and-sell-stock.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
