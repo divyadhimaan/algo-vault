@@ -28,3 +28,28 @@ public:
 >
 > Space Complexity: O(1)
 
+## Optimal Approach
+
+```cpp
+class Solution{
+public:
+    int stockBuySell(vector<int> arr, int n){
+        int maxProfit = INT_MIN;
+
+        int cheapestStock=arr[0];
+        for(int i=1;i<arr.size();i++){
+            if(arr[i] < cheapestStock)
+                cheapestStock = arr[i];
+
+            maxProfit = max(maxProfit, arr[i]-cheapestStock);
+        }
+        return maxProfit > 0 ? maxProfit : 0;
+    }
+};
+
+
+```
+
+> Time Complexity: O(n) 
+>
+> Space Complexity: O(1)
