@@ -537,6 +537,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Next Permutation](./array-marathon/medium-tuf/next-permutation.md)
   - [Leaders in an array](./array-marathon/medium-tuf/array-leader.md)
   - [Longest consecutive Sequence](./array-marathon/medium-tuf/longest-consecutive-seq.md)
+  - [Matrix Zeroes](./array-marathon/medium-tuf/matrix-zeroes.md)
+  - [Rotate matrix by 90](./array-marathon/medium-tuf/rotate-matrix-by-90.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
