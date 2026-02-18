@@ -535,7 +535,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Maximum Subarray Sum](./array-marathon/medium-tuf/kadane-algo.md)
   - [Best Time to buy and sell stock](./array-marathon/medium-tuf/best-time-buy-and-sell-stock.md)
   - [Next Permutation](./array-marathon/medium-tuf/next-permutation.md)
-  - 
+  - [Leaders in an array](./array-marathon/medium-tuf/array-leader.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
