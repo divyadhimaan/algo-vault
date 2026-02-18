@@ -49,3 +49,46 @@ public:
 >
 > Space Complexity: O(1)
 
+## Optimal Approach
+
+- Use set to track the elements
+- Find start of the sequence and check consecutive element presence in set
+
+```cpp
+class Solution {
+public:
+    int longestConsecutive(vector<int>& nums) {
+        int n = nums.size();
+        if(n==0)
+            return 0;
+
+        unordered_set<int> st;
+        int maxLen = 1;
+
+        for(int num: nums){
+            st.insert(num);
+        }
+
+        for(auto it: st){
+            //check if this ele is the starting of the seq
+            if(st.find(it-1) == st.end()){
+                int cnt = 1;
+                int x = it;
+
+                //find for other consecutive elements
+                while(st.find(x+1) != st.end()){
+                    x++;
+                    cnt++;
+                }
+
+                maxLen = max(maxLen, cnt);
+            }
+        }
+        return maxLen;
+    }
+};
+```
+
+> Time Complexity: `O(n)`
+>
+> Space Complexity: O(n)
