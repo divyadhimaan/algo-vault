@@ -536,6 +536,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Best Time to buy and sell stock](./array-marathon/medium-tuf/best-time-buy-and-sell-stock.md)
   - [Next Permutation](./array-marathon/medium-tuf/next-permutation.md)
   - [Leaders in an array](./array-marathon/medium-tuf/array-leader.md)
+  - [Longest consecutive Sequence](./array-marathon/medium-tuf/longest-consecutive-seq.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
