@@ -528,13 +528,14 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Move Zeros to end](array-marathon/easy-tuf/move-zeros-to-end.md)
   - [Longest Subarray with sum k](array-marathon/easy-tuf/longest-subarray-with-sum-k.md)
 
-
 - Medium
   - [Two sum](./array-marathon/medium-tuf/two-sum.md)
   - [Sort 0s, 1s and 2s](./array-marathon/medium-tuf/sort-0-1-2.md)
   - [Majority Element](./array-marathon/medium-tuf/majority-element-1.md)
-  - [Maximum subarray sum](./array-marathon/medium-tuf/kadane-algo.md)
-  - [Best Time to Buy and Sell Stock](./array-marathon/medium-tuf/best-time-buy-and-sell-stock.md)
+  - [Maximum Subarray Sum](./array-marathon/medium-tuf/kadane-algo.md)
+  - [Best Time to buy and sell stock](./array-marathon/medium-tuf/best-time-buy-and-sell-stock.md)
+  - [Next Permutation](./array-marathon/medium-tuf/next-permutation.md)
+  - 
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
