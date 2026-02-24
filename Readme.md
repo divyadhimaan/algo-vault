@@ -528,6 +528,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Move Zeros to end](array-marathon/easy-tuf/move-zeros-to-end.md)
   - [Longest Subarray with sum k](array-marathon/easy-tuf/longest-subarray-with-sum-k.md)
 
+
 - Medium
   - [Two sum](./array-marathon/medium-tuf/two-sum.md)
   - [Sort 0s, 1s and 2s](./array-marathon/medium-tuf/sort-0-1-2.md)
