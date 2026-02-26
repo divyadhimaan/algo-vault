@@ -541,7 +541,9 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Matrix Zeroes](./array-marathon/medium-tuf/matrix-zeroes.md)
   - [Rotate matrix by 90](./array-marathon/medium-tuf/rotate-matrix-by-90.md)
   - [Count subarrays with given sum](./array-marathon/medium-tuf/count-subarray-with-given-sum.md)
-  - 
+
+- Hard
+  - [Largest Subarray with Sum 0]()
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
