@@ -543,7 +543,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Count subarrays with given sum](./array-marathon/medium-tuf/count-subarray-with-given-sum.md)
 
 - Hard
-  - [Largest Subarray with Sum 0]()
+  - [Largest Subarray with Sum 0](./array-marathon/hard-tuf/largest-subarray-with-sum-0.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
