@@ -1,5 +1,10 @@
 # Sorted Squared Array
 
+- Difficulty: Easy
+
+Write a function that takes in a non-empty array of integers that are sorted in ascending order and returns a new array of the same length with the squares of the original integers also sorted in
+ascending order.
+
 
 - Even though the initial array is sorted, squaring the elements can disturb the order because negative numbers become positive after squaring.
 > [-7, -3, -1, 4, 8]
