@@ -528,7 +528,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Move Zeros to end](array-marathon/easy-tuf/move-zeros-to-end.md)
   - [Longest Subarray with sum k](array-marathon/easy-tuf/longest-subarray-with-sum-k.md)
   - [Validate Subsequence](./array-marathon/algo-expert/validate-sequence.md)
-  - 
+  - [Sorted Squared Array](./array-marathon/algo-expert/sorted-squared-array.md)
 
 
 - Medium
