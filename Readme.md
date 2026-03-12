@@ -546,6 +546,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Hard
   - [Largest Subarray with Sum 0](./array-marathon/hard-tuf/largest-subarray-with-sum-0.md)
+  - [3 Sum](./array-marathon/hard-tuf/3-sum.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
