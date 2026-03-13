@@ -550,7 +550,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [4 Sum](./SDE-200/Arrays/20-4-sum.md)
   - [Count subarray with xor k](./array-marathon/hard-tuf/count-subarrays-with-given-xor-k.md)
   - [Merge overlapping Intervals](./DSA-playgroud/intervals/merge-intervals.md)
-  - 
+  - [Merge 2 sorted arrays](./array-marathon/hard-tuf/merge-2-sorted-arrays.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
