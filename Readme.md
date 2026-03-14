@@ -531,6 +531,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Sorted Squared Array](./array-marathon/algo-expert/sorted-squared-array.md)
   - [Tournament Winner](./array-marathon/algo-expert/tournament-winner.md)
   - [Transpose matrix](./array-marathon/algo-expert/transpose-matrix.md)
+  - [Smallest Difference](./array-marathon/algo-expert/smallest-diff.md)
 
 
 - Medium
