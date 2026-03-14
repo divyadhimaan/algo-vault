@@ -527,12 +527,10 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Single Number](array-marathon/easy-tuf/single-number.md)
   - [Move Zeros to end](array-marathon/easy-tuf/move-zeros-to-end.md)
   - [Longest Subarray with sum k](array-marathon/easy-tuf/longest-subarray-with-sum-k.md)
-  - [Validate Subsequence](./array-marathon/algo-expert/validate-sequence.md)
-  - [Sorted Squared Array](./array-marathon/algo-expert/sorted-squared-array.md)
-  - [Tournament Winner](./array-marathon/algo-expert/tournament-winner.md)
-  - [Transpose matrix](./array-marathon/algo-expert/transpose-matrix.md)
-  - [Smallest Difference](./array-marathon/algo-expert/smallest-diff.md)
-
+  - [Validate Subsequence](algo-expert/arrays/validate-sequence.md)
+  - [Sorted Squared Array](algo-expert/arrays/sorted-squared-array.md)
+  - [Tournament Winner](algo-expert/arrays/tournament-winner.md)
+  - [Transpose matrix](algo-expert/arrays/transpose-matrix.md)
 
 - Medium
   - [Two sum](./array-marathon/medium-tuf/two-sum.md)
@@ -546,7 +544,9 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Matrix Zeroes](./array-marathon/medium-tuf/matrix-zeroes.md)
   - [Rotate matrix by 90](./array-marathon/medium-tuf/rotate-matrix-by-90.md)
   - [Count subarrays with given sum](./array-marathon/medium-tuf/count-subarray-with-given-sum.md)
-
+  - [Smallest Difference](algo-expert/arrays/smallest-diff.md)
+  - [Move element to end](algo-expert/arrays/move-element-to-end.md)
+  
 - Hard
   - [Largest Subarray with Sum 0](./array-marathon/hard-tuf/largest-subarray-with-sum-0.md)
   - [3 Sum](./SDE-200/LinkedListAndArrays/03-3-sum.md)
