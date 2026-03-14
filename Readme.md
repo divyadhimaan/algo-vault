@@ -529,6 +529,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Longest Subarray with sum k](array-marathon/easy-tuf/longest-subarray-with-sum-k.md)
   - [Validate Subsequence](./array-marathon/algo-expert/validate-sequence.md)
   - [Sorted Squared Array](./array-marathon/algo-expert/sorted-squared-array.md)
+  - [Tournament Winner](./array-marathon/algo-expert/tournament-winner.md)
 
 
 - Medium
