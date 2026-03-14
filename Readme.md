@@ -530,6 +530,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Validate Subsequence](./array-marathon/algo-expert/validate-sequence.md)
   - [Sorted Squared Array](./array-marathon/algo-expert/sorted-squared-array.md)
   - [Tournament Winner](./array-marathon/algo-expert/tournament-winner.md)
+  - [Transpose matrix](./array-marathon/algo-expert/transpose-matrix.md)
 
 
 - Medium
