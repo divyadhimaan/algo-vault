@@ -563,6 +563,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Sorted Squared Array](algo-expert/arrays/sorted-squared-array.md)
   - [Tournament Winner](algo-expert/arrays/tournament-winner.md)
   - [Transpose matrix](algo-expert/arrays/transpose-matrix.md)
+  - [Smallest Difference](algo-expert/arrays/smallest-diff.md)
+  - [Move element to end](algo-expert/arrays/move-element-to-end.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
