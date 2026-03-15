@@ -505,6 +505,15 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 ## AlgoExpert
 
+### Arrays
+
+- [Validate Subsequence](algo-expert/arrays/validate-sequence.md)
+- [Sorted Squared Array](algo-expert/arrays/sorted-squared-array.md)
+- [Tournament Winner](algo-expert/arrays/tournament-winner.md)
+- [Transpose matrix](algo-expert/arrays/transpose-matrix.md)
+- [Smallest Difference](algo-expert/arrays/smallest-diff.md)
+- [Move element to end](algo-expert/arrays/move-element-to-end.md)
+
 ### LinkedList
 
 - [Remove Duplicates from linked list](./algo-expert/linkedlist/1-remove-duplicates.md)
@@ -555,16 +564,6 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Merge overlapping Intervals](./DSA-playgroud/intervals/merge-intervals.md)
   - [Merge 2 sorted arrays](./array-marathon/hard-tuf/merge-2-sorted-arrays.md)
 
-
-## AlgoExpert
-
-- Arrays
-  - [Validate Subsequence](algo-expert/arrays/validate-sequence.md)
-  - [Sorted Squared Array](algo-expert/arrays/sorted-squared-array.md)
-  - [Tournament Winner](algo-expert/arrays/tournament-winner.md)
-  - [Transpose matrix](algo-expert/arrays/transpose-matrix.md)
-  - [Smallest Difference](algo-expert/arrays/smallest-diff.md)
-  - [Move element to end](algo-expert/arrays/move-element-to-end.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
