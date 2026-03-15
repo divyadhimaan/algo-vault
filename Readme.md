@@ -555,6 +555,15 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Merge overlapping Intervals](./DSA-playgroud/intervals/merge-intervals.md)
   - [Merge 2 sorted arrays](./array-marathon/hard-tuf/merge-2-sorted-arrays.md)
 
+
+## AlgoExpert
+
+- Arrays
+  - [Validate Subsequence](algo-expert/arrays/validate-sequence.md)
+  - [Sorted Squared Array](algo-expert/arrays/sorted-squared-array.md)
+  - [Tournament Winner](algo-expert/arrays/tournament-winner.md)
+  - [Transpose matrix](algo-expert/arrays/transpose-matrix.md)
+
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
 - Tree/Graph DFS, backtracking → Recursive first, iterative optional.
