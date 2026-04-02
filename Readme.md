@@ -519,7 +519,6 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [Remove Duplicates from linked list](./algo-expert/linkedlist/1-remove-duplicates.md)
 - [Middle Node](./algo-expert/linkedlist/2-find-mid-node.md)
 
-
 ## Array Marathon
 
 - Easy
