@@ -12,11 +12,67 @@ subsequence.
 - filter the increasing subsequences
 - pick the longest subsequence
 
+```cpp
+class Solution {
+public:
+    int LISUtilRecur(vector<int> nums, int idx, int prevIdx){
+        if(idx == nums.size()){
+            return 0;
+        }
+
+        int notTake = LISUtilRecur(nums, idx+1, prevIdx);
+
+        int take = 0;
+
+        if(prevIdx == -1 || nums[idx] > nums[prevIdx])
+            take = 1 + LISUtilRecur(nums, idx+1, idx);
+
+        return max(take, notTake);
+    }
+
+    int LIS(vector<int>& nums) {
+      return LISUtilRecur(nums, 0, -1);
+    }    
+};
+```
+
 > O(2^n) -> TLE (Overlapping subproblems)
+
+## Memoized Approach
+
+```cpp
+class Solution {
+public:
+    int LISUtilRecur(vector<int> nums, int idx, int prevIdx, vector<vector<int>> &memo){
+        if(idx == nums.size()){
+            return 0;
+        }
+
+        if(memo[idx][prevIdx + 1] != -1)
+            return memo[idx][prevIdx+1];
+
+        int notTake = LISUtilRecur(nums, idx+1, prevIdx, memo);
+
+        int take = 0;
+
+        if(prevIdx == -1 || nums[idx] > nums[prevIdx])
+            take = 1 + LISUtilRecur(nums, idx+1, idx, memo);
+
+        return memo[idx][prevIdx+1] = max(take, notTake);
+    }
+
+    int LIS(vector<int>& nums) {
+        int n = nums.size();
+        vector<vector<int>> memo(n , vector<int>(n+1, -1));
+      return LISUtilRecur(nums, 0, -1, memo);
+    }    
+};
+```
+> O(n^2) -> TLE (Overlapping subproblems)
 
 ## DP Approach
 
-Intiution: 
+Intuition: 
 - For every element find the lis ending with this element.
 - For each element
   - Check for all elements smaller than it.
@@ -45,13 +101,13 @@ public:
     }
 };
 ```
-> Time Complexity: O(n*n)
+> Time Complexity: O(n*n) --> TLE
 > 
-> Space Compelexity: O(n)
+> Space Complexity: O(n)
 
 ## Binary Search Approach
 
-Intiution: 
+Intuition: 
 
 - The step of finding the smallest element in all ```j < i``` can be reduced from linear search to binary search.
 
