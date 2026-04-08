@@ -158,3 +158,106 @@ public:
 > Time Complexity: O(n*log n)
 >
 > Space Complexity: O(n)
+
+
+## FOLLOW UP: To return the LIS itself
+
+### DP approach
+```cpp
+#include <vector>
+using namespace std;
+
+vector<int> longestIncreasingSubsequence(vector<int> array) {
+  int n = array.size();
+  vector<int> parent(n, -1);
+  vector<int> lis(n, 1);
+
+  for(int i = 1; i < n; i++){
+
+    for(int j = 0; j < i; j++){
+      if(array[j] < array[i] && lis[j] + 1 > lis[i]){
+        lis[i] = lis[j]+1;
+        parent[i] = j;
+      }
+    }
+  }
+
+  int lastIdx = max_element(lis.begin(), lis.end()) - lis.begin();
+
+  vector<int> result;
+  while(lastIdx != -1){
+    result.push_back(array[lastIdx]);
+    lastIdx = parent[lastIdx];
+  }
+
+  reverse(result.begin(), result.end());
+  
+
+  return result;
+}
+```
+
+## Binary Search Approach
+
+```cpp
+#include <vector>
+using namespace std;
+
+int getCeilIdx(vector<int> array, vector<int> &tailIdx, int low, int high, int target){
+  while(low < high){
+    int mid = (low + high) / 2;
+    if(array[tailIdx[mid]] >= target)
+      high = mid;
+    else
+      low = mid + 1;
+  }
+  return high;
+}
+
+  
+
+vector<int> longestIncreasingSubsequence(vector<int> array) {
+  int n = array.size();
+  vector<int> prevIdx(n, -1);
+  vector<int> tailIdx(n);
+  tailIdx[0] = 0;
+  int len = 1;
+
+  for(int idx = 1; idx < n; idx++){
+    if(array[tailIdx[len-1]] < array[idx]){
+      prevIdx[idx] = tailIdx[len-1];
+      tailIdx[len++] = idx;
+    }
+    else{
+      int low = 0, high = len-1;
+      while(low < high){
+        int mid = (low + high) / 2;
+        if(array[tailIdx[mid]] >= array[idx])
+          high = mid;
+        else
+          low = mid + 1;
+      }
+      int ceilIdx = high;
+
+      if(low > 0)
+          prevIdx[idx] = tailIdx[low-1];
+
+      tailIdx[ceilIdx] = idx;
+    }
+  }
+
+  vector<int> lis;
+  int idx = tailIdx[len-1];
+
+  while(idx != -1){
+    lis.push_back(array[idx]);
+    idx = prevIdx[idx];
+  }
+
+  reverse(lis.begin(), lis.end());
+
+  
+  return lis;
+}
+
+```
