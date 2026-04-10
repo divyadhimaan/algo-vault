@@ -101,5 +101,84 @@ int maxProfit(vector<int> &values, vector<int> &weights, int n, int w)
 
 > Time Complexity: `O(n*w)`, can perform worst than 2^n, for large `w` values
 > 
-> Space Compelexity: `O(n*w)`
+> Space Complexity: `O(n*w)`
+
+
+## Space Optimized - Tabulation
+
+```cpp
+class Solution{
+    public:
+
+        int knapsack01(vector<int>& wt, vector<int>& val, int n, int W) {
+
+            // vector<vector<int>> dp(n+1, vector<int>(W+1, 0));
+            vector<int> curr(W + 1, 0), prev(W + 1, 0);
+
+
+            for(int i = 1; i <= n; i++){
+                for(int j = 1; j <= W; j++){
+                    if(wt[i-1] > j){
+                        curr[j] = prev[j];
+                    }else{
+                        curr[j] = max(prev[j], val[i-1] + prev[j - wt[i-1]]);
+                    }
+                }
+                prev = curr;
+            }
+
+            return curr[W];
+        }
+};
+```
+
+> Time Complexity: `O(n*w)`, can perform worst than 2^n, for large `w` values
 >
+> Space Complexity: `O(w)`
+
+## Follow up - Return the indices of picked items
+
+```cpp
+#include <vector>
+using namespace std;
+
+vector<vector<int>> knapsackProblem(vector<vector<int>> items, int capacity) {
+  int n = items.size();
+  vector<vector<int>> dp(n + 1, vector<int>(capacity + 1, 0));
+
+  for(int i = 1; i <= n; i++){
+      for(int j = 1; j <= capacity; j++){
+        int wt = items[i-1][1];
+        int val = items[i-1][0];
+          if(wt > j){
+              dp[i][j] = dp[i-1][j];
+          }else{
+              dp[i][j] = max(dp[i-1][j], val + dp[i-1][j - wt]);
+          }
+      }
+  }
+
+  int i = n, j = capacity;
+  vector<int> pickedIndices;
+
+  while (i > 0 && j > 0){
+    if(dp[i][j] == dp[i-1][j])
+      i -= 1;
+    else{
+      pickedIndices.push_back(i-1);
+      j -= items[i-1][1];
+      i -= 1;
+    }
+  }
+
+  return {
+    {dp[n][capacity]},    // total value
+    pickedIndices,  // item indices
+  };
+}
+
+```
+
+> Time Complexity: `O(n*w) + O(n)`, 
+>
+> Space Complexity: `O(n*w)`
