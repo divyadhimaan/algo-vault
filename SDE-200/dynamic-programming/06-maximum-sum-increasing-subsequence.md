@@ -34,3 +34,50 @@ class Solution {
 
 
 > NOTE: Cannot use LIS based binary search approach as sum dependency breaks monotonicity
+
+
+## Follow Up: return the items contributing to MSIS
+
+```cpp
+#include <vector>
+using namespace std;
+
+vector<vector<int>> maxSumIncreasingSubsequence(vector<int> arr) {
+  int n = arr.size();
+  vector<int> msis(n);
+  vector<int> parent(n, -1);
+
+  msis[0] = arr[0];
+
+  for(int i = 1; i < n; i++){
+      msis[i] = arr[i];
+      for(int j = 0; j < i; j++){
+          if(arr[j] < arr[i] && msis[j] + arr[i] > msis[i]){
+              msis[i] = msis[j] + arr[i];
+              parent[i] = j;
+          }
+      }
+  }
+  int maxiIdx = max_element(msis.begin(), msis.end()) - msis.begin();
+  int maxi =  msis[maxiIdx];
+
+  vector<int> seq;
+
+  while(maxiIdx != -1){
+    seq.push_back(arr[maxiIdx]);
+    maxiIdx = parent[maxiIdx];
+  }
+
+  reverse(seq.begin(), seq.end());
+  
+  return {
+    {maxi},  // Sum of sequence.
+    seq,   // Elements of the sequence.
+  };
+}
+
+```
+
+> Time Complexity: O(n*n) + O(n)
+>
+> Space Compelexity: O(n) + O(n)
