@@ -6,7 +6,7 @@ Given an integer array nums, return true if you can partition the array into two
 Practice [Link](https://leetcode.com/problems/partition-equal-subset-sum/description/)
 
 
-## Intiution
+## Intuition
 - Find the total sum of array
 - If the total sum cannot be divided into two, 2 subsets with equal sum cannot exist.
 - Find the totalSum/2 and use Subset sum equal to target approach.
