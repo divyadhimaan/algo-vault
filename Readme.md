@@ -567,6 +567,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - [Valid Parentheses](./leetcode-150/valid-parenthesis.md)
 
 
+
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
 - Tree/Graph DFS, backtracking → Recursive first, iterative optional.
