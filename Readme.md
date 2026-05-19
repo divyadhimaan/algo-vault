@@ -563,8 +563,10 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Merge overlapping Intervals](./DSA-playgroud/intervals/merge-intervals.md)
   - [Merge 2 sorted arrays](./array-marathon/hard-tuf/merge-2-sorted-arrays.md)
 
-## LeetCode 150
-- [Valid Parentheses](./leetcode-150/valid-parenthesis.md)
+## 45-Day Challenge
+
+- Day 1: Two Pointers I
+  - [2 Sum](./SDE-200/Arrays/19-2-sum.md)
 
 
 
