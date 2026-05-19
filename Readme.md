@@ -566,7 +566,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 ## 45-Day Challenge
 
 - Day 1: Two Pointers I
-  - [2 Sum II](./SDE-200/Arrays/19-2-sum.md)
+  - [2 Sum II](./45-day-challenge/two-sum-ii.md)
 
 
 
