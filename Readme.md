@@ -572,7 +572,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Day 2: Two Pointers II
   - [Move Zeroes](array-marathon/easy-tuf/move-zeros-to-end.md)
-  - 
+  - [Sort Colors]()
+  - [Trapping rain water](./DSA-playgroud/stacks-and-queues/trapping-rain-water.md)
 
 
 
