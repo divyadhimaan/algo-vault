@@ -567,6 +567,12 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Day 1: Two Pointers I
   - [2 Sum II](./45-day-challenge/two-sum-ii.md)
+  - [3 Sum](./SDE-200/LinkedListAndArrays/03-3-sum.md)
+  - [Container with most water](./DSA-playgroud/arrays/container-with-most-water.md)
+
+- Day 2: Two Pointers II
+  - [Move Zeroes](array-marathon/easy-tuf/move-zeros-to-end.md)
+  - 
 
 
 
