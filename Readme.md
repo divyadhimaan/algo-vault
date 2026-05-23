@@ -577,6 +577,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Day 3: Sliding Window Fixed
   - [Maximum Average Subarray I](./45-day-challenge/maximum-average-subarray.md)
+  - [Find All Anagrams in a String](./45-day-challenge/find-all-anagrams.md)
 
 
 ## Rule of Thumb
