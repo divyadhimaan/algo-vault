@@ -575,6 +575,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Sort Colors]()
   - [Trapping rain water](./DSA-playgroud/stacks-and-queues/trapping-rain-water.md)
 
+- Day 3: Sliding Window Fixed
+  - [Maximum Average Subarray I](./45-day-challenge/maximum-average-subarray.md)
 
 
 ## Rule of Thumb
