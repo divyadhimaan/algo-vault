@@ -580,8 +580,11 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Find All Anagrams in a String](./45-day-challenge/find-all-anagrams.md)
   - [Permutation in a string](./45-day-challenge/permutation-in-string.md)
 
-- Day 4:
+- Day 4: Sliding Window Variable
   - [Longest Substring Without Repeating Characters](./DSA-playgroud/sliding-window-two-pointer/longest-substr-without-repeat.md)
+  - [Longest Subarray of 1's After Deleting One Element](./45-day-challenge/longest-string-of-1s-after-deletion.md)
+
+
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
