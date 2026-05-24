@@ -584,7 +584,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Longest Substring Without Repeating Characters](./DSA-playgroud/sliding-window-two-pointer/longest-substr-without-repeat.md)
   - [Longest Subarray of 1's After Deleting One Element](./45-day-challenge/longest-string-of-1s-after-deletion.md)
 
-
+- Day 5: 
+  - [Subarray Sum Equals K](./DSA-playgroud/arrays/subarray-sum-k.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
