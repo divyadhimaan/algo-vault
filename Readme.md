@@ -578,7 +578,10 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - Day 3: Sliding Window Fixed
   - [Maximum Average Subarray I](./45-day-challenge/maximum-average-subarray.md)
   - [Find All Anagrams in a String](./45-day-challenge/find-all-anagrams.md)
+  - [Permutation in a string](./45-day-challenge/permutation-in-string.md)
 
+- Day 4:
+  - [Longest Substring Without Repeating Characters](./DSA-playgroud/sliding-window-two-pointer/longest-substr-without-repeat.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.

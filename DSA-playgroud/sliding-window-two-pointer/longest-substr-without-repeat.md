@@ -155,3 +155,37 @@ public:
 > Space Complexity: O(min(n, charset))
 
 > NOTE: If charset is fixed (like ASCII 128 or extended 256), we can use an array instead of map for constant-time lookups.
+
+
+## Most optimal: Reducing Space
+
+```cpp
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        int n = s.size();
+
+        if(s.size() == 0)
+            return 0;
+
+        int start = 0, end = 0;
+        vector<int> seenIdx(256, -1);
+        int maxLen = INT_MIN;
+
+        while(end < n){
+            if(seenIdx[s[end]] != -1){
+                start = max(start, seenIdx[s[end]]+1);
+            }
+
+            seenIdx[s[end]] = end;
+            maxLen = max(maxLen, end - start + 1);  
+            end++;
+        }
+        return maxLen;
+    }
+};
+```
+
+> Time Complexity: O(n)
+>
+> Space Complexity: O(256) ~ O(1)
