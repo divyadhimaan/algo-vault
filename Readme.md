@@ -587,6 +587,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Day 5: 
   - [Subarray Sum Equals K](./DSA-playgroud/arrays/subarray-sum-k.md)
+  - [Product of Array except itself](./DSA-playgroud/arrays/product-of-array-except-itself.md)
+  - [Range Sum Query](./45-day-challenge/range-sum-query.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
