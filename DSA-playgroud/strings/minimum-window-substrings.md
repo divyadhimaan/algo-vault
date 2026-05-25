@@ -35,38 +35,42 @@ Generate All substrings
 class Solution {
 public:
     string minWindow(string s, string t) {
-        if(s.empty() || t.empty() || s.length()<t.length())
+        int n = s.size();
+        int m = t.size();
+
+        if(m==0 || n==0 || m > n){
             return "";
-        vector<int> map(128,0);
-        for(char c: t)
-            map[c]++;
+        }
 
-        int minLen = INT_MAX, startIdx = -1; 
+        int startIdx = -1, minLen = INT_MAX;
 
-        
-        for(int i=0;i<s.length();i++)
-        {
-            vector<int> tempMap = map;
-            int required = t.length();
-            for(int j=i;j<s.length();j++)
-            {
-                if(tempMap[s[j]] > 0)
-                    required--;
+        vector<int> freq(128);
+        for(int j =0;j<m;j++){
+            freq[t[j]]++;
+        }
 
-                tempMap[s[j]]--;
+        for(int i=0;i<n;i++){
+            vector<int> tempFreq= freq;
+            int cnt = 0;
 
-                if(required == 0){
-                    if(j-i+1 < minLen){
-                        minLen = j-i+1;
+            for(int j=i;j<n;j++){
+                if(tempFreq[s[j]] > 0){
+                    cnt++;
+                }
+
+                tempFreq[s[j]]--;
+
+                if(cnt == m){
+                    if(minLen > j-i+1){
                         startIdx = i;
-                    }
+                        minLen = j-i+1;
+                    } 
                     break;
                 }
-            }   
-        }
-        return (startIdx==-1) ? "" :s.substr(startIdx, minLen);
+            }
 
-           
+        }
+        return startIdx == -1 ? "" : s.substr(startIdx, minLen);
     }
 };
 ```
@@ -109,38 +113,41 @@ public:
 class Solution {
 public:
     string minWindow(string s, string t) {
-        if(s.empty() || t.empty() || s.length()<t.length())
+        int n = s.size();
+        int m = t.size();
+
+        if(m==0 || n==0 || m > n){
             return "";
-        vector<int> need(128,0);
-        for(char c: t)
-            need[c]++;
+        }
 
-        int minLen = INT_MAX, startIdx = -1; 
+        int startIdx = -1, minLen = INT_MAX;
 
-        int start = 0, end =0;
-        int required = t.length();
-        while(end < s.length())
-        {
-            if(need[s[end]]>0)
-                required--;
+        vector<int> freq(128);
+        for(int j = 0;j < m; j++){
+            freq[t[j]]++;
+        }
 
-            need[s[end]]--;
-            end++;
+        int start = 0, cnt = 0;
 
-            while(required==0)
-            {
-                if(end-start < minLen)
-                {
-                    minLen = end-start;
+        for(int end=0;end<n;end++){
+            if(freq[s[end]] > 0){
+                cnt++;
+            }
+
+            freq[s[end]]--;
+
+            while(cnt == m){
+                if(minLen > end-start+1){
                     startIdx = start;
-                }
-                need[s[start]]++;
-                if(need[s[start]]>0)
-                    required++;
+                    minLen = end-start+1;
+                } 
+                freq[s[start]]++;
+                if(freq[s[start]]>0)
+                    cnt--;
                 start++;
             }
         }
-        return (startIdx==-1) ? "" :s.substr(startIdx, minLen);      
+        return startIdx == -1 ? "" : s.substr(startIdx, minLen);
     }
 };
 ```
