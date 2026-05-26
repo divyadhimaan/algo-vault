@@ -12,7 +12,7 @@ You must write an algorithm with O(log n) runtime complexity.
 
 
 
-## Intiution
+## Intuition
 
 - Using binary Search we could completely eliminate one half of the array.
 - But since this is not fully sorted array, that is not possible.

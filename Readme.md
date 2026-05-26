@@ -593,6 +593,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - Day 6:
   - [Binary Search](./DSA-playgroud/binary-search/binary-search.md)
   - [Find First and Last Position of Element in Sorted Array](./45-day-challenge/find-first-and-last-occurence.md)
+  - [Search in Rotated Sorted Array](./DSA-playgroud/binary-search/search-in-rotated-sorted-array.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
