@@ -590,6 +590,10 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Product of Array except itself](./DSA-playgroud/arrays/product-of-array-except-itself.md)
   - [Range Sum Query](./45-day-challenge/range-sum-query.md)
 
+- Day 6:
+  - [Binary Search](./DSA-playgroud/binary-search/binary-search.md)
+  - 
+
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
 - Tree/Graph DFS, backtracking → Recursive first, iterative optional.
