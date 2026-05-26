@@ -595,6 +595,9 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Find First and Last Position of Element in Sorted Array](./45-day-challenge/find-first-and-last-occurence.md)
   - [Search in Rotated Sorted Array](./DSA-playgroud/binary-search/search-in-rotated-sorted-array.md)
 
+- Day 7:
+  - [Koko Eating bananas](./45-day-challenge/koko-eating-bananas.md)
+
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
 - Tree/Graph DFS, backtracking → Recursive first, iterative optional.
