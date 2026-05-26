@@ -598,6 +598,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - Day 7: Binary Search II
   - [Koko Eating bananas](./45-day-challenge/koko-eating-bananas.md)
   - [Capacity To Ship Packages Within D Days](./45-day-challenge/find-capacity-to-ship-in-D-days.md)
+  - [Find Minimum in rotated array](./DSA-playgroud/arrays/find-minimum-in-rotated-array.md) *
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
