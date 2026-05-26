@@ -585,18 +585,19 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Longest Subarray of 1's After Deleting One Element](./45-day-challenge/longest-string-of-1s-after-deletion.md)
   - [Minimum Window Substring](./DSA-playgroud/strings/minimum-window-substrings.md)
 
-- Day 5: 
+- Day 5: Prefix Sums
   - [Subarray Sum Equals K](./DSA-playgroud/arrays/subarray-sum-k.md)
   - [Product of Array except itself](./DSA-playgroud/arrays/product-of-array-except-itself.md)
   - [Range Sum Query](./45-day-challenge/range-sum-query.md)
 
-- Day 6:
+- Day 6: Binary Search I
   - [Binary Search](./DSA-playgroud/binary-search/binary-search.md)
   - [Find First and Last Position of Element in Sorted Array](./45-day-challenge/find-first-and-last-occurence.md)
   - [Search in Rotated Sorted Array](./DSA-playgroud/binary-search/search-in-rotated-sorted-array.md)
 
-- Day 7:
+- Day 7: Binary Search II
   - [Koko Eating bananas](./45-day-challenge/koko-eating-bananas.md)
+  - [Capacity To Ship Packages Within D Days](./45-day-challenge/find-capacity-to-ship-in-D-days.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
