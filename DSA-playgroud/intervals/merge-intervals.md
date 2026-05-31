@@ -30,7 +30,7 @@ public:
     }
 };
 ```
-> Time COmplexity: O(nlog n) + O(n)
+> Time Complexity: O(nlog n) + O(n)
 >
 > Space Complexity: O(n)
 

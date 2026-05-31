@@ -601,7 +601,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Find Minimum in rotated array](./DSA-playgroud/arrays/find-minimum-in-rotated-array.md) *
 
 - Day 8: Intervals
-  - 
+  - [Merge Intervals](./DSA-playgroud/intervals/merge-intervals.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
