@@ -600,6 +600,9 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Capacity To Ship Packages Within D Days](./45-day-challenge/find-capacity-to-ship-in-D-days.md)
   - [Find Minimum in rotated array](./DSA-playgroud/arrays/find-minimum-in-rotated-array.md) *
 
+- Day 8: Intervals
+  - 
+
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
 - Tree/Graph DFS, backtracking → Recursive first, iterative optional.
