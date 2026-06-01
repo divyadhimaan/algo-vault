@@ -134,3 +134,28 @@ public:
 > Time Complexity: O(n), Even though binary search has O(log n), the copying of intervals dominates
 >
 > Space Complexity: O(n)
+
+
+## Alternate Approach: O(nlogn)
+
+```cpp
+class Solution {
+public:
+    vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
+        intervals.push_back(newInterval);
+        sort(intervals.begin(), intervals.end());
+
+        int idx = 0;
+        for(int i=1;i<intervals.size();i++){
+            if(intervals[i][0] <= intervals[idx][1]){
+                intervals[idx][1] = max(intervals[idx][1], intervals[i][1]);
+            }else{
+                idx++;
+                intervals[idx] = intervals[i];
+            }
+        }
+        intervals.resize(idx+1);
+        return intervals;
+    }
+};
+```

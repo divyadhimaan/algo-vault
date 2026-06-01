@@ -602,6 +602,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Day 8: Intervals
   - [Merge Intervals](./DSA-playgroud/intervals/merge-intervals.md)
+  - [Insert Interval](./DSA-playgroud/intervals/insert-intervals.md)
+  - 
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
