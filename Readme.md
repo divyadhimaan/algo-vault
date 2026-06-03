@@ -605,7 +605,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Insert Interval](./DSA-playgroud/intervals/insert-intervals.md)
   - [Non Overlapping Intervals](./DSA-playgroud/intervals/non-overlapping-intervals.md)
 
-- Day 9: Stack 1
+- Day 9: Stack I
   - [Daily temperatures](./DSA-playgroud/stacks-and-queues/daily-temperature.md)
 
 ## Rule of Thumb
