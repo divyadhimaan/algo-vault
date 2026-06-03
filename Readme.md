@@ -607,6 +607,10 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Day 9: Stack I
   - [Daily temperatures](./DSA-playgroud/stacks-and-queues/daily-temperature.md)
+  - [Next Greater Element I](./DSA-playgroud/stacks-and-queues/next-greater-element.md)
+
+- Day 10: Stack II
+  - [Valid Parentheses](./45-day-challenge/valid-parentheses.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
