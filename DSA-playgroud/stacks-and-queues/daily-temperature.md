@@ -2,6 +2,44 @@
 
 Practice [Here]()
 
+## Stack Approach
+
+```cpp
+class Solution {
+public:
+    vector<int> dailyTemperatures(vector<int>& temperatures) {
+        int n = temperatures.size();
+        stack<int> stk;
+
+        vector<int> res(n, 0);
+
+        for(int i = n-1; i>=0;i--){
+            if(stk.empty()){
+                stk.push(i);
+                res[i] = 0;
+            }else{
+                while(!stk.empty() && temperatures[i] >= temperatures[stk.top()]){
+                    stk.pop();
+                }
+
+                if(stk.empty()){
+                    res[i] = 0;
+                }else{
+                    res[i] = stk.top() - i;
+                }
+
+                stk.push(i);
+            }
+        }
+        return res;
+    }
+};
+```
+
+> Time Complexity: O(n)
+> 
+> Space Complexity: O(n)
+
 ## Deque Approach
 ```cpp
 class Solution {
@@ -36,4 +74,5 @@ public:
 };
 ```
 
-
+> Underlying Stack uses dequeue implementation.
+> We only need one side operation -> stack can be used

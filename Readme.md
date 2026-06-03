@@ -605,6 +605,9 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Insert Interval](./DSA-playgroud/intervals/insert-intervals.md)
   - [Non Overlapping Intervals](./DSA-playgroud/intervals/non-overlapping-intervals.md)
 
+- Day 9: Stack 1
+  - [Daily temperatures](./DSA-playgroud/stacks-and-queues/daily-temperature.md)
+
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
 - Tree/Graph DFS, backtracking → Recursive first, iterative optional.
