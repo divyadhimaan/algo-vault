@@ -611,6 +611,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Day 10: Stack II
   - [Valid Parentheses](./45-day-challenge/valid-parentheses.md)
+  - [Sliding Window maximum](./SDE-200/stacksAndQueues/12-sliding-window-max.md)
+  - [Evaluate Reverse Polish Notation]()
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
