@@ -608,6 +608,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - Day 9: Stack I
   - [Daily temperatures](./DSA-playgroud/stacks-and-queues/daily-temperature.md)
   - [Next Greater Element I](./DSA-playgroud/stacks-and-queues/next-greater-element.md)
+  - [Largest Rectangle in Histogram](./DSA-playgroud/stacks-and-queues/largest-rectangle-in-histogram.md)
 
 - Day 10: Stack II
   - [Valid Parentheses](./45-day-challenge/valid-parentheses.md)

@@ -119,26 +119,29 @@ public:
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
-        int maxArea=0;
+        int n = heights.size();
+        int maxArea = INT_MIN;
+
         stack<int> stk;
 
-        for(int i=0;i<=heights.size();i++)
-        {
-            while(!stk.empty() && (i==heights.size() || heights[stk.top()]>=heights[i]))
-            {
+        for(int i = 0; i <= n; i++){
+
+            while(!stk.empty() && (i == n || heights[stk.top()] >= heights[i])){
                 int height = heights[stk.top()];
                 stk.pop();
 
-                int width=0;
+                int width = 0;
+
                 if(stk.empty())
                     width = i;
                 else
-                    width = i - stk.top()-1;
+                    width = i - 1 - stk.top(); // from stk.top() + 1 to i - 1
 
-                int area = height*width;
-                maxArea = max(area, maxArea);
+                int area = height * width;
+                maxArea = max(maxArea, area);
             }
             stk.push(i);
+            
         }
         return maxArea;
     }
