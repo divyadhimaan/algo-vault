@@ -615,6 +615,11 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Sliding Window maximum](./SDE-200/stacksAndQueues/12-sliding-window-max.md)
   - [Evaluate Reverse Polish Notation](./45-day-challenge/reverse-polish-notations.md)
 
+- Day 11: Matrix + 2D arrays
+  - [Spiral Matrix](./DSA-playgroud/misc/spiral-matrix.md)
+  - [Rotate Image](./DSA-playgroud/misc/rotate-matrix.md)
+  - [Set Matrix Zeroes](./DSA-playgroud/misc/set-matrix-zeros.md)
+
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
 - Tree/Graph DFS, backtracking → Recursive first, iterative optional.
