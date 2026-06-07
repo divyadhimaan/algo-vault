@@ -630,6 +630,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Find middle of linked list](./SDE-200/linkedList/02-middle-of-linked-list.md)
   - [Reorder Linked List](./DSA-playgroud/linkedList/reorder-list.md)
 
+- Day 14: LinkedList II
+
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
 - Tree/Graph DFS, backtracking → Recursive first, iterative optional.
