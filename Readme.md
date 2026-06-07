@@ -620,6 +620,11 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Rotate Image](./DSA-playgroud/misc/rotate-matrix.md)
   - [Set Matrix Zeroes](./DSA-playgroud/misc/set-matrix-zeros.md)
 
+- Day 12: Strings + hashing
+  - [Group Anagrams](./DSA-playgroud/hashing-sorting/group-anagram.md)
+  - [Top K Frequent Elements](./DSA-playgroud/hashing-sorting/top-k-frequent-elements.md)
+  - [Longest consecutive Sequence](./array-marathon/medium-tuf/longest-consecutive-seq.md)
+
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
 - Tree/Graph DFS, backtracking → Recursive first, iterative optional.
