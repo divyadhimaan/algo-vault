@@ -625,6 +625,11 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Top K Frequent Elements](./DSA-playgroud/hashing-sorting/top-k-frequent-elements.md)
   - [Longest consecutive Sequence](./array-marathon/medium-tuf/longest-consecutive-seq.md)
 
+- Day 13: ListList I
+  - [Detect Cycle in Linked List](./SDE-200/linkedList/08-detect-cycle-in-linked-list.md)
+  - [Find middle of linked list](./SDE-200/linkedList/02-middle-of-linked-list.md)
+  - [Reorder Linked List](./DSA-playgroud/linkedList/reorder-list.md)
+
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
 - Tree/Graph DFS, backtracking → Recursive first, iterative optional.
