@@ -632,7 +632,9 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Day 14: LinkedList II
     - [Reverse a Linked List](./SDE-200/linkedList/01-reverse-linkedList.md)
-    - 
+    - [Reverse nodes in K groups](./SDE-200/linkedList/09-reverse-in-k-groups.md)
+    - [LRU Cache](./DSA-playgroud/design/lru-cache.md)
+
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
 - Tree/Graph DFS, backtracking → Recursive first, iterative optional.
