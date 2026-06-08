@@ -631,7 +631,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Reorder Linked List](./DSA-playgroud/linkedList/reorder-list.md)
 
 - Day 14: LinkedList II
-
+    - [Reverse a Linked List](./SDE-200/linkedList/01-reverse-linkedList.md)
+    - 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
 - Tree/Graph DFS, backtracking → Recursive first, iterative optional.
