@@ -635,6 +635,9 @@ A curated repository to practice, revise, and master Data Structures and Algorit
     - [Reverse nodes in K groups](./SDE-200/linkedList/09-reverse-in-k-groups.md)
     - [LRU Cache](./DSA-playgroud/design/lru-cache.md)
 
+- Day 15: Array Review
+- 
+
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
 - Tree/Graph DFS, backtracking → Recursive first, iterative optional.
