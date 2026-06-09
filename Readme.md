@@ -636,7 +636,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
     - [LRU Cache](./DSA-playgroud/design/lru-cache.md)
 
 - Day 15: Array Review
-- 
+  - [Minimum Window Substring](./DSA-playgroud/strings/minimum-window-substrings.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
