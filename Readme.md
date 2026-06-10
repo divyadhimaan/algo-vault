@@ -638,6 +638,9 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - Day 15: Array Review
   - [Minimum Window Substring](./DSA-playgroud/strings/minimum-window-substrings.md)
 
+- Day 16: Tree DFS I
+  - [Maximum Depth of Binary Tree](./45-day-challenge/max-depth-of-binary-tree.md)
+
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
 - Tree/Graph DFS, backtracking → Recursive first, iterative optional.
