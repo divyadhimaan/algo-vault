@@ -130,3 +130,98 @@ public:
 | **Style**      | Implicit post-order   | Iterative, explicit parents               | Two explicit paths         |
 | **Early exit** | Yes (returns on find) | Yes (stops once p & q found)              | No (traverses full paths)  |
 | **Best for**   | Clean, minimal code   | When parent pointers are needed elsewhere | When full paths are useful |
+
+---
+
+## Variation: p or q Might Not Exist
+
+The standard recursive solution returns early when it *finds* p or q, assuming the other must exist somewhere. If either node might be absent, we can't do that — we must fully traverse the tree and confirm both were actually found.
+
+**Key idea:** track a `found` count alongside the LCA candidate. Only return a non-null LCA if both nodes were seen.
+
+```cpp
+class Solution {
+    int found = 0; // counts how many of {p, q} were found
+
+    TreeNode* dfs(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if (!root) return nullptr;
+
+        TreeNode* left  = dfs(root->left,  p, q);
+        TreeNode* right = dfs(root->right, p, q);
+
+        // check current node after children (post-order)
+        if (root == p || root == q) {
+            found++;
+            return root;
+        }
+
+        if (left && right) return root;   // one on each side → LCA
+        return left ? left : right;
+    }
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        TreeNode* candidate = dfs(root, p, q);
+        return found == 2 ? candidate : nullptr;
+    }
+};
+```
+
+**Why post-order matters here:** we visit children *before* checking `root == p/q`. This ensures that if `p` is an ancestor of `q`, `q` is counted as found (in the subtree) before we count `p` itself — so `found` correctly reaches 2 when both exist.
+
+> Time Complexity: O(n) — full traversal always
+>
+> Space Complexity: O(h) recursion stack
+
+---
+
+## Variation: Nodes Have Parent Pointers
+
+Each node has a `parent` field, so we can walk upward from any node to the root like a linked list.
+
+```cpp
+struct Node {
+    int val;
+    Node* left;
+    Node* right;
+    Node* parent;
+};
+```
+
+### Approach 1: Hash Set of Ancestors
+
+Walk up from `p`, storing every ancestor in a set. Then walk up from `q` until hitting a node already in the set.
+
+```cpp
+Node* lowestCommonAncestor(Node* p, Node* q) {
+    unordered_set<Node*> ancestors;
+    while (p) {
+        ancestors.insert(p);
+        p = p->parent;
+    }
+    while (ancestors.find(q) == ancestors.end())
+        q = q->parent;
+    return q;
+}
+```
+
+> Time O(h), Space O(h)
+
+### Approach 2: Two-Pointer (O(1) Space)
+
+Same idea as finding the intersection of two linked lists. Both pointers walk up; when one hits null it restarts from the *other's* original position. They meet at LCA after at most `depth(p) + depth(q)` steps.
+
+```cpp
+Node* lowestCommonAncestor(Node* p, Node* q) {
+    Node* a = p;
+    Node* b = q;
+    while (a != b) {
+        a = a ? a->parent : q;
+        b = b ? b->parent : p;
+    }
+    return a;
+}
+```
+
+**Why it works:** pointer `a` travels `depth(p)` steps then `depth(q)` steps; pointer `b` travels `depth(q)` then `depth(p)`. Both cover the same total distance, so they meet exactly at the LCA.
+
+> Time O(h), Space O(1)
