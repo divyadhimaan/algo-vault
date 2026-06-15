@@ -225,3 +225,64 @@ Node* lowestCommonAncestor(Node* p, Node* q) {
 **Why it works:** pointer `a` travels `depth(p)` steps then `depth(q)` steps; pointer `b` travels `depth(q)` then `depth(p)`. Both cover the same total distance, so they meet exactly at the LCA.
 
 > Time O(h), Space O(1)
+
+---
+
+## Variation: LCA of Multiple Nodes
+
+Find the LCA of all nodes in a given array (not just two).
+
+### Approach 1: Reduce to Pairwise LCA
+
+LCA is associative: `LCA(a, b, c) = LCA(LCA(a, b), c)`. So fold over the array, accumulating the result.
+
+```cpp
+class Solution {
+    TreeNode* lca2(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if (!root || root == p || root == q) return root;
+        TreeNode* left  = lca2(root->left,  p, q);
+        TreeNode* right = lca2(root->right, p, q);
+        if (left && right) return root;
+        return left ? left : right;
+    }
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, vector<TreeNode*>& nodes) {
+        TreeNode* result = nodes[0];
+        for (int i = 1; i < nodes.size(); i++)
+            result = lca2(root, result, nodes[i]);
+        return result;
+    }
+};
+```
+
+> Time O(k · n), Space O(h) — k calls each costing O(n). Fine for small `k`, expensive otherwise.
+
+### Approach 2: Single-Pass DFS with a Set (Optimal)
+
+Put all target nodes in a hash set. Run one DFS — same logic as the 2-node recursive solution, but check `nodeSet.count(root)` instead of `root == p || root == q`.
+
+**Key insight:** if a node in the set is an ancestor of another node in the set, returning early at the ancestor is still correct — the ancestor already "covers" its descendants for LCA purposes.
+
+```cpp
+class Solution {
+    unordered_set<TreeNode*> nodeSet;
+
+    TreeNode* dfs(TreeNode* root) {
+        if (!root) return nullptr;
+        if (nodeSet.count(root)) return root; // covers all descendants in set too
+
+        TreeNode* left  = dfs(root->left);
+        TreeNode* right = dfs(root->right);
+
+        if (left && right) return root;
+        return left ? left : right;
+    }
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, vector<TreeNode*>& nodes) {
+        nodeSet = {nodes.begin(), nodes.end()};
+        return dfs(root);
+    }
+};
+```
+
+> Time O(n), Space O(n) for the set + O(h) stack
