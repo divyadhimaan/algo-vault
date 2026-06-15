@@ -26,11 +26,16 @@ public:
         if(!root)
             return 0;
         
+        // clamp to 0: if a subtree contributes negatively, don't include it
         int leftSum = max(0, maxPathSumUtil(root->left, maxi));
         int rightSum = max(0, maxPathSumUtil(root->right, maxi));
 
+        // candidate: path that enters from left, passes through root, exits right
+        // this path cannot be extended upward (uses both sides), so update global max here
         maxi = max(maxi, root->val + leftSum + rightSum);
 
+        // return the best single-arm extension the parent can use
+        // parent can only continue through one side (left OR right, not both)
         return root->val + max(leftSum, rightSum);
     }
     int maxPathSum(TreeNode* root) {
