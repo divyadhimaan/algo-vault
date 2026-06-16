@@ -292,7 +292,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   
 - Heaps
   - [Binary Heap Implementation](./SDE-200/heaps/01-binary-heap.md)
-  - [Kth Largest](./SDE-200/heaps/02-kth-largest.md)
+  - [Kth Largest Element in an Array](./SDE-200/heaps/02-kth-largest.md)
   - [Maximum Sum Combination](./SDE-200/heaps/03-maximum-sum-combinations.md)
   - [Find Median in Data Stream](./SDE-200/heaps/04-median-from-stream.md)
   - [Merge K sorted Arrays](./SDE-200/heaps/05-merge-k-sorted-arrays.md)
