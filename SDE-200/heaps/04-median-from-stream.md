@@ -111,21 +111,46 @@ public:
 ## Follow Ups
 > Q: If all integer numbers from the stream are in the range [0, 100], how would you optimize your solution?
 
-A: Since the range is small and bounded (0–100), we don’t really need heaps or balanced BSTs.
-We can instead use counting / frequency array. 
+The two-heap solution is general — it works for any integers. But when the range is fixed and small, we’re doing more work than necessary. Heaps cost O(log n) per insertion just to maintain sorted order, but if we know every number is between 0 and 100, we can use that constraint directly.
 
-#### Approach
-- Maintain an array count[101] → count[i] stores how many times i has appeared.
-- Maintain n = total count of numbers inserted.
-- To find the median:
-  - Walk through count[] and find the middle element(s) according to n.
-  - If n is odd → median is the (n/2 + 1)-th element.
-  - If n is even → median is average of (n/2)-th and (n/2+1)-th elements.
-  
-> Time Complexity: 
-> - addNum: O(1)
-> - findMedian: O(R) where R=101 (fixed, constant).
-> Overall: O(1) amortized.
+**Key insight:** instead of storing the numbers themselves, store how many times each value has appeared. A `count[101]` frequency array gives us a compact, always-sorted view of all inserted numbers — for free.
+
+`addNum` is just `count[num]++` → O(1).
+
+For `findMedian`, we need to find the middle position(s) across all inserted numbers. We walk `count[]` left to right, accumulating a running total until we hit the target rank(s). Since the array is fixed at size 101, this walk is always at most 101 steps — effectively O(1).
+
+```cpp
+class MedianFinder {
+    int count[101] = {};
+    int n = 0;
+
+public:
+    void addNum(int num) {
+        count[num]++;
+        n++;
+    }
+
+    double findMedian() {
+        int mid1 = (n + 1) / 2; // lower middle (works for both odd and even)
+        int mid2 = (n + 2) / 2; // upper middle (same as mid1 when n is odd)
+
+        int val1 = -1, val2 = -1, cumulative = 0;
+        for (int i = 0; i <= 100; i++) {
+            cumulative += count[i];
+            if (val1 == -1 && cumulative >= mid1) val1 = i;
+            if (val2 == -1 && cumulative >= mid2) val2 = i;
+            if (val1 != -1 && val2 != -1) break;
+        }
+        return (val1 + val2) / 2.0;
+    }
+};
+```
+
+> Time Complexity:
+> - `addNum` → O(1)
+> - `findMedian` → O(101) = O(1) — range is fixed, not n
+>
+> Space Complexity: O(1) — count array is fixed size
 
 ---
 > Q: If 99% of all integer numbers from the stream are in the range [0, 100], how would you optimize your solution?
