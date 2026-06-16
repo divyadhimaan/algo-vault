@@ -2,6 +2,10 @@
 
 Practice [Link](https://leetcode.com/problems/find-median-from-data-stream/description/)
 
+The **median** is the middle value of a sorted list. For an odd-length list it's the center element; for even-length it's the average of the two middle elements.
+
+The challenge here is that numbers arrive one at a time (a stream), so we need a data structure that supports both efficient insertion and efficient median lookup — without re-sorting from scratch every time.
+
 ## Brute Force
 
 store everything in a list → sort every time → pick median.
@@ -52,45 +56,56 @@ The idea is to split the numbers into two halves:
 
 ## Implementation
 
+**Step 1 — Route the number to the correct half:**
+- If `num` belongs to the smaller half (≤ max of left), push to `leftHeap`.
+- Otherwise push to `rightHeap`.
+
+**Step 2 — Rebalance so sizes stay within 1 of each other:**
+- If `leftHeap` grows more than 1 ahead of `rightHeap`, move its top to the right.
+- If `rightHeap` ever overtakes `leftHeap`, move its top to the left.
+- This invariant ensures the median is always at the top(s).
+
+**Step 3 — Read median in O(1):**
+- Odd total → `leftHeap` has one extra → return its top.
+- Even total → tops of both heaps are the two middle elements → return their average.
+
 ```cpp
 class MedianFinder {
 public:
-    priority_queue<int> leftHeap;
-    priority_queue<int, vector<int>, greater<int>> rightHeap;
-    MedianFinder() {
-    }
+    priority_queue<int> leftHeap;                            // max heap — smaller half
+    priority_queue<int, vector<int>, greater<int>> rightHeap; // min heap — larger half
+
+    MedianFinder() {}
     
     void addNum(int num) {
-        if(leftHeap.empty() || num <= leftHeap.top())
+        // step 1: route to correct half
+        if (leftHeap.empty() || num <= leftHeap.top())
             leftHeap.push(num);
         else
             rightHeap.push(num);
 
-        if(leftHeap.size() > rightHeap.size() + 1)
-        {
+        // step 2: rebalance
+        if (leftHeap.size() > rightHeap.size() + 1) {
             rightHeap.push(leftHeap.top());
             leftHeap.pop();
-        }else if(leftHeap.size() < rightHeap.size())
-        {
+        } else if (leftHeap.size() < rightHeap.size()) {
             leftHeap.push(rightHeap.top());
             rightHeap.pop();
         }
     }
     
     double findMedian() {
-        if(leftHeap.size() > rightHeap.size())
+        if (leftHeap.size() > rightHeap.size())
             return leftHeap.top();
         return (leftHeap.top() + rightHeap.top()) / 2.0;
     }
 };
-
 ```
 
 > Time Complexity:
-> - Add() -> O(logn)
-> - median() -> O(1)
+> - `addNum()` → O(log n) — at most 2 heap pushes/pops
+> - `findMedian()` → O(1)
 >
-> 
 > Space Complexity: O(n)
 
 ## Follow Ups
