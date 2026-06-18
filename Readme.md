@@ -502,6 +502,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [K most frequent elements](./SDE-200/heaps/06-top-k-frequent.md)
   - [Find Median from Data Stream](./SDE-200/heaps/04-median-from-stream.md)
   
+- Misc
+  - [The Celebrity Problem](./DSA-playgroud/misc/celebrity-problem.md)
 
 ## AlgoExpert
 

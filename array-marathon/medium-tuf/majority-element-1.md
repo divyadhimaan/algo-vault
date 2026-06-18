@@ -1,4 +1,4 @@
-# 
+e# 
 
 
 ```cpp
@@ -24,7 +24,16 @@ public:
 >
 > Space Complexity: O(n)
 
-## Optimal Approach
+## Optimal Approach: Boyer-Moore Voting Algorithm
+
+**Intuition:** if the majority element appears more than n/2 times, it outnumbers all other elements combined. Pair up every majority occurrence with a non-majority one — even after all cancellations, the majority element survives.
+
+**How it works:** maintain a `candidate` and a `freq` counter.
+- When `freq == 0`, the current element becomes the new candidate.
+- If the current element matches the candidate, increment `freq` (vote for it).
+- If it doesn't match, decrement `freq` (cancel one vote out).
+
+Every mismatch cancels one candidate vote with one opposing vote. Since the majority element has more votes than all others combined, it always ends up as the last candidate standing.
 
 ```cpp
 class Solution {
