@@ -648,8 +648,8 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Day 17: Tree DFS II
   - [Lowest Common Ancestor of a Binary Tree](./DSA-playgroud/binary-trees/lca-in-binary-tree.md)
-  - [Serialize and Deserialize Binary Tree](./DSA-playgroud/binary-trees/serialize-deserialize.md)
-  - [Construct Binary tree from postorder ans inorder](./DSA-playgroud/binary-trees/construct-tree-from-inorder-postorder.md)
+  - [Right Side View of Binary Tree](./45-day-challenge/right-side-view-of-binary-tree.md)
+  - [Validate BST](./DSA-playgroud/binary-search-tree/validate-bst.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
