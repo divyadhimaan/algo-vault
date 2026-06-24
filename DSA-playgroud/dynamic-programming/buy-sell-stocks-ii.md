@@ -9,7 +9,7 @@ On each day, you may decide to buy and/or sell the stock. You can only hold at m
 Find and return the maximum profit you can achieve.
 
 
-## Intiution
+## Intuition
 At any point we have two options:
 1. Buy a stock (only if previously not bought)
 -   Do not sell - no transaction

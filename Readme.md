@@ -127,7 +127,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 #### Hard
 
-- [Word Ladder](./DSA-playgroud/graphs/word-ladder-1)
+- [Word Ladder](DSA-playgroud/graphs/word-ladder-1.md)
 - [Alien Dictionary](./DSA-playgroud/graphs/alien-dictionary.md)
 - [Minimum Operations to make Network Connected](./DSA-playgroud/graphs/number-of-operations-to-make-connected-graph.md)
 
@@ -432,6 +432,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
   - [Combination Sum](./SDE-200/recursion-backtracking/03-combination-sum-I.md)
   - [House Robber I](./DSA-playgroud/dynamic-programming/house-robber-i.md)
   - [House Robber II](./DSA-playgroud/dynamic-programming/house-robber-ii.md)
+  - [House Robber III](./DSA-playgroud/dynamic-programming/house-robber-iii.md)
   - [Unique Paths](./DSA-playgroud/dynamic-programming/unique-paths.md)
   - [Jump Game](./DSA-playgroud/greedy/jump-game.md)
   - [Decode Ways](./DSA-playgroud/dynamic-programming/decode-ways.md)*
@@ -642,7 +643,13 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 
 - Day 16: Tree DFS I
   - [Maximum Depth of Binary Tree](./45-day-challenge/max-depth-of-binary-tree.md)
-  - 
+  - [Diameter of Binary Tree](./45-day-challenge/diameter-of-binary-tree.md)
+  - [Path Sum II](./45-day-challenge/path-sum-ii.md)
+
+- Day 17: Tree DFS II
+  - [Lowest Common Ancestor of a Binary Tree](./DSA-playgroud/binary-trees/lca-in-binary-tree.md)
+  - [Serialize and Deserialize Binary Tree](./DSA-playgroud/binary-trees/serialize-deserialize.md)
+  - [Construct Binary tree from postorder ans inorder](./DSA-playgroud/binary-trees/construct-tree-from-inorder-postorder.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
