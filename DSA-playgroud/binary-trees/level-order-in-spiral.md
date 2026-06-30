@@ -5,7 +5,7 @@ Practice [here](https://leetcode.com/problems/binary-tree-zigzag-level-order-tra
 Given the `root` of a binary tree, return the zigzag level order traversal of its nodes' values. (i.e., from left to right, then right to left for the next level and alternate between).
 
 
-## Implementation
+## Implementation (BFS - Breadth-First Search)
 Visit all nodes at level 0 → then level 1 → then level 2 → …
 > Perform normal level-order traversal using a queue, but reverse the order of values every alternate level to simulate the zig-zag pattern.
 
