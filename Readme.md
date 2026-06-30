@@ -654,7 +654,7 @@ A curated repository to practice, revise, and master Data Structures and Algorit
 - Day 18: Tree BFS
   - [Level Order Traversal](./DSA-playgroud/binary-trees/level-order-tranversal.md)
   - [Zigzag Level Order Traversal](./DSA-playgroud/binary-trees/level-order-in-spiral.md)
-  - [Average of Levels in Binary Tree](./45-day-challenge/average-of-levels-in-binary-tree.md)
+  - [Populating Next Right Pointers in Each Node](./45-day-challenge/populate-next-right-pointer.md)
 
 ## Rule of Thumb
 - Simple problems (LL, arrays) → Know iterative first, recursive optional.
